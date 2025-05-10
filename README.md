@@ -203,7 +203,7 @@ A continuación, exponemos un preliminar de, cuadro comparativo de nuestros comp
 | **Fleetio**    | Fleetio es una de las plataformas más robustas y reconocidas en la gestión de flotas. Su enfoque se centra en brindar a las empresas una solución para controlar todos los aspectos del mantenimiento vehicular. |
 | **Drivvo**     | Drivvo es una aplicación orientada tanto a particulares como a pequeñas empresas, enfocada en la administración del mantenimiento, gastos y consumo de vehículos. |
 | **Whip Around**| Whip Around es una plataforma para inspecciones y mantenimiento vehicular en flotas comerciales. |
-<br>
+
 ### **1.1.2. Perfiles de integrantes del equipo**
 
 | <img src="./img/group-members/RonaldPeralta.png" alt="Ronald Peralta" width="300"/> | **Ronald Peralta \- u202224619** <br> Mi nombre es Ronald Joel Peralta Chipa. Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
