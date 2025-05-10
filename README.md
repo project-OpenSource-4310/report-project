@@ -190,25 +190,165 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## **1.1. Startup Profile**
 
 ### **1.1.1. Descripción de la Startup**
+Autonexo es un software especializado en la gestión integral del mantenimiento vehicular, diseñado para resolver los principales problemas que enfrentan técnicos (mecánicos) o personas al administrar sus flotas. Su objetivo es optimizar la organización, el seguimiento histórico, la gestión de repuestos y el cálculo de presupuesto, todo dentro de un sistema centralizado y fácil de usar.
 
+La plataforma permite registrar vehículos, usuarios y repuestos, así como ejecutar y organizar mantenimientos. Además, ofrece herramientas para el control de inventario, cálculo de presupuesto, acceso al historial de mantenimiento para realizar los cambios necesarios en el vehículo.
+
+Autonexo también contempla la integración de tecnologías opcionales como IoT para  un monitoreo en tiempo real, lo que potencia la eficiencia operativa y la estandarización de procesos en el área de mantenimiento vehicular.
+<br>
 ### **1.1.2. Perfiles de integrantes del equipo**
 
+| <img src="./img/" alt="group-members/RonaldPeralta.png" width="300"/> | **Ronald Peralta \- u202224619** <br> Mi nombre es Ronald Joel Peralta Chipa. Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
+| :---: | ----- |
+| <img src="./img/group-members/JarodCespedes.png" alt="Jarod Céspedes" width="300"/> | **Jarod Céspedes \- u202318588** <br> Mi nombre es Jarod Jack Céspedes Pillco, actualmente estoy cursando el quinto ciclo de la carrera Ingeniería de Software. Considero que soy atento, creativo y colaborador, siempre intentando apoyar a mi equipo en lo más que puedo. Además, tengo conocimientos en varios lenguajes de programación como C++, C#, Python y Java. |
+| <img src="./img/group-members/RicardoCardenas.png" alt="Ricardo Cardenas" width="300"/> | **Ricardo Cardenas \- u202310004** <br> Mi nombre es Ricardo Cardenas, tengo 19 años y estoy en el 5to ciclo de Ingeniería de Software en la UPC. Soy apasionado, creativo y dedicado en lo que hago. Estoy comprometido a dar lo mejor de mí para lograr resultados sobresalientes y contribuir de manera significativa al equipo. |
+| <img src="./img/group-members/VictorCruz.png" alt="Victor Cruz" width="300"/> | **Victor Cruz \- u202311053** <br> Mi nombre es Victor Cruz, tengo 19 años y estoy cursando mi 5to ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona entusiasta, creativa y comprometida con cada actividad que realizo. Estoy decidido a dar lo mejor de mi en este proyecto para lograr resultados de calidad. |
+| <img src="./img/group-members/RafaelVivanco.png" alt="Rafael Vivanco" width="300"/>| **Rafael Vivanco \- u202311064** <br> Mi nombre es Rafael Vivanco, tengo 19 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable con facilidad para adaptarme a distintos entornos y manejar varias tareas a la vez. Siempre doy lo mejor de mí en cada proyecto, aportando dedicación, esfuerzo y actitud positiva. |
+
 ## **1.2. Solution Profile**
-
 ### **1.2.1. Antecedentes y problemática**
-
+### Who (¿Quién?)
+Afecta principalmente a mecánicos encargados del mantenimiento y dueños de flotas (empresas o particulares).
+### What (¿Qué?)
+Los responsables del mantenimiento vehicular y dueños de vehículos enfrentan dificultades para organizar, planificar y dar seguimiento a los mantenimientos. También hay fallas en el control de inventario de repuestos, registros históricos desorganizados, y una falta de estandarización en los procesos. Esto genera pérdidas económicas, mantenimientos tardíos y decisiones poco informadas.
+### Where (¿Dónde?)
+Esta problemática se presenta en talleres mecánicos, empresas con flotas de vehículos (logística, transporte, servicios), y en general en cualquier entorno como el hogar donde se requiera un control sistemático del mantenimiento vehicular.
+### When (¿Cuándo?)
+Es un problema constante, pero se intensifica a medida que aumenta el número de vehículos  cuando se acercan fechas críticas de mantenimiento y no se tiene un control claro.
+### Why (¿Por qué?)
+Esto se debe a la falta de un sistema centralizado y especializado. Muchos utilizan métodos manuales (hojas de Excel, cuadernos) o herramientas genéricas  no adaptadas a las necesidades específicas del mantenimiento vehicular. Además, hay una escasa integración tecnológica (como IoT) que permita un monitoreo en tiempo real del estado de los vehículos.
+### How (¿Cómo?)
+A través del desarrollo de un software llamado Autonexo que permitirá reducir costos operativos, ahorrar tiempo y dinero perdido por vehículos fuera de servicio, mejorar el servicio al cliente y la eficiencia operativa a través de datos históricos confiables en una plataforma centralizada.
+### How Much (¿Cuánto?)
+Se estima que hasta el 65% de las empresas con flotas pequeñas o medianas no tienen un sistema especializado para el mantenimiento vehicular.  Las empresas pueden perder hasta un 20% más en costos de mantenimiento por no contar con una gestión eficiente. Es por esto que con Autonexo se espera una mejora de entre 30% a 50% en la eficiencia operativa, reducción de hasta un 25% en gastos por mantenimientos correctivos y una mejora del 40% en la trazabilidad y control del historial vehicular.
+<br>
 ### **1.2.2. Lean UX Process**
 
 #### **1.2.2.1. Lean UX Problem Statements**
-
+Nuestra startup proporciona una plataforma especializada en la gestión integral del mantenimiento vehicular. Está dirigida específicamente a propietarios de vehículos y técnicos mecánicos que requieren una herramienta digital eficiente para organizar mantenimientos, controlar repuestos, calcular presupuestos y llevar un historial técnico actualizado. Nuestra solución centraliza todas estas funciones dentro de una plataforma intuitiva y accesible desde la web, optimizando el proceso de control vehicular.
+Hemos identificado un factor crítico que afecta tanto a personas como a empresas: la desorganización en el mantenimiento de vehículos, lo que genera sobrecostos, fallas mecánicas evitables y pérdida de tiempo en tareas repetitivas o improvisadas.
+Ante este problema, surge la pregunta: ¿Cómo podemos ayudar a los usuarios a gestionar de forma eficiente sus vehículos para reducir imprevistos, optimizar costos y asegurar un mantenimiento constante sin complicaciones?
+<br>
 #### **1.2.2.2. Lean UX Assumptions**
+### Users:
+Propietarios de vehículos particulares preocupados por el buen estado de sus autos.
+Mecánicos que desean llevar un control digital de sus mantenimientos y repuestos.
+### User Outcomes:
+**1. ¿Quién es el usuario?** Nuestros usuarios serán dueños de vehículos y mecánicos. Los propietarios de vehículos buscan una solución para organizar y hacer un seguimiento eficiente de los mantenimientos de sus vehículos mientras que los mecánicos necesitan gestionar múltiples vehículos, repuestos, presupuestos y registros de mantenimientos para optimizar su operación.
+<br>
+**2. ¿Dónde encaja nuestro producto en su trabajo o vida?** AutoNexo se convierte en una herramienta diaria de consulta y planificación, tanto para usuarios que desean mantener su vehículo en buen estado como para técnicos que necesitan gestionar varios vehículos con eficiencia.
+<br>
+**3. ¿Qué problemas tiene nuestro producto y cómo se puede resolver?** Uno de los problemas principales es la adopción de la tecnología, ya que algunos usuarios pueden no estar familiarizados con el uso de plataformas digitales. Para resolver esto, debemos ofrecer una interfaz intuitiva y fácil de navegar, con un proceso de integración simple y tutoriales para que los nuevos usuarios puedan configurar rápidamente sus vehículos y 
+mantenimientos. 
+<br>
+**4. ¿Cuándo y cómo es usado nuestro producto?** Será usado cada vez que los usuarios necesiten gestionar el mantenimiento de sus vehículos. El uso se realiza a través de una plataforma web accesible desde cualquier dispositivo, brindando flexibilidad en el momento de acceder a la información.
+<br>
+**5. ¿Qué características son importantes?** Algunas características importantes son:
+Registro integral de vehículos, usuarios y repuestos
+* Calendario de mantenimientos programados
+* Control de inventario de repuestos
+* Cálculo de presupuesto de reparaciones y mantenimientos
+* Historial detallado de mantenimientos por vehículo
+* Plataforma intuitiva y accesible desde web
+* Servicio de mensajería entre usuario y mecánico<br>
+**6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?** Nuestro producto debe tener un diseño limpio y moderno. La interfaz debe ser clara y accesible, con menús fáciles de navegar y funciones bien definidas, sin sobrecargar al usuario con información innecesaria. En cuanto al comportamiento, la plataforma debe contar con tiempos de carga cortos y sin interrupciones. Las notificaciones y recordatorios deben ser automáticos, proporcionando una experiencia fluida y de confianza al usuario.
+  
+### Business Outcomes:
+**1. Creo que mis clientes necesitan** una plataforma que les permita gestionar de forma eficiente el mantenimiento de sus vehículos, llevar control de repuestos, calcular presupuestos y acceder a un historial detallado de intervenciones.
+<br>
+**2. Estas necesidades se pueden resolver** mediante una solución digital centralizada, accesible desde la web, que automatice procesos, reduzca la improvisación y brinde herramientas de seguimiento y planificación de mantenimiento vehicular
+<br>
+**3. Mis clientes iniciales serán** propietarios de vehículos particulares y mecánicos que buscan mayor organización y eficiencia en el manejo de mantenimientos.
+<br>
+**4. El valor #1 que un cliente quiere de mi servicio** es poder llevar un control integral y ordenado del mantenimiento de sus vehículos en un solo lugar, sin depender de registros manuales o desorganizados.
+<br>
+**5. El cliente también puede obtener estos beneficios adicionales:** 
+* Ahorro de tiempo y costos por mantenimientos tardíos o improvisados.
+* Recordatorios automáticos y seguimiento personalizado.
+* Control eficiente del inventario de repuestos.
+* Generación de presupuestos claros y detallados.
+
+**6. Voy a adquirir la mayoría de mis clientes a través de** marketing digital dirigido, contenido educativo sobre mantenimiento vehicular, y programas de referidos. 
+<br>
+**7. Haré dinero a través de** planes de suscripción mensual o anual para acceso premium, cobros por funcionalidades avanzadas, y alianzas comerciales con proveedores del sector automotriz.
+<br>
+**8. Mi competencia principal en el mercado serán** aplicaciones como Drivvo o Fleetio y softwares de gestión vehicular generalistas.
+<br>
+**9. Los venceremos debido a nuestro apoyo** enfocado especialmente en el contexto local, con una interfaz amigable, enfoque específico en propietarios individuales y técnicos, y funcionalidades relevantes como historial 
+  detallado y gestión de repuestos.
+<br>
+**10. Mi mayor riesgo de producto es** que los usuarios no adopten la plataforma por considerar que sus métodos actuales (manuales o informales) ya les funcionan o por falta de conocimiento digital.
+Resolveremos esto a través de capacitación básica, demostraciones gratuitas, versión gratuita con funcionalidades clave y testimonios de clientes satisfechos.
+<br>
+**11. ¿Qué otras suposiciones tenemos?** 
+<br>
+**Suposición 1:** Los mecánicos y dueños de vehículos están dispuestos a cambiar sus métodos actuales por una solución digital.
+<br>
+**Suposición 2:** Los usuarios consideran útil llevar un historial detallado y control digital del mantenimiento.
+<br>
+**Suposición 3:** El modelo de suscripción es viable para este segmento de usuarios.
+<br>
+**Suposición 4:** Los usuarios valorarán funciones adicionales como notificaciones, presupuestos y control de inventario.
+<br>
+**¿Eso, si se prueba que es falso, causará que nuestro negocio / proyecto no funcione?** 
+Si los usuarios no consideran que el cambio a una solución digital aporta suficiente valor o si no están dispuestos a pagar por ello, el modelo de negocio no será sostenible ni escalable.
 
 #### **1.2.2.3. Lean UX Hypothesis Statements**
-
+**1. Creemos que** al ofrecer una plataforma centralizada para registrar vehículos, repuestos y mantenimientos, ayudaremos a los usuarios a organizar mejor sus procesos y reducir errores o pérdidas de información.
+<br>
+**Sabremos que** hemos tenido éxito cuando al menos el 70% de los usuarios registre y mantenga actualizado su historial de vehículos y mantenimientos en el primer mes.
+<br>
+**2. Creemos que** al integrar herramientas de control de inventario y cálculo automático de presupuestos, facilitaremos la gestión operativa y financiera tanto a mecánicos como a dueños de vehículos.
+<br>
+**Sabremos que** hemos tenido éxito cuando el 60% de los usuarios utilicen estas funciones para planificar o ejecutar mantenimientos dentro de la plataforma.
+<br>
+**3. Creemos que** al diseñar una interfaz web intuitiva y accesible, incentivaremos el uso constante de Autonexo incluso por usuarios sin experiencia técnica.
+<br>
+**Sabremos que** hemos tenido éxito cuando al menos el 75% de los usuarios activos utilicen la plataforma semanalmente para gestionar sus vehículos.
+<br>
+**4. Creemos que** al permitir el acceso al historial completo de mantenimiento, aumentaremos la confianza de los usuarios en sus decisiones de reparación o venta de vehículos.
+<br>
+**Sabremos que** hemos tenido éxito cuando el 50% de los usuarios consulten el historial como parte del proceso de evaluación del estado del vehículo.
+<br>
 #### **1.2.2.4. Lean UX Canvas**
+|  | | |
+|-------------|--------------|--------------|
+| **Business Problem**<br>Autonexo es una plataforma que combina la eficiencia de un sistema digital con la gestión integral del mantenimiento vehicular. Su objetivo es ayudar a mecánicos y dueños de flotas a organizar, controlar y optimizar todas las actividades relacionadas con el mantenimiento de vehículos desde una sola herramienta. Ante la falta de seguimiento histórico, la desorganización en el manejo de repuestos, y la dificultad para presupuestar y programar mantenimientos, muchos usuarios recurren a métodos manuales o herramientas poco integradas que generan errores, pérdidas económicas y tiempos de inactividad. Además, enfrentan una experiencia fragmentada al usar múltiples sistemas para registrar vehículos, calcular costos o acceder a información técnica. | **Features**<br>- Registro integral de vehículos, usuarios y repuestos <br>- Calendario de mantenimientos programados <br>- Control de inventario de repuestos <br>- Cálculo de presupuesto de reparaciones y mantenimientos <br>- Historial detallado de mantenimientos por vehículo <br>- Plataforma intuitiva y accesible desde web <br>- Servicio de mensajería entre usuario y mecánico | **Business Outcomes**<br>- Reducir mantenimientos olvidados o tardíos mediante recordatorios y seguimiento digital <br>- Fidelizar a los usuarios con historial completo y recomendaciones personalizadas <br>- Posicionar a Autonexo como líder en Perú <br>- Mejorar la productividad de mecánicos y talleres reduciendo errores y tiempos de espera |
+| **Customers**<br>Autonexo está dirigido a dueños de vehículos que buscan controlar sus mantenimientos de forma práctica y a técnicos o talleres que desean optimizar su gestión operativa. Ambos valoran soluciones digitales que les permitan organizar historiales, prevenir fallas, reducir costos y tomar decisiones informadas. | **Customer Benefits**<br>- Confianza y transparencia en reparaciones <br>- Mejora en la toma de decisiones <br>- Disminución de costos operativos <br>- Mejora de la reputación profesional (mecánicos) <br>- Acceso a estadísticas y reportes | **Hypothesis**<br>- Plataforma centralizada reducirá errores y mejorará la organización. Éxito: 70% mantiene historial en el primer mes. <br>- Inventario y presupuestos facilitarán la gestión. Éxito: 60% los usa para planificar o ejecutar mantenimientos. <br>- Interfaz intuitiva incentivará el uso. Éxito: 75% usa la plataforma semanalmente. |
+| **¿Qué debemos aprender primero?**<br>Debemos entender cómo los técnicos y conductores actualmente organizan sus mantenimientos, qué herramientas usan, qué problemas enfrentan al llevar control manual, y si realmente valoran una solución integral que incluya presupuestos, inventario, entre otras cosas. | **¿Cuál es el menor esfuerzo para validar?**<br>- Desarrollar versión básica para registrar vehículos, usuarios, repuestos y mantenimientos <br>- Implementar funciones esenciales: historial y presupuesto simple <br>- Diseñar una interfaz web sencilla e intuitiva <br>- Aplicar encuestas a un grupo reducido de mecánicos y dueños de vehículos para validar si la solución resuelve sus principales problemas operativos |  |
+<br>
 
 ## **1.3. Segmentos objetivo**
-
+Con el propósito de llegar de manera efectiva a posibles clientes, Autonexo ha definido dos segmentos principales como público objetivo.
+<br>
+   **Segmento objetivo \#1: Dueños de flota o conductores**
+    Personas que poseen uno o más vehículos personales y desean gestionar de forma eficiente el mantenimiento, control de gastos y estado general de su unidad, evitando olvidos o problemas mecánicos por falta de     seguimiento.
+<br>
+   Aspectos demográficos:
+* Sexo: Masculino y femenino  
+* Rango de edad: 25–50 años  
+* Nivel socioeconómico: Clases B y C (media-alta y media)  
+  Aspectos geográficos:  
+* Nacionalidad: Perú  
+* Zona geográfica: Urbana (principalmente Lima Metropolitana y otras ciudades con alta concentración vehicular)  
+  Aspectos psicográficos:  
+* Intereses: Cuidado del vehículo, control financiero, tecnología práctica, seguridad vial, soluciones digitales simples.  
+* Estilo de vida: Conducen regularmente, valoran la comodidad y buscan evitar gastos imprevistos o pérdidas de tiempo por fallas mecánicas.  
+* Actitudes: Son conscientes de la importancia del mantenimiento preventivo y están abiertos a herramientas digitales que les faciliten llevar un control ordenado, práctico y accesible desde su celular o computadora.<br>
+    **Segmento objetivo \#2: Mecánicos**  
+    Profesionales que trabajan de manera independiente o en talleres y desean gestionar mejor sus servicios, controlar inventarios, ofrecer presupuestos precisos y acceder a historiales de mantenimiento para brindar un     mejor servicio a sus clientes.
+  <br>  
+  Aspectos demográficos:  
+* Sexo: Masculino (en su mayoría)  
+* Rango de edad: 25–50 años  
+* Nivel socioeconómico: Clases C y D (media y media-baja)  
+  Aspectos geográficos:  
+* Nacionalidad: Perú  
+* Zona geográfica: Urbana (distritos con concentración de talleres y servicios automotrices)  
+  Aspectos psicográficos:  
+* Intereses: Reparación automotriz, optimización de tiempo, herramientas digitales accesibles, atención al cliente.  
+* Estilo de vida: Profesionales prácticos, con un enfoque técnico, acostumbrados al trabajo manual, pero abiertos a soluciones tecnológicas si son simples y funcionales.  
+* Actitudes: Desean mejorar la calidad de su servicio y organización interna. Valoran las plataformas que les permitan brindar un servicio más profesional sin complicaciones adicionales.
 # <font color="red"> **Capítulo II: Requirements Elicitation & Analysis** </font>
 
 ## **2.1. Competidores**
