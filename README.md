@@ -192,9 +192,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### **1.1.1. Descripción de la Startup**
 Autonexo es un software especializado en la gestión integral del mantenimiento vehicular, diseñado para resolver los principales problemas que enfrentan técnicos (mecánicos) o personas al administrar sus flotas. Su objetivo es optimizar la organización, el seguimiento histórico, la gestión de repuestos y el cálculo de presupuesto, todo dentro de un sistema centralizado y fácil de usar.
 
-La plataforma permite registrar vehículos, usuarios y repuestos, así como ejecutar y organizar mantenimientos. Además, ofrece herramientas para el control de inventario, cálculo de presupuesto, acceso al historial de mantenimiento para realizar los cambios necesarios en el vehículo.
+La plataforma permite registrar vehículos, usuarios y repuestos, así como ejecutar y organizar mantenimientos. Además, ofrece herramientas para el control de inventario, cálculo de presupuesto, acceso al historial de mantenimiento para realizar los cambios necesarios en el vehículo. Según un estudio realizado por Innocar en colaboración con la empresa mexicana Roshfrans, solo el 23.5% de los talleres mecánicos en América Latina utilizan software especializado para gestionar sus operaciones y aspectos administrativos. Este bajo nivel de adopción tecnológica resalta la necesidad de soluciones digitales que optimicen la eficiencia operativa en la gestión de flotas vehiculares.
 
 Autonexo también contempla la integración de tecnologías opcionales como IoT para  un monitoreo en tiempo real, lo que potencia la eficiencia operativa y la estandarización de procesos en el área de mantenimiento vehicular.
+<br><br>
+A continuación, exponemos un preliminar de, cuadro comparativo de nuestros competidores que será detallado más adelante en el segundo capítulo.
+|  **Nombre**    | **Perfil (Overview)** |
+|----------------|-----------------------|
+| **AutoNexo**   | Autonexo es un software especializado en la gestión del mantenimiento vehicular, diseñado para resolver los principales problemas que enfrentan técnicos (mecánicos) o personas al administrar sus flotas. |
+| **Fleetio**    | Fleetio es una de las plataformas más robustas y reconocidas en la gestión de flotas. Su enfoque se centra en brindar a las empresas una solución para controlar todos los aspectos del mantenimiento vehicular. |
+| **Drivvo**     | Drivvo es una aplicación orientada tanto a particulares como a pequeñas empresas, enfocada en la administración del mantenimiento, gastos y consumo de vehículos. |
+| **Whip Around**| Whip Around es una plataforma para inspecciones y mantenimiento vehicular en flotas comerciales. |
 <br>
 ### **1.1.2. Perfiles de integrantes del equipo**
 
@@ -491,5 +499,6 @@ Con el propósito de llegar de manera efectiva a posibles clientes, Autonexo ha 
 ## Conclusiones
 
 ## Bibliografía
+Innocar & Roshfrans. (2024, junio 8). _Solo el 23.5% de los talleres mecánicos en América Latina utiliza software especializado para gestionar sus operaciones_. La República. https://www.larepublica.co/internet-economy/uso-de-tecnologia-en-talleres-mecanicos-en-colombia-3877209
 
 ## Anexos
