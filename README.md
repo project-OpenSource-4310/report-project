@@ -272,110 +272,110 @@ En el escenario ideal, el conductor experimenta un proceso mucho más fluido y m
 **Descripción:**
 Como usuario, quiero registrar y gestionar mi perfil, vehículos y repuestos, para tener un control completo de mis activos dentro de AutoNexo.
 
-| User Story ID | Título |
-| :---- | :---- |
-| US01 | Registro de usuario |
-| US02 | Inicio de sesión seguro |
-| US03 | Registro de vehículos |
-| US04 | Registro de repuestos |
-| US05 | Gestión del perfil del usuario |
-| US06 | Edición del perfil desde la app |
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US01 | Registro de usuario | Must |
+| US02 | Inicio de sesión seguro | Must |
+| US03 | Registro de vehículos | Must |
+| US04 | Registro de repuestos | Must |
+| US05 | Gestión del perfil del usuario | Should |
+| US06 | Edición del perfil desde la app | Should |
 
 **EP02 - Calendario de Mantenimientos Programados**
 
 **Descripción:**
 Como usuario, quiero contar con un calendario de mantenimientos para programar servicios futuros y recibir recordatorios automáticos, a fin de evitar fallas o demoras.
 
-| User Story ID | Titulo |
-| :---- | :---- |
-| US07 | Visualización del calendario de mantenimientos |
-| US08 | Programación de nuevos mantenimientos |
-| US09 | Edición o cancelación de mantenimientos agendados |
-| US10 | Recordatorios automáticos para mantenimientos programados |
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US07 | Visualización del calendario de mantenimientos | Must |
+| US08 | Programación de nuevos mantenimientos | Must |
+| US09 | Edición o cancelación de mantenimientos agendados | Should |
+| US10 | Recordatorios automáticos para mantenimientos programados | Should |
 
 **EP03 - Gestión de Inventario de Repuestos**
 
 **Descripción:**
 Como usuario, quiero gestionar el inventario de repuestos, para asegurarme de contar con los insumos necesarios al momento de realizar mantenimientos.
 
-| User Story ID | Titulo |
-| :---- | :---- |
-| US11 | Consulta de repuestos disponibles |
-| US12 | Registro de nuevos ingresos de repuestos |
-| US13 | Notificación de repuestos bajos en stock |
-| US14 | Actualización del inventario tras mantenimiento |
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US11 | Consulta de repuestos disponibles | Must |
+| US12 | Registro de nuevos ingresos de repuestos | Must |
+| US13 | Notificación de repuestos bajos en stock | Should |
+| US14 | Actualización del inventario tras mantenimiento | Must |
 
 **EP04 - Cálculo de Presupuesto y Control de Costos**
 
 **Descripción:**
 Como usuario, quiero calcular el presupuesto de reparaciones y mantenimiento, para poder anticipar costos y optimizar mis recursos.
 
-| User Story ID | Titulo |
-| :---- | :---- |
-| US15 | Generación de presupuesto de mantenimiento |
-| US16 | Edición de costos y repuestos por servicio |
-| US17 | Visualización de gastos históricos por vehículo |
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US15 | Generación de presupuesto de mantenimiento | Should |
+| US16 | Edición de costos y repuestos por servicio | Could |
+| US17 | Visualización de gastos históricos por vehículo | Could |
 
 **EP05 - Historial de Mantenimientos**
 
 **Descripción:**
 Como usuario, quiero ver el historial detallado de mantenimientos por vehículo, para llevar un control técnico del estado de cada uno de ellos.
 
-| User Story ID | Titulo |
-| :---- | :---- |
-| US18 | Consulta del historial por vehículo |
-| US19 | Detalle de cada servicio registrado |
-| US20 | Exportación o descarga del historial en PDF |
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US18 | Consulta del historial por vehículo | Must |
+| US19 | Detalle de cada servicio registrado | Should |
+| US20 | Exportación o descarga del historial en PDF | Could |
 
 **EP06 - Mensajería entre Usuario y Mecánico**
 
 **Descripción:**
 Como usuario, quiero poder comunicarme dentro de la plataforma, para coordinar mantenimientos, resolver dudas y compartir información importante.
 
-| User Story ID | Titulo |
-| :---- | :---- |
-| US21 | Envío de mensajes entre usuario y mecánico |
-| US22 | Notificaciones de nuevos mensajes |
-| US23 | Historial de conversación por vehículo o servicio |
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US21 | Envío de mensajes entre usuario y mecánico | Should |
+| US22 | Notificaciones de nuevos mensajes | Could |
+| US23 | Historial de conversación por vehículo o servicio | Could |
 
 **EP07 - Gestión de Suscripción y Pagos**
 
 **Descripción:**
 Como usuario, quiero gestionar mi suscripción y métodos de pago para asegurar el acceso continuo al servicio según mi plan seleccionado.
 
-| User Story ID | Titulo |
-| :---- | :---- |
-| US24 | Selección del plan de suscripción |
-| US25 | Registro de método de pago seguro |
-| US26 | Renovación automática de suscripción |
-| US27 | Cambio de plan de suscripción |
-| US28 | Cancelación o pausa del servicio |
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US24 | Selección del plan de suscripción | Should |
+| US25 | Registro de método de pago seguro | Must |
+| US26 | Renovación automática de suscripción | Could |
+| US27 | Cambio de plan de suscripción | Could |
+| US28 | Cancelación o pausa del servicio | Should |
 
 **EP08 - Interacción y Navegación en la Landing Page**
 
 **Descripción:**
 Como visitante de la Landing Page, quiero que la navegación sea intuitiva y las acciones claras para poder interactuar fácilmente con la plataforma y descubrir sus funcionalidades.
 
-| User Story ID | Titulo |
-| :---- | :---- |
-| US29 | Navegación Intuitiva |
-| US30 | Compatibilidad con lectores de pantalla |
-| US31 | Feedback visual en interacciones |
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US29 | Navegación Intuitiva | Should |
+| US30 | Compatibilidad con lectores de pantalla | Could |
+| US31 | Feedback visual en interacciones | Should |
 
 **EP09 - Integración y Exposición de Servicios vía API RESTful**
 
 **Descripción:**
 Como developer, quiero construir y exponer los servicios clave del sistema Autonexo mediante una API RESTful, para permitir la interacción entre el frontend y el backend de manera segura, eficiente y escalable.
 
-| Technical Story ID | Titulo |
-| :---- | :---- |
-| TS01 | Registro de usuario a través de un RESTful API |
-| TS02 | Registro de repuestos en inventario a través de un RESTful API |
-| TS03 | Registro de vehículos a través de un RESTful API |
-| TS04 | Creación de diagnósticos a través de un RESTful API |
-| TS05 | Creación de mantenimientos programados mediante RESTful API |
-| TS06 | Consulta de historial de servicios por vehículo mediante RESTful API |
-| TS07 | Actualización del inventario de repuestos mediante RESTful API |
+| Technical Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| TS01 | Registro de usuario a través de un RESTful API | Must |
+| TS02 | Registro de repuestos en inventario a través de un RESTful API | Must |
+| TS03 | Registro de vehículos a través de un RESTful API | Must |
+| TS04 | Creación de diagnósticos a través de un RESTful API | Should |
+| TS05 | Creación de mantenimientos programados mediante RESTful API | Must |
+| TS06 | Consulta de historial de servicios por vehículo mediante RESTful API | Must |
+| TS07 | Actualización del inventario de repuestos mediante RESTful API | Should |
 
 #### **User Stories**
 
@@ -421,7 +421,7 @@ Como developer, quiero construir y exponer los servicios clave del sistema Auton
 
 ## **3.3. Impact Mapping**
 
-<img src="img/ImpactMap.png" alt="Segmento 1 Scenario Mapping" width="550"/>
+<img src="img/ImpactMap.png" alt="Impact Map Autonexo" width="550"/>
 
 ## **3.4. Product Backlog**
 
@@ -466,9 +466,9 @@ Como developer, quiero construir y exponer los servicios clave del sistema Auton
 | **37** | TS06 | Consulta de historial de servicios por vehículo mediante RESTful API | Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados. | Media | 3 |
 | **38** | TS07 | Actualización del inventario de repuestos mediante RESTful API | Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock. | Media | 2 |
 
-Product Backlog en Pivotal Tracker: [https://www.pivotaltracker.com/n/projects/2740725](https://www.pivotaltracker.com/n/projects/2740725) 
+Product Backlog en Trello: [https://trello.com/invite/b/6820091b7d003500b1d2cd2a/ATTIfca577753d06f90de7cd5590cef7b936C3B8D00D/product-backlog-autonexo](https://trello.com/invite/b/6820091b7d003500b1d2cd2a/ATTIfca577753d06f90de7cd5590cef7b936C3B8D00D/product-backlog-autonexo) 
 
-<img src="img/ProductBacklog.png" alt="Segmento 1 Scenario Mapping" width="750"/>
+<img src="img/ProductBacklog.png" alt="Product Backlog Autonexo" width="750"/>
 
 # <font color="red"> **Capítulo IV: Product Design** </font>
 
