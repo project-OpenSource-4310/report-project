@@ -389,7 +389,11 @@ Se plantea una estrategia colaborativa con el equipo para identificar los aspect
 **Análisis general por segmento**
 - **Segmento 1: Dueños de flotas:** Este segmento presenta una necesidad clara de transformación digital. Aunque han intentado organizarse mediante herramientas básicas como Excel, enfrentan dificultades a medida que la flota crece. La falta de automatización, reportes técnicos y control de mantenimiento los expone a errores y pérdidas de información. Están dispuestos a adoptar una solución digital si les brinda facilidad, seguridad y eficiencia.
 
+![User Personas2](img/estdFlota.png)
+
 - **Segmento 2: Mecánicos** Los mecánicos operan con una gestión altamente informal. La mayoría no utiliza herramientas digitales más allá de aplicaciones básicas. Enfrentan problemas de logística, control y planificación debido a la falta de registros precisos. Ven con buenos ojos un sistema que les facilite el día a día, especialmente en el seguimiento de repuestos, tiempos y clientes.
+
+![User Personas2](img/estdMeca.png)
 
 ## **2.3. Needfinding**
 
