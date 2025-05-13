@@ -318,8 +318,8 @@ En esta sección describiremos las herramienas de software que utilizamos para e
 - Propósito: Seguimiento del progreso de funcionalidades y gestión de tareas
 - Ruta: https://trello.com/es
 
-<div>
-    <img src="unknown" alt="project-management.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/project-management.png" alt="project-management.png" width="550px" height="300px">
 </div>
 
 **Product UX/UI Design:**
@@ -327,8 +327,8 @@ En esta sección describiremos las herramienas de software que utilizamos para e
 - Propósito: Diseños del Proyecto (Wireframes, Mock-Ups, etc)
 - Ruta: https://www.figma.com/es-es/
 
-<div>
-    <img src="unknown" alt="product-ux-ui-design.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/product-ux-ui-design.png" alt="product-ux-ui-design.png" width="550px" height="300px">
 </div>
 
 **Software Development:**
@@ -336,8 +336,8 @@ En esta sección describiremos las herramienas de software que utilizamos para e
 - Propósito: Desarrollo del Landing Page
 - Ruta: https://code.visualstudio.com
 
-<div>
-    <img src="unknown" alt="software-development.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/software-development.png" alt="software-development.png" width="550px" height="300px">
 </div>
 
 **Software Documentation:**
@@ -345,8 +345,8 @@ En esta sección describiremos las herramienas de software que utilizamos para e
 - Propósito: Para redactar los capítulos en formato Markdown
 - Ruta: https://code.visualstudio.com
 
-<div>
-    <img src="unknown" alt="software-documentation.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/software-documentation.png" alt="software-documentation.png" width="550px" height="300px">
 </div>
 
 **Software Deployment:**
@@ -354,8 +354,8 @@ En esta sección describiremos las herramienas de software que utilizamos para e
 - Propósito: Repositorio del Proyecto y gestión de versiones
 - Ruta: https://github.com
 
-<div>
-    <img src="unknown" alt="software-deployment.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/software-deployment.png" alt="software-deployment.png" width="550px" height="300px">
 </div>
 
 ### **5.1.2. Source Code Management**
@@ -470,8 +470,8 @@ La ejecución del sprint fue coordinado mediante reuniones virtuales en Discord,
 
 #### **5.2.1.3. Sprint Backlog 1**
 
-<div>
-    <img src="unknown" alt="sprint-backlog-trello.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/sprint-backlog-1.png" alt="sprint-backlog-1.png" width="550px" height="300px">
 </div>
 
 Link: https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79daa19ca44e24e5657A5F126/product-backlog-autonexo
@@ -614,26 +614,26 @@ En el primer sprint, logramos desarrollar parcialmente la implementación del de
 
 - **Sección Home (About Us):** En esta sección, damos al usuario una introducción sobre nosotros y nuestro producto.
 
-<div>
-    <img src="unknown" alt="home-section.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/home-section.png" alt="home-section.png" width="550px" height="300px">
 </div>
 
 - **Sección Servicios:** En esta sección, el usuario puede enterarse del funcionamiento de nuestro producto a través de un video informativo y una pequeña guía de cómo registrarse.
 
-<div>
-    <img src="unknown" alt="service-section.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/service-section.png" alt="service-section.png" width="550px" height="300px">
 </div>
 
 - **Sección Precios:** En esta sección, ofrecemos al usuario diferentes planes en los que se puede suscribir.
 
-<div>
-    <img src="unknown" alt="prices-section.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/price-section.png" alt="prices-section.png" width="550px" height="300px">
 </div>
 
 - **Sección Testimonios:** En esta sección, el usuario puede ver testimonios de otras personas.
 
-<div>
-    <img src="unknown" alt="testimonies-section.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/testimonies-section.png" alt="testimonies-section.png" width="550px" height="300px">
 </div>
 
 #### **5.2.1.6. Services Documentation Evidence for Sprint Review**
@@ -644,16 +644,16 @@ En el primer sprint, logramos desarrollar parcialmente la implementación del de
 
 Para la entrega del primer sprint, desplegamos el landing page en una versión temprana, la cual tiene unas cuantas funcionalidades sin implementar y bugs que, para las siguientes entregas, estarán completamente resueltas. He aquí la evidencia del despliegue:
 
-<div>
-    <img src="unknown" alt="deployment-evidence.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/deployment-evidence.png" alt="deployment-evidence.png" width="550px" height="300px">
 </div>
 
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
 
 Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 
-<div>
-    <img src="unknown" alt="team-collaboration-insights.png" width="150px" height="100px">
+<div align="center">
+    <img src="img/team-collaboration-insights.png" alt="team-collaboration-insights.png" width="550px" height="300px">
 </div>
 
 ### **5.2.2. Sprint 2**
