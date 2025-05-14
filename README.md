@@ -736,6 +736,7 @@ A continuacion la fake api ejecutada:
 <div align="center">
     <img src="img/json2.png" alt="json2.png" width="550px" height="300px">
 </div>
+
 #### **5.2.2.6. Services Documentation Evidence for Sprint Review**
 En el segundo sprint, logramos desarrollar parcialmente la implementación del despliegue del front end app. Donde se muestra las diferentes pnatallas para el usuario y luego de su registro para el mecánico o conductor.
 A continuación evidencias:
