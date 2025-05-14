@@ -740,27 +740,39 @@ A continuacion la fake api ejecutada:
 #### **5.2.2.6. Services Documentation Evidence for Sprint Review**
 En el segundo sprint, logramos desarrollar parcialmente la implementación del despliegue del front end app. Donde se muestra las diferentes pnatallas para el usuario y luego de su registro para el mecánico o conductor.
 A continuación evidencias:
+<br>
 
+- **Home view:** El entry point del frontendapp.
 <div align="center">
     <img src="img/home_view.png" alt="home_view.png" width="550px" height="300px">
 </div>
 <br>
+
+- **Login:** El login page del frontendapp.
 <div align="center">
     <img src="img/login.png" alt="login.png" width="550px" height="300px">
 </div>
 <br>
+
+- **Register:** El register page del frontendapp.
 <div align="center">
     <img src="img/register.png" alt="register.png" width="550px" height="300px">
 </div>
 <br>
+
+- **Forgot Password:** El forgot password page del frontendapp.
 <div align="center">
     <img src="img/forgot_password.png" alt="forgot_password.png" width="550px" height="300px">
 </div>
 <br>
+
+- **Reparaciones send:** Reparaciones enviadas por parte del mechanic.
 <div align="center">
     <img src="img/reparaciones_send.png" alt="reparaciones_send.png" width="550px" height="300px">
 </div>
 <br>
+
+- **Vehicles:** Los vehiculos que posee el mecánico
 <div align="center">
     <img src="img/vehicles.png" alt="vehicles.png" width="550px" height="300px">
 </div>
