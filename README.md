@@ -61,24 +61,28 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 
 ### Tabla de contenidos
 
+- [Universidad Peruana De Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
+  - [Ingeniería de Software](#ingeniería-de-software)
+    - [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [Desarrollo de Aplicaciones Open Source](#desarrollo-de-aplicaciones-open-source)
 - [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
 - [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
 - [**Contenido**](#contenido)
-  - [Tabla de contenidos](#tabla-de-contenidos)
+    - [Tabla de contenidos](#tabla-de-contenidos)
 - [**Student Outcome**](#student-outcome)
 - [ **Capítulo I: Introducción** ](#-capítulo-i-introducción-)
   - [**1.1. Startup Profile**](#11-startup-profile)
     - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
     - [**1.1.2. Perfiles de integrantes del equipo**](#112-perfiles-de-integrantes-del-equipo)
   - [**1.2. Solution Profile**](#12-solution-profile)
-    - [**1.2.1 Antecedentes y problemática**](#121-antecedentes-y-problemática)
-     - [**1.2.2 Lean UX Process**](#122-lean-ux-process)
-    - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
-    - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
-    - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
-    - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
+    - [**1.2.1. Antecedentes y problemática**](#121-antecedentes-y-problemática)
+    - [**1.2.2. Lean UX Process**](#122-lean-ux-process)
+      - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
+      - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
+      - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
+      - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
   - [**1.3. Segmentos objetivo**](#13-segmentos-objetivo)
-- [ **Capítulo II: Requirements Elicitation \& Analysis**](#-capítulo-ii-requirements-elicitation--analysis)
+- [ **Capítulo II: Requirements Elicitation \& Analysis** ](#-capítulo-ii-requirements-elicitation--analysis-)
   - [**2.1. Competidores**](#21-competidores)
     - [**2.1.1. Análisis competitivo**](#211-análisis-competitivo)
     - [**2.1.2. Estrategias y tácticas frente a competidores**](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -93,15 +97,17 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
     - [**2.3.4. Empathy Mapping**](#234-empathy-mapping)
     - [**2.3.5. As-is Scenario Mapping**](#235-as-is-scenario-mapping)
   - [**2.4. Ubiquitous Language**](#24-ubiquitous-language)
-- [ **Capítulo III: Requirements Specification**](#-capítulo-iii-requirements-specification)
+- [ **Capítulo III: Requirements Specification** ](#-capítulo-iii-requirements-specification-)
   - [**3.1. To-Be Scenario Mapping**](#31-to-be-scenario-mapping)
   - [**3.2. User Stories**](#32-user-stories)
+      - [**Epics**](#epics)
+      - [**User Stories**](#user-stories)
   - [**3.3. Impact Mapping**](#33-impact-mapping)
   - [**3.4. Product Backlog**](#34-product-backlog)
-- [**Capítulo IV: Product Design**](#capítulo-iv-product-design)
+- [ **Capítulo IV: Product Design** ](#-capítulo-iv-product-design-)
   - [**4.1. Style Guidelines**](#41-style-guidelines)
-    - [**4.1.1. General Style Guidelines**](#411-general-style-guidelines)
-    - [**4.1.2. Web Style Guidelines**](#412-web-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
   - [**4.2. Information Architecture**](#42-information-architecture)
     - [**4.2.1. Organization Systems**](#421-organization-systems)
     - [**4.2.2. Labeling Systems**](#422-labeling-systems)
@@ -123,18 +129,15 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
     - [**4.6.3. Software Architecture Components Diagrams**](#463-software-architecture-components-diagrams)
   - [**4.7. Software Object-Oriented Design**](#47-software-object-oriented-design)
     - [**4.7.1. Class Diagrams**](#471-class-diagrams)
-    - [**4.7.2. Class Dictionary**](#472-class-dictionary)
+    - [**4.7.2. Diccionario de Clases**](#472-diccionario-de-clases)
   - [**4.8. Database Design**](#48-database-design)
     - [**4.8.1. Database Diagram**](#481-database-diagram)
-- [**Capítulo V: Product Implementation, Validation & Deployment**](#capítulo-v-product-implementation-validation--deployment)
+- [ **Capítulo V: Product Implementation, Validation \& Deployment** ](#-capítulo-v-product-implementation-validation--deployment-)
   - [**5.1. Software Configuration Management**](#51-software-configuration-management)
     - [**5.1.1. Software Development Environment Configuration**](#511-software-development-environment-configuration)
     - [**5.1.2. Source Code Management**](#512-source-code-management)
-    - [**5.1.3. Source Code Style Guide & Conventions**](#513-source-code-style-guide--conventions)
+    - [**5.1.3. Source Code Style Guide \& Conventions**](#513-source-code-style-guide--conventions)
     - [**5.1.4. Software Deployment Configuration**](#514-software-deployment-configuration)
-  - [**5.2. Landing Page, Services & Applications Implementation**](#52-landing-page-services--applications-implementation)
-    - [**5.2.1. Sprint 1**](#521-sprint-1)
-      - [**5.2.1.1. Sprint Planning 1**](#5211-sprint-planning-1)
       - [**5.2.1.2. Aspect Leaders and Collaborators**](#5212-aspect-leaders-and-collaborators)
       - [**5.2.1.3. Sprint Backlog 1**](#5213-sprint-backlog-1)
       - [**5.2.1.4. Development Evidence for Sprint Review**](#5214-development-evidence-for-sprint-review)
@@ -155,6 +158,9 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
     - [**5.3.1. Diseño de Entrevistas**](#531-diseño-de-entrevistas)
     - [**5.3.2. Registro de Entrevistas**](#532-registro-de-entrevistas)
     - [**5.3.3. Evaluaciones según heurísticas**](#533-evaluaciones-según-heurísticas)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 [Conclusiones](#conclusiones)
 
@@ -638,11 +644,226 @@ Para este escenario el flujo actual es rápido y enfocado en la resolución téc
 
 ## **3.1. To-Be Scenario Mapping**
 
+En esta sección, exploramos las acciones, pensamientos y emociones que los usuarios experimentan al realizar sus tareas utilizando nuestra app. A través de este análisis, buscamos identificar los puntos de mejora y optimización.
+
+**Segmento 1: Dueños de flotas o conductores**
+
+<img src="img/Segmento1-ScenarioMapping.png" alt="Segmento 1 Scenario Mapping" width="800"/>
+
+En esta sección, exploramos las acciones, pensamientos y emociones que los usuarios experimentan al realizar sus tareas utilizando nuestra app. A través de este análisis, buscamos identificar los puntos de mejora y optimización.
+
+**Segmento 2: Mecánicos**
+
+<img src="img/Segmento2-ScenarioMapping.png" alt="Segmento 2 Scenario Mapping" width="800"/>
+
+En el escenario ideal, el conductor experimenta un proceso mucho más fluido y menos estresante. Desde el primer síntoma, puede acceder a una app conectada al vehículo que le ofrece un prediagnóstico basado en datos reales del auto, reduciendo la incertidumbre inicial.
+
 ## **3.2. User Stories**
+
+#### **Epics**
+
+**EP01 - Registro y Gestión de Usuario, Vehículo y Repuestos**
+
+**Descripción:**
+Como usuario, quiero registrar y gestionar mi perfil, vehículos y repuestos, para tener un control completo de mis activos dentro de AutoNexo.
+
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US01 | Registro de usuario | Must |
+| US02 | Inicio de sesión seguro | Must |
+| US03 | Registro de vehículos | Must |
+| US04 | Registro de repuestos | Must |
+| US05 | Gestión del perfil del usuario | Should |
+| US06 | Edición del perfil desde la app | Should |
+
+**EP02 - Calendario de Mantenimientos Programados**
+
+**Descripción:**
+Como usuario, quiero contar con un calendario de mantenimientos para programar servicios futuros y recibir recordatorios automáticos, a fin de evitar fallas o demoras.
+
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US07 | Visualización del calendario de mantenimientos | Must |
+| US08 | Programación de nuevos mantenimientos | Must |
+| US09 | Edición o cancelación de mantenimientos agendados | Should |
+| US10 | Recordatorios automáticos para mantenimientos programados | Should |
+
+**EP03 - Gestión de Inventario de Repuestos**
+
+**Descripción:**
+Como usuario, quiero gestionar el inventario de repuestos, para asegurarme de contar con los insumos necesarios al momento de realizar mantenimientos.
+
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US11 | Consulta de repuestos disponibles | Must |
+| US12 | Registro de nuevos ingresos de repuestos | Must |
+| US13 | Notificación de repuestos bajos en stock | Should |
+| US14 | Actualización del inventario tras mantenimiento | Must |
+
+**EP04 - Cálculo de Presupuesto y Control de Costos**
+
+**Descripción:**
+Como usuario, quiero calcular el presupuesto de reparaciones y mantenimiento, para poder anticipar costos y optimizar mis recursos.
+
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US15 | Generación de presupuesto de mantenimiento | Should |
+| US16 | Edición de costos y repuestos por servicio | Could |
+| US17 | Visualización de gastos históricos por vehículo | Could |
+
+**EP05 - Historial de Mantenimientos**
+
+**Descripción:**
+Como usuario, quiero ver el historial detallado de mantenimientos por vehículo, para llevar un control técnico del estado de cada uno de ellos.
+
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US18 | Consulta del historial por vehículo | Must |
+| US19 | Detalle de cada servicio registrado | Should |
+| US20 | Exportación o descarga del historial en PDF | Could |
+
+**EP06 - Mensajería entre Usuario y Mecánico**
+
+**Descripción:**
+Como usuario, quiero poder comunicarme dentro de la plataforma, para coordinar mantenimientos, resolver dudas y compartir información importante.
+
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US21 | Envío de mensajes entre usuario y mecánico | Should |
+| US22 | Notificaciones de nuevos mensajes | Could |
+| US23 | Historial de conversación por vehículo o servicio | Could |
+
+**EP07 - Gestión de Suscripción y Pagos**
+
+**Descripción:**
+Como usuario, quiero gestionar mi suscripción y métodos de pago para asegurar el acceso continuo al servicio según mi plan seleccionado.
+
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US24 | Selección del plan de suscripción | Should |
+| US25 | Registro de método de pago seguro | Must |
+| US26 | Renovación automática de suscripción | Could |
+| US27 | Cambio de plan de suscripción | Could |
+| US28 | Cancelación o pausa del servicio | Should |
+
+**EP08 - Interacción y Navegación en la Landing Page**
+
+**Descripción:**
+Como visitante de la Landing Page, quiero que la navegación sea intuitiva y las acciones claras para poder interactuar fácilmente con la plataforma y descubrir sus funcionalidades.
+
+| User Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| US29 | Navegación Intuitiva | Should |
+| US30 | Compatibilidad con lectores de pantalla | Could |
+| US31 | Feedback visual en interacciones | Should |
+
+**EP09 - Integración y Exposición de Servicios vía API RESTful**
+
+**Descripción:**
+Como developer, quiero construir y exponer los servicios clave del sistema Autonexo mediante una API RESTful, para permitir la interacción entre el frontend y el backend de manera segura, eficiente y escalable.
+
+| Technical Story ID | Título | Prioridad |
+| :---- | :---- | :---- |
+| TS01 | Registro de usuario a través de un RESTful API | Must |
+| TS02 | Registro de repuestos en inventario a través de un RESTful API | Must |
+| TS03 | Registro de vehículos a través de un RESTful API | Must |
+| TS04 | Creación de diagnósticos a través de un RESTful API | Should |
+| TS05 | Creación de mantenimientos programados mediante RESTful API | Must |
+| TS06 | Consulta de historial de servicios por vehículo mediante RESTful API | Must |
+| TS07 | Actualización del inventario de repuestos mediante RESTful API | Should |
+
+#### **User Stories**
+
+| ID Epic | Epic | ID User Story / ID Technical Story | User Story / Technical Story | Descripción US / TS | Criterios de Aceptación |
+|----------|--------------------------------|-------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US01 | Registro de usuario | Como nuevo usuario, quiero registrarme en la plataforma para empezar a utilizar los servicios de AutoNexo. | **Escenario 1:** Registro (conductor): Dado que soy un usuario conductor nuevo, cuando ingreso mis datos requeridos y los envío, entonces se debe crear mi cuenta y mostrarme un mensaje de bienvenida <br> **Escenario 2:** Validación de campos obligatorios: Dado que estoy completando el formulario, cuando omito un campo obligatorio, entonces el sistema debe mostrar un mensaje de error <br> **Escenario 3:** Registro (mecánico): Dado que soy un usuario mecanico nuevo, cuando ingreso mis datos requeridos y los envío, entonces se debe crear mi cuenta y mostrarme un mensaje de bienvenida |
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US02 | Inicio de sesión seguro | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a todas las funcionalidades de la plataforma. | **Escenario 1:** Inicio de sesión exitoso: Dado que tengo una cuenta activa, cuando ingreso mi correo y contraseña correctamente, entonces debo ser redirigido al panel principal <br> **Escenario 2:** Contraseña incorrecta: Dado que ingreso credenciales, cuando la contraseña no coincide, entonces el sistema debe mostrar un mensaje de error <br> **Escenario 3:** Registro (mecánico): Dado que olvidé mi contraseña, cuando solicito restablecerla, entonces el sistema debe enviarme un enlace de recuperación al correo |
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US03 | Registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | **Escenario 1:** Registro exitoso de vehículo: Dado que ingreso los datos del vehículo, Cuando completo todos los campos obligatorios, Entonces el sistema debe guardar la información y mostrar el vehículo en la lista <br> **Escenario 2:** Validación de campos obligatorios: Dado que dejo campos vacíos, Cuando intento guardar el vehículo, Entonces el sistema debe indicar los campos que faltan <br> **Escenario 3:** Visualización del nuevo vehículo: Dado que el vehículo ha sido registrado, Cuando accedo a la lista de vehículos, Entonces debe aparecer correctamente en la interfaz |
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US04 | Registro de repuestos | Como usuario, quiero registrar repuestos en el sistema para tener un control del inventario. | **Escenario 1:** Registro exitoso de repuesto: Dado que ingreso los datos del repuesto, Cuando completo y envío el formulario, Entonces el sistema debe agregar el repuesto al inventario <br> **Escenario 2:** Campos incompletos: Dado que el formulario no está completo, Cuando intento enviarlo, Entonces el sistema debe advertirme sobre los campos vacíos <br> **Escenario 3:** Duplicado de repuesto: Dado que intento registrar un repuesto existente, Cuando el sistema detecta duplicidad, Entonces debe mostrar un mensaje de advertencia |
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US06 | Edición del perfil desde la app | Como usuario, quiero editar mi perfil directamente desde la aplicación para mayor comodidad. | **Escenario 1:** Edición desde app: Dado que estoy en la aplicación móvil, Cuando accedo a mi perfil y modifico datos, Entonces el sistema debe reflejar los cambios correctamente <br> **Escenario 2:** Guardado exitoso desde app: Dado que termino de editar los datos, Cuando confirmo los cambios, Entonces se deben guardar sin errores <br> **Escenario 3:** Error al guardar cambios: Error al guardar cambios en la app: Dado que hay un fallo al cambiar los datos, Cuando intento guardar, Entonces se debe mostrar un mensaje de error |
+| EP02 | Calendario de Mantenimientos Programados | US07 | Visualización del calendario de mantenimientos | Como usuario, quiero visualizar un calendario con los mantenimientos programados para tener una vista clara de las fechas importantes. | **Escenario 1:** Acceso al calendario: Dado que tengo mantenimientos agendados, Cuando accedo al módulo de calendario, Entonces el sistema debe mostrar las fechas de mantenimiento programadas <br> **Escenario 2:** Detalles del mantenimiento: Dado que selecciono una fecha en el calendario, Cuando hago clic en ella, Entonces el sistema debe mostrar detalles del mantenimiento programado <br> **Escenario 3:** Calendario sin mantenimientos: Dado que no tengo mantenimientos agendados, Cuando accedo al calendario, Entonces debe mostrarse vacío con un mensaje informativo |
+| EP02 | Calendario de Mantenimientos Programados | US08 | Programación de nuevos mantenimientos | Como usuario, quiero poder programar nuevos mantenimientos para organizar el cuidado de mi vehículo. | **Escenario 1:** Programación exitosa: Dado que ingreso los datos requeridos, Cuando confirmo la programación, Entonces el sistema debe registrar el mantenimiento en el calendario <br> **Escenario 2:** Validación de fecha y hora, Dado que selecciono una fecha pasada o inválida, Cuando intento agendar el mantenimiento, Entonces el sistema debe mostrar un mensaje de error <br> **Escenario 3:** Confirmación visual: Dado que he programado correctamente un mantenimiento, Cuando regreso al calendario, Entonces el mantenimiento debe aparecer en la fecha seleccionada |
+| EP02 | Calendario de Mantenimientos Programados | US09 | Edición o cancelación de mantenimientos agendados | Como usuario, quiero editar o cancelar los mantenimientos programados para mantener mi calendario actualizado según mis necesidades. | **Escenario 1:** Edición exitosa de mantenimiento: Dado que tengo un mantenimiento agendado, Cuando modifico la fecha u hora y guardo los cambios, Entonces el sistema debe actualizar el calendario con la nueva información <br> **Escenario 2:** VCancelación de mantenimiento: Dado que ya no necesito un mantenimiento programado, Cuando selecciono la opción de cancelarlo, Entonces el sistema debe eliminarlo del calendario y mostrar una confirmación <br> **Escenario 3:** Validación de cambios inválidos: Dado que intento cambiar la fecha a una inválida, Cuando intento guardar, Entonces el sistema debe mostrar un mensaje de error indicando el problema |
+| EP02 | Calendario de Mantenimientos Programados | US10 | Recordatorios automáticos para mantenimientos programados | Como usuario, quiero recibir recordatorios automáticos para los mantenimientos agendados, para no olvidar ninguna cita importante. | **Escenario 1:** Recepción de recordatorio previo: Dado que tengo un mantenimiento programado, Cuando se acerque la fecha, Entonces el sistema debe enviarme un recordatorio <br> **Escenario 2:** Configuración de recordatorios: Dado que quiero ajustar la anticipación de los avisos, Cuando modifico esta preferencia en la configuración, Entonces el sistema debe aplicar los nuevos intervalos <br> **Escenario 3:** Canales de notificación: Dado que tengo un recordatorio activo, Cuando llega la fecha definida, Entonces el sistema debe enviarlo por la app |
+| EP03 | Gestión de Inventario de Repuestos | US11 | Consulta de repuestos disponibles | Como usuario, quiero consultar los repuestos disponibles en el inventario para saber si están en stock antes de agendar un mantenimiento. | **Escenario 1:** Visualización general del inventario: Dado que accedo a la sección de inventario, Cuando ingreso a la plataforma, Entonces el sistema debe mostrar la lista de repuestos con sus cantidades actuales <br> **Escenario 2:** Filtro de repuestos: Dado que necesito un tipo específico de repuesto, Cuando uso los filtros por categoría, nombre o código, Entonces el sistema debe mostrar solo los repuestos que cumplan con los criterios <br> **Escenario 3:** Indicador de stock bajo o agotado: Dado que un repuesto tiene bajo stock, Cuando consulto su disponibilidad, Entonces el sistema debe mostrar una alerta visual con el estado del repuesto |
+| EP03 | Gestión de Inventario de Repuestos | US12 | Registro de nuevos ingresos de repuestos | Como administrador, quiero registrar nuevos ingresos de repuestos al sistema para mantener actualizado el inventario. | **Escenario 1:** Registro exitoso de ingreso: Dado que estoy ingresando repuestos al sistema, Cuando completo los datos requeridos y los guardo, Entonces el inventario debe reflejar el nuevo stock actualizado <br> **Escenario 2:** Validación de campos al registrar: Dado que omito información esencial, Cuando intento registrar el ingreso, Entonces el sistema debe mostrar un mensaje indicando los campos faltantes <br> **Escenario 3:** Confirmación del registro: Dado que he ingresado correctamente los datos, Cuando finalizo el registro, Entonces el sistema debe mostrarme una notificación confirmando la operación |
+| EP03 | Gestión de Inventario de Repuestos | US13 | Notificación de repuestos bajos en stock | Como usuario, quiero recibir notificaciones cuando los repuestos estén por agotarse, para reabastecer el inventario a tiempo. | **Escenario 1:** Generación automática de alerta: Dado que el stock de un repuesto baja del umbral establecido, Cuando se actualiza el inventario, Entonces el sistema debe generar automáticamente una alerta de stock bajo <br> **Escenario 2:** Visualización en el panel principal: Dado que hay repuestos con bajo stock, Cuando ingreso al panel de control, Entonces el sistema debe mostrar un listado de estos repuestos resaltados <br> **Escenario 3:** Notificación por sistema: Dado que un repuesto se encuentra en nivel crítico, Cuando se registra la disminución de unidades, Entonces el sistema debe enviarme una notificación dentro de la plataforma |
+| EP03 | Gestión de Inventario de Repuestos | US14 | Actualización del inventario tras mantenimiento | Como usuario, quiero que el sistema actualice automáticamente el inventario cuando se utilicen repuestos en un mantenimiento, para mantener los datos precisos. | **Escenario 1:** Descuento automático de repuestos utilizados: Dado que se ha completado un mantenimiento, Cuando se registra el uso de ciertos repuestos, Entonces el sistema debe descontar automáticamente la cantidad utilizada del inventario <br> **Escenario 2:** Validación de stock suficiente: Dado que intento registrar un mantenimiento, Cuando el stock de un repuesto es insuficiente, Entonces el sistema debe impedir el registro y mostrar una advertencia |
+| EP04 | Cálculo de Presupuesto y Control de Costos | US15 | Generación de presupuesto de mantenimiento | Como usuario, quiero que el sistema genere un presupuesto estimado para el mantenimiento del vehículo, para saber cuánto me costará antes de aprobarlo. | **Escenario 1:** Cálculo automático según repuestos y mano de obra: Dado que selecciono los repuestos y servicios necesarios, Cuando confirmo los detalles del mantenimiento, Entonces el sistema debe calcular el costo total y mostrarme un presupuesto estimado <br> **Escenario 2:** Visualización detallada del presupuesto: Dado que he generado un presupuesto, Cuando reviso la propuesta, Entonces debo ver el desglose de costos por cada ítem |
+| EP04 | Cálculo de Presupuesto y Control de Costos | US16 | Edición de costos y repuestos por servicio | Como mecánico, quiero poder modificar los costos y repuestos asignados a un servicio, para reflejar cambios reales antes de facturar. | **Escenario 1:** Modificación de valores antes de confirmar servicio: Dado que he ingresado un mantenimiento, Cuando necesito ajustar los costos o repuestos, Entonces debo poder editar los campos correspondientes antes de la confirmación <br> **Escenario 2:** Validación de datos actualizados: Dado que modifico un presupuesto, Cuando confirmo los cambios, Entonces el sistema debe validar los datos y recalcular el total correctamente |
+| EP04 | Cálculo de Presupuesto y Control de Costos | US17 | Visualización de gastos históricos por vehículo |  Como usuario, quiero visualizar los gastos acumulados en mantenimientos por cada vehículo, para tener un control de mi inversión en reparaciones. | **Escenario 1:** Consulta de gastos totales por vehículo: Dado que selecciono un vehículo, Cuando ingreso a su historial, Entonces el sistema debe mostrarme el total acumulado de gastos en mantenimientos <br> **Escenario 2:** Filtros por periodo de tiempo: Dado que deseo ver los gastos, Cuando aplico filtros de fechas, Entonces el sistema debe mostrar los datos correspondientes al rango elegido <br> **Escenario 3:** Visualización en formato gráfico y tabla: Dado que consulto los gastos, Cuando ingreso a la sección de historial, Entonces debo ver los datos en gráficos de barras o líneas y en una tabla detallada |
+| EP05 | Historial de Mantenimientos | US18 | Consulta del historial por vehículo |  Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | **Escenario 1:** Listado cronológico de mantenimientos: Dado que accedo al historial de un vehículo, Cuando se despliega la información, Entonces debo ver un listado ordenado por fecha de los mantenimientos realizados <br> **Escenario 2:** Visualización de detalles por mantenimiento: Dado que veo el historial, Cuando selecciono un mantenimiento, Entonces debo poder ver sus detalles, como tipo de servicio, repuestos usados y costos <br> **Escenario 3:** Filtros por tipo de servicio: Dado que tengo muchos registros, Cuando aplico un filtro por tipo de servicio, Entonces el sistema debe mostrar solo los resultados que coincidan |
+| EP05 | Historial de Mantenimientos | US19 | Detalle de cada servicio registrado |  Como usuario, quiero acceder al detalle de cada servicio registrado para revisar qué repuestos se usaron, el costo y las observaciones del mecánico. | **Escenario 1:** Acceso al detalle desde el historial: Dado que visualizo el historial de mantenimientos, Cuando selecciono un servicio, Entonces se debe mostrar toda la información relacionada a ese mantenimiento <br> **Escenario 2:** Visualización de repuestos utilizados: Dado que estoy en el detalle de un servicio, Cuando accedo a la sección de repuestos, Entonces debo ver los nombres, cantidades y códigos de cada uno <br> **Escenario 3:** Inclusión de observaciones técnicas: Dado que reviso un servicio, Cuando se carga la información, Entonces debo poder leer las observaciones del mecánico o técnico encargado |
+| EP05 | Historial de Mantenimientos | US20 | Exportación o descarga del historial en PDF |  Como usuario, quiero poder exportar o descargar en PDF el historial de mantenimientos de un vehículo para conservarlo o compartirlo fácilmente. | **Escenario 1:** Opción de exportar historial completo: Dado que visualizo el historial de un vehículo, Cuando selecciono la opción de exportar, Entonces el sistema debe generar un archivo PDF con toda la información <br> **Escenario 2:** Descarga exitosa del documento: Dado que genero el PDF, Cuando la descarga inicia, Entonces el archivo debe guardarse correctamente en mi dispositivo <br> **Escenario 3:** Inclusión de datos detallados en el PDF: Dado que visualizo el PDF generado, Cuando lo abro, Entonces debe contener fechas, servicios realizados, repuestos utilizados y montos |
+| EP06 | Mensajería entre Usuario y Mecánico | US21 | Envío de mensajes entre usuario y mecánico |  Como usuario, quiero poder comunicarme con el mecánico a través de la plataforma para resolver dudas o recibir actualizaciones sobre mis mantenimientos. | **Escenario 1:** Envío de mensaje desde la interfaz del servicio: Dado que tengo un mantenimiento en curso, Cuando ingreso a su detalle y escribo un mensaje, Entonces el sistema debe enviarlo correctamente al mecánico asignado <br> **Escenario 2:** Confirmación de envío: Dado que he enviado un mensaje, Cuando el sistema lo procesa correctamente, Entonces debe aparecer una confirmación visual <br> **Escenario 3:** Comunicación bidireccional: Dado que hay una conversación activa, Cuando el mecánico responde, Entonces el mensaje debe aparecer en la interfaz del chat correspondiente |
+| EP06 | Mensajería entre Usuario y Mecánico | US22 | Notificaciones de nuevos mensajes |  Como usuario, quiero recibir notificaciones cuando el mecánico me envíe un mensaje para estar informado sin necesidad de revisar constantemente la app. | **Escenario 1:** Notificación emergente en la app: Dado que recibo un nuevo mensaje, Cuando estoy usando la plataforma, Entonces debe mostrarse una notificación visual <br> **Escenario 2:** Acceso directo desde la notificación: Dado que toco la notificación, Cuando esta se activa, Entonces debo ser dirigido automáticamente a la conversación correspondiente |
+| EP06 | Mensajería entre Usuario y Mecánico | US23 | Historial de conversación por vehículo o servicio |  Como usuario, quiero consultar el historial de mensajes asociados a cada vehículo o servicio para revisar fácilmente las conversaciones pasadas con el mecánico. | **Escenario 1:** Acceso al historial desde la ficha del vehículo: Dado que tengo vehículos registrados, Cuando ingreso al detalle de uno de ellos, Entonces debe estar disponible la opción de ver las conversaciones asociadas <br> **Escenario 2:** Visualización ordenada cronológicamente: Dado que ingreso al historial de mensajes, Cuando se cargan las conversaciones, Entonces debe mostrar en orden cronológico los mensajes |
+| EP07 | Gestión de Suscripción y Pagos | US24 | Selección del plan de suscripción |  Como usuario, quiero elegir el plan de suscripción que mejor se adapte a mis necesidades para aprovechar los servicios de AutoNexo según mi presupuesto y uso. | **Escenario 1:** Visualización de todos los planes disponibles: Dado que accedo a la sección de suscripciones, Cuando la pantalla carga, Entonces debo ver todos los planes con sus características y precios <br> **Escenario 2:** Selección de un plan: Dado que deseo suscribirme, Cuando selecciono un plan y realizo el pago, Entonces el sistema debe activarlo y mostrarme un mensaje de confirmación <br> **Escenario 3:** Restricciones por plan: Dado que selecciono un plan específico, Cuando utilizo la plataforma, Entonces solo debo tener acceso a las funciones incluidas en dicho plan |
+| EP07 | Gestión de Suscripción y Pagos | US25 | Registro de método de pago seguro |  Como usuario, quiero registrar un método de pago seguro para poder realizar mis pagos de suscripción sin preocupaciones y de forma rápida. | **Escenario 1:** Ingreso de datos de tarjeta válidos: Dado que deseo agregar un nuevo método de pago, Cuando ingreso los datos correctamente, Entonces el sistema debe registrarlos y confirmar que se ha guardado con éxito <br> **Escenario 2:** Validación de campos incorrectos: Dado que ingreso datos incompletos o inválidos, Cuando intento guardar el método de pago, Entonces el sistema debe mostrar mensajes de error y no permitir el registro <br> **Escenario 3:** Seguridad del proceso de registro: Dado que estoy ingresando mis datos bancarios, Cuando realizo el proceso, Entonces debe hacerse mediante un canal cifrado y seguro |
+| EP07 | Gestión de Suscripción y Pagos | US26 | Renovación automática de suscripción |  Como usuario, quiero que mi suscripción se renueve automáticamente para seguir disfrutando del servicio sin interrupciones. | **Escenario 1:** Activación de la renovación automática: Dado que tengo una suscripción activa, Cuando selecciono la opción de renovación automática, Entonces el sistema debe habilitar esta función y notificarme que está activa <br> **Escenario 2:** Cobro exitoso en la fecha programada: Dado que tengo un método de pago válido y renovación activa, Cuando llega la fecha de renovación, Entonces el sistema debe realizar el cobro y mantener mi suscripción activa <br> **Escenario 3:** Notificación previa a la renovación: Dado que tengo activada la renovación, Cuando se acerque la fecha de cobro, Entonces el sistema debe notificarme con anticipación |
+| EP07 | Gestión de Suscripción y Pagos | US27 | Cambio de plan de suscripción |  Como usuario, quiero poder cambiar mi plan de suscripción en cualquier momento para ajustarlo a mis necesidades o presupuesto. | **Escenario 1:** Cambio exitoso de plan: Dado que tengo una suscripción activa, Cuando selecciono un nuevo plan y confirmo el cambio, Entonces el sistema debe aplicar el nuevo plan y mostrar una notificación de éxito <br> **Escenario 2:** Validación de requisitos del nuevo plan: Dado que estoy eligiendo un nuevo plan, Cuando este requiere condiciones específicas (pago anticipado), Entonces el sistema debe indicarlas antes de permitir el cambio <br> **Escenario 3:** Notificación del cambio: Dado que he cambiado mi plan, Cuando se complete el proceso, Entonces debo recibir una notificación de la app confirmando la modificación |
+| EP07 | Gestión de Suscripción y Pagos | US28 | Cancelación o pausa del servicio |  Como usuario, quiero tener la opción de cancelar o pausar mi suscripción para detener el servicio temporal o permanentemente según mi situación. | **Escenario 1:** Cancelación voluntaria del servicio: Dado que deseo dejar de utilizar AutoNexo, Cuando solicito la cancelación desde la sección de suscripción, Entonces el sistema debe procesarla y mostrar una confirmación clara <br> **Escenario 2:** Pausar temporalmente el servicio: Dado que no quiero usar el servicio por un tiempo, Cuando selecciono la opción de pausa, Entonces el sistema debe suspender la facturación <br> **Escenario 3:** Confirmación y efectos del estado cancelado o pausado: Dado que he pausado o cancelado mi suscripción, Cuando intento acceder a funcionalidades premium, Entonces el sistema debe informar que están deshabilitadas |
+| EP08 | Interacción y Navegación en la Landing Page | US29 | Navegación intuitiva |  Como visitante de la Landing Page, quiero navegar de forma intuitiva entre las secciones del sitio para encontrar rápidamente la información que necesito. | **Escenario 1:** Menú visible y funcional: Dado que el visitante se encuentra en la landing page, Cuando accede desde cualquier dispositivo, Entonces debe visualizar un menú de navegación accesible y funcional <br> **Escenario 2:** Transiciones suaves entre secciones: Dado que el visitante se desplaza por la página, Cuando hace clic en los elementos del menú, Entonces la transición entre secciones debe ser fluida y sin errores |
+| EP08 | Interacción y Navegación en la Landing Page | US30 | Compatibilidad con lectores de pantalla |  Como visitante con discapacidad visual, quiero que la Landing Page sea compatible con lectores de pantalla para poder acceder al contenido sin barreras. | **Escenario 1:** Estructura semántica adecuada: Dado que el visitante utiliza un lector de pantalla, Cuando navega por la página, Entonces el lector debe interpretar correctamente los títulos, párrafos, botones y enlaces <br> **Escenario 2:** Etiquetado accesible de imágenes y botones: Dado que el visitante se desplaza por la landing page, Cuando el lector se posiciona sobre imágenes o botones, Entonces debe recibir descripciones adecuadas mediante etiquetas alt o aria-label |
+| EP08 | Interacción y Navegación en la Landing Page | US31 | Feedback visual en interacciones |  Como visitante de la Landing Page, quiero recibir retroalimentación visual al interactuar con los elementos para saber que mis acciones han sido reconocidas. | **Escenario 1:** Cambio visual en botones al hacer clic o pasar el mouse: Dado que el visitante interactúa con botones, Cuando pasa el cursor o da clic sobre ellos, Entonces los botones deben responder visualmente <br> **Escenario 2:** Confirmación visual de acciones: Dado que el visitante completa una acción (como enviar un formulario), Cuando se envía correctamente, Entonces debe mostrarse un mensaje o señal de confirmación |
+| EP09 | Integración y Exposición de Servicios vía API RESTful | TS01 | Registro de usuario a través de un RESTful API |  Como desarrollador, quiero implementar la opción de registrar nuevos usuarios a través de una API RESTful, para que los conductores y mecánicos puedan crear sus cuentas en la plataforma. | **Escenario 1:** Registro exitoso: Dado que soy un developer, Cuando envío una solicitud con los datos del nuevo usuario, Entonces el API debe registrar al usuario <br> **Escenario 2:** Usuario duplicado: Dado que ya existe un usuario con el mismo correo electrónico, Cuando intento registrar un nuevo usuario con ese mismo correo, Entonces el API debe devolver un mensaje de conflicto |
+| EP09 | Integración y Exposición de Servicios vía API RESTful | TS02 | Registro de repuestos en inventario a través de un RESTful API |  Como desarrollador, quiero implementar la opción de registrar repuestos mediante una API RESTful, para que los usuarios puedan llevar un control del inventario de piezas disponibles. | **Escenario 1:** Registro exitoso de repuesto: Dado que tengo datos del repuesto, Cuando envío una solicitud con los datos del nuevo repuesto, Entonces el API debe guardar el repuesto y devolver su ID <br> **Escenario 2:** Repuesto ya existente: Dado que intento registrar un repuesto con un código que ya está en el sistema, Cuando hago la solicitud, Entonces el API debe indicar que el repuesto ya existe |
+| EP09 | Integración y Exposición de Servicios vía API RESTful | TS03 | Registro de vehículos a través de un RESTful API |  Como desarrollador, quiero implementar la opción de registrar vehículos mediante una API RESTful, para que los usuarios puedan gestionar sus autos en la plataforma. | **Escenario 1:** Registro exitoso: Dado que tengo todos los datos del vehículo, Cuando los envío mediante una solicitud, Entonces el API debe guardar el vehículo <br> **Escenario 2:** Asociación con usuario: Dado que un usuario está autenticado, Cuando registra un vehículo, Entonces este debe quedar asociado al ID de ese usuario |
+| EP09 | Integración y Exposición de Servicios vía API RESTful | TS04 | Creación de diagnósticos a través de un RESTful API |  Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto. | **Escenario 1:** Diagnostico creado correctamente: Dado que tengo acceso y los datos del diagnóstico, Cuando envío una solicitud POST, Entonces el sistema debe almacenar el diagnóstico <br> **Escenario 2:** Relación con el vehículo: Dado que el diagnóstico pertenece a un vehículo, Cuando lo registro, Entonces debe quedar asociado al vehículo correspondiente en la respuesta |
+| EP09 | Integración y Exposición de Servicios vía API RESTful | TS05 | Creación de mantenimientos programados mediante RESTful API |  Como desarrollador, quiero permitir la programación de mantenimientos a través de una API RESTful, para que los usuarios puedan agendar sus servicios con anticipación. | **Escenario 1:** Mantenimiento registrado exitosamente: Dado que envío todos los datos necesarios, Cuando hago una solicitud POST válida, Entonces el API debe guardar el mantenimiento <br> **Escenario 2:** Asociación con vehículo y repuestos: Dado que indico los IDs del vehículo y repuestos, Cuando creo el mantenimiento, Entonces deben quedar relacionados en la base de datos |
+| EP09 | Integración y Exposición de Servicios vía API RESTful | TS06 | Consulta de historial de servicios por vehículo mediante RESTful API |  Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados. | **Escenario 1:** Historial disponible: Dado que el vehículo tiene servicios registrados, Cuando realizo una solicitud GET con su ID, Entonces el API debe devolver un listado de los servicios <br> **Escenario 2:** Vehículo no encontrado: Dado que uso un ID de vehículo inexistente, Cuando consulto el historial, Entonces el API debe responder con código erroneo |
+| EP09 | Integración y Exposición de Servicios vía API RESTful | TS07 | Actualización del inventario de repuestos mediante RESTful API |  Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock. | **Escenario 1:** Actualización exitosa: Dado que tengo permisos y datos válidos, Cuando envío una solicitud PUT con el nuevo stock, Entonces el API debe actualizar el inventario <br> **Escenario 2:** Valor inválido: Dado que ingreso una cantidad negativa, Cuando intento actualizar el stock, Entonces el API debe indicar el error de validación |
 
 ## **3.3. Impact Mapping**
 
+<img src="img/ImpactMap.png" alt="Impact Map Autonexo" width="550"/>
+
 ## **3.4. Product Backlog**
+
+| \# Orden | User Story ID / Technical Story ID | Título | Descripción | Prioridad | Story Points (1/2/3/5/8) |
+| :---: | :---: | :---: | :---: | ----- | :---: |
+| **1** | US01 | Registro de usuario	 | Como nuevo usuario, quiero registrarme en la plataforma para empezar a utilizar los servicios de AutoNexo. | Alta | 5 |
+| **2** | US02 | Inicio de sesión seguro | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a todas las funcionalidades de la plataforma | Media | 3 |
+| **3** | US03 | Registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | Media | 5 |
+| **4** | US04 | Registro de repuestos | Como usuario, quiero registrar repuestos en el sistema para tener un control del inventario. | Media | 3 |
+| **5** | US05 | Gestión del perfil del usuario | Como usuario, quiero gestionar mi información personal en mi perfil para mantener mis datos actualizados | Media | 5 |
+| **6** | US06 | Edición del perfil desde la app | Como usuario, quiero editar mi perfil directamente desde la aplicación para mayor comodidad. | Baja | 3 |
+| **7** | US07 | Visualización del calendario de mantenimientos | Como usuario, quiero visualizar un calendario con los mantenimientos programados para tener una vista clara de las fechas importantes. | Media | 3 |
+| **8** | US08 | Programación de nuevos mantenimientos | Como usuario, quiero poder programar nuevos mantenimientos para organizar el cuidado de mi vehículo. | Alta | 5 |
+| **9** | US09 | Edición o cancelación de mantenimientos agendados | Como usuario, quiero editar o cancelar los mantenimientos programados para mantener mi calendario actualizado según mis necesidades. | Media | 3 |
+| **10** | US10 | Recordatorios automáticos para mantenimientos programados | Como usuario, quiero recibir recordatorios automáticos para los mantenimientos agendados, para no olvidar ninguna cita importante. | Media | 3 |
+| **11** | US11 | Consulta de repuestos disponibles | Como usuario, quiero consultar los repuestos disponibles en el inventario para saber si están en stock antes de agendar un mantenimiento. | Alta | 5 |
+| **12** | US12 | Registro de nuevos ingresos de repuestos | Como administrador, quiero registrar nuevos ingresos de repuestos al sistema para mantener actualizado el inventario. | Media | 3 |
+| **13** | US13 | Notificación de repuestos bajos en stock | Como usuario, quiero recibir notificaciones cuando los repuestos estén por agotarse, para reabastecer el inventario a tiempo. | Baja | 2 |
+| **14** | US14 | Actualización del inventario tras mantenimiento | Como usuario, quiero que el sistema actualice automáticamente el inventario cuando se utilicen repuestos en un mantenimiento, para mantener los datos precisos. |    Media | 3 |
+| **15** | US15 | Generación de presupuesto de mantenimiento | Como usuario, quiero que el sistema genere un presupuesto estimado para el mantenimiento del vehículo, para saber cuánto me costará antes de aprobarlo. | Alta | 8 |
+| **16** | US16 | Edición de costos y repuestos por servicio | Como mecánico, quiero poder modificar los costos y repuestos asignados a un servicio, para reflejar cambios reales antes de facturar. | Media | 5 |
+| **17** | US17 | Visualización de gastos históricos por vehículo | Como usuario, quiero visualizar los gastos acumulados en mantenimientos por cada vehículo, para tener un control de mi inversión en reparaciones. | Media | 3 |
+| **18** | US18 | Consulta del historial por vehículo | Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | Media | 5 |
+| **19** | US19 | Detalle de cada servicio registrado | Como usuario, quiero acceder al detalle de cada servicio registrado para revisar qué repuestos se usaron, el costo y las observaciones del mecánico. | Media | 3 |
+| **20** | US20 | Exportación o descarga del historial en PDF | Como usuario, quiero poder exportar o descargar en PDF el historial de mantenimientos de un vehículo para conservarlo o compartirlo fácilmente. | Baja | 2 |
+| **21** | US21 | Envío de mensajes entre usuario y mecánico | Como usuario, quiero poder comunicarme con el mecánico a través de la plataforma para resolver dudas o recibir actualizaciones sobre mis mantenimientos. | Media | 3 |
+| **22** | US22 | Notificaciones de nuevos mensajes | Como usuario, quiero recibir notificaciones cuando el mecánico me envíe un mensaje para estar informado sin necesidad de revisar constantemente la app. | Baja | 2 |
+| **23** | US23 | Historial de conversación por vehículo o servicio | Como usuario, quiero consultar el historial de mensajes asociados a cada vehículo o servicio para revisar fácilmente las conversaciones pasadas con el mecánico. | Media | 3 |
+| **24** | US24 | Selección del plan de suscripción | Como usuario, quiero elegir el plan de suscripción que mejor se adapte a mis necesidades para aprovechar los servicios de AutoNexo según mi presupuesto y uso. | Alta | 5 |
+| **25** | US25 | Registro de método de pago seguro | Como usuario, quiero registrar un método de pago seguro para poder realizar mis pagos de suscripción sin preocupaciones y de forma rápida. | Alta | 8 |
+| **26** | US26 | Renovación automática de suscripción | Como usuario, quiero que mi suscripción se renueve automáticamente para seguir disfrutando del servicio sin interrupciones. | Alta | 8 |
+| **27** | US27 | Cambio de plan de suscripción | Como usuario, quiero poder cambiar mi plan de suscripción en cualquier momento para ajustarlo a mis necesidades o presupuesto. | Media | 3 |
+| **28** | US28 | Cancelación o pausa del servicio | Como usuario, quiero tener la opción de cancelar o pausar mi suscripción para detener el servicio temporal o permanentemente según mi situación. | Media | 3 |
+| **29** | US29 | Navegación intuitiva | Como visitante de la Landing Page, quiero navegar de forma intuitiva entre las secciones del sitio para encontrar rápidamente la información que necesito. | Alta | 5 |
+| **30** | US30 | Compatibilidad con lectores de pantalla | Como visitante con discapacidad visual, quiero que la Landing Page sea compatible con lectores de pantalla para poder acceder al contenido sin barreras. | Media | 3 |
+| **31** | US31 | Feedback visual en interacciones | Como visitante de la Landing Page, quiero recibir retroalimentación visual al interactuar con los elementos para saber que mis acciones han sido reconocidas. | Media | 3 |
+| **32** | TS01 | Registro de usuario a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar nuevos usuarios a través de una API RESTful, para que los conductores y mecánicos puedan crear sus cuentas en la plataforma. | Alta | 5 |
+| **33** | TS02 | Registro de repuestos en inventario a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar repuestos mediante una API RESTful, para que los usuarios puedan llevar un control del inventario de piezas disponibles. | Media | 3 |
+| **34** | TS03 | Registro de vehículos a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar vehículos mediante una API RESTful, para que los usuarios puedan gestionar sus autos en la plataforma. | Media | 2 |
+| **35** | TS04 | Creación de diagnósticos a través de un RESTful API | Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto. | Alta | 2 |
+| **36** | TS05 | Creación de mantenimientos programados mediante RESTful API | Como desarrollador, quiero permitir la programación de mantenimientos a través de una API RESTful, para que los usuarios puedan agendar sus servicios con anticipación. | Alta | 5 |
+| **37** | TS06 | Consulta de historial de servicios por vehículo mediante RESTful API | Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados. | Media | 3 |
+| **38** | TS07 | Actualización del inventario de repuestos mediante RESTful API | Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock. | Media | 2 |
+
+Product Backlog en Trello: [https://trello.com/invite/b/6820091b7d003500b1d2cd2a/ATTIfca577753d06f90de7cd5590cef7b936C3B8D00D/product-backlog-autonexo](https://trello.com/invite/b/6820091b7d003500b1d2cd2a/ATTIfca577753d06f90de7cd5590cef7b936C3B8D00D/product-backlog-autonexo) 
+
+<img src="img/ProductBacklog.png" alt="Product Backlog Autonexo" width="750"/>
 
 # <font color="red"> **Capítulo IV: Product Design** </font>
 
