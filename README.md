@@ -670,13 +670,118 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 
 ### **5.2.2. Sprint 2**
 #### **5.2.2.1. Sprint Planning 2**
+| Sprint \# | Sprint 2 |
+| :---- | :---- |
+| Date | 2025 \- 05 \- 12 |
+| Time | 19:00 |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Andrés Victor  |
+| Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
+| Sprint 2  Review Summary | Se presentó el avance del front-end de la aplicación y sus respectivos bounded contexts y diseños. |
+| Sprint 2 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación del frontend, contribuyendo a un desarrollo más ágil y efectivo del proyecto. |
+| Sprint 2 Goal | Implementar y diseñar cada uno de los Bounded Context |
+| Sprint 2 Velocity | 29 story points |
+| Sum of Story Points | 49 story points |}
+<br>
+
 #### **5.2.2.2. Aspect Leaders and Collaborators**
+Durante el segundo sprint, el equipo ATG mostró una gran organización, lo que permitió cumplir satisfactoriamente el objetivo de diseñar e implementar los bounded context de AutoNexo. A continuación, se describe el rol desempeñado por cada integrante del equipo.
+<br>
+    * Victor Andres Cruz Ibarra (U202311053): <br>
+    * Rafael Andres Vivanco Salazar (U202311064): <br>
+    * Jarod Jack Céspedes Pillco (U202318588): <br>
+    * Ricardo Fernando Cardenas Minaya (U202310004): <br>
+    * Ronald Joel Peralta Chipa (U202224619):<br>
+<br>
+La ejecución del sprint fue coordinado mediante reuniones virtuales en Discord, con el respaldo de herramientas colaborativas como Google Docs, para redacción conjunta, y GitHub, como repositorio de control de versiones.
+<br>
+
 #### **5.2.2.3. Sprint Backlog 2**
+<div align="center">
+    <img src="img/sprint-backlog-2.png" alt="sprint-backlog-2.png" width="550px" height="300px">
+</div>
+
+Link: [https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79daa19ca44e24e5657A5F126/product-backlog-autonexo](https://trello.com/invite/b/682413b3332f981bd0a0c9e8/ATTI96c86c3989bcd4016c076c5586951a20E5A6A6A8/sprint-backlog-2-atg)
+<br>
+
+| Sprint \# |  | Sprint \#2 |  |  |  |  |  |
+| :---- | :---- | ----- | :---- | :---- | :---- | :---- | :---- |
+| User Story ID | User Story Title | Work Item ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| US01 | Registro de usuario	 | 1 | Añadir función de registro de usuario | Como nuevo usuario, quiero registrarme en la plataforma para empezar a utilizar los servicios de AutoNexo. | 2H | Victor | Done |
+| US02 | Inicio de sesión seguro | 2 | Función para iniciar sesión en la app | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a todas las funcionalidades de la plataforma | 1H | Ronald | Done |
+| US03 | Registro de vehículos | 3 | Añadir función de registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | 2H | Jarod | Done |
+| US05 | Gestión del perfil del usuario | 4 | Pantalla para gestionar el perfil de usuario | Como usuario, quiero gestionar mi información personal en mi perfil para mantener mis datos actualizados. | 2H | Rafael | Done |
+| US09 | Edición o cancelación de mantenimientos agendados | 5 | Función para editar o cancelar los mantenimientos | Como usuario, quiero editar o cancelar los mantenimientos programados para mantener mi calendario actualizado según mis necesidades. | 2H | Ricardo | Done |
+| US18 | Consulta del historial por vehículo | 6 | Pantalla para ver los datos históricos de cada vehiculo | Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | 2H | Jarod | Done |
+| US19 | Detalle de cada servicio registrado | 7 | Función para mostrar todos los servicios registrados | Como usuario, quiero acceder al detalle de cada servicio registrado para revisar qué repuestos se usaron, el costo y las observaciones del mecánico. | 3H | Ronald | Done |
+<br>
+
 #### **5.2.2.4. Development Evidence for Sprint Review**
+<br>
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| project-OpenSource-4310 | develop | 32a8943 | Style | button-classic added in shared/buttons | 05/13/2025 |
+| project-OpenSource-4310 | develop | 3e91394 | Feat | ATG AutoNexo Added | 05/12/2025 |
+| project-OpenSource-4310 | develop | 43ec90d | Feat | initial commit | 05/07/2025 |
+<br>
+
 #### **5.2.2.5. Execution Evidence for Sprint Review**
+A continuacion la fake api ejecutada:
+<br>
+<div align="center">
+    <img src="img/json.png" alt="json.png" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/json2.png" alt="json2.png" width="550px" height="300px">
+</div>
 #### **5.2.2.6. Services Documentation Evidence for Sprint Review**
+En el segundo sprint, logramos desarrollar parcialmente la implementación del despliegue del front end app. Donde se muestra las diferentes pnatallas para el usuario y luego de su registro para el mecánico o conductor.
+A continuación evidencias:
+
+<div align="center">
+    <img src="img/home_view.png" alt="home_view.png" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/login.png" alt="login.png" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/register.png" alt="register.png" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/forgot_password.png" alt="forgot_password.png" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/reparaciones_send.png" alt="reparaciones_send.png" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/vehicles.png" alt="vehicles.png" width="550px" height="300px">
+</div>
+<br>
+
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+<div align="center">
+    <img src="img/network.png" alt="network.png" width="550px" height="300px">
+</div>
+
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
+Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
+<div align="center">
+    <img src="img/network.png" alt="network.png" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/contribuitors.png" alt="contribuitors.png" width="550px" height="300px">
+</div>
+<br>
 
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
