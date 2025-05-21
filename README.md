@@ -1272,14 +1272,30 @@ Gracias a la perspectiva que brinda DDD, es posible fortalecer la colaboración 
 ![Descripción de la imagen](img/containerDiagram.png)
 
 ### **4.6.3. Software Architecture Components Diagrams**
+**Gestion de Usuarios:**
+<br>
+![Descripción de la imagen](img/componentsDiagramUsers.png)
 
-![Descripción de la imagen](img/componentsDiagramA.png)
+**Gestion de Inventario:**
+<br>
+![Descripción de la imagen](img/componentsDiagramInventario.png)
 
-![Descripción de la imagen](img/componentsDiagramB.png)
+**Gestion de Mantenimiento:**
+<br>
+![Descripción de la imagen](img/componentsDiagramMantenimiento.png)
 
+**Gestion de Vehiculos:**
+<br>
+![Descripción de la imagen](img/componentsDiagramVehiculos.png)
+
+**Gestion de Mensajeria:**
+<br>
 ![Descripción de la imagen](img/componentsDiagramC.png)
 
+**Gestion de Pago:**
+<br>
 ![Descripción de la imagen](img/componentsDiagramD.png)
+
 
 ## **4.7. Software Object-Oriented Design**
 
