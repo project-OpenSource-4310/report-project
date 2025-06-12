@@ -28,7 +28,7 @@ Ivan Robles Fernández
 </div>
 
 **2025 - 1**
-
+    
 </div>
 
 ---
@@ -37,9 +37,9 @@ Ivan Robles Fernández
 
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
-| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
-| TB2     | 13/05/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Correción del TB1, Sprint 2 en Capitulo 5|
-| TB3     |            |                                |                                  |
+| TB1     | 24/04/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
+| TP1     | 13/05/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Correción del TB1, Sprint 2 en Capítulo 5|
+| TB3     | 19/06/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Correción del TP1, Sprint 3 en Capítulo 5, Actualización de la Landing Page, Video About the Team e Implementación del Back End |
 
 # <font color="red">**Project Report Collaboration Insights**</font>
 
@@ -57,9 +57,9 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 |Jarod Jack Cespedes Pillco | Source Code Management, Source Style Guide, Software Deployment Configuration|
 |Ronald Joel Peralta Chipa|Análisis de entrevistas, NeedFinding, User personas, User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping.|
 
-**TB2**
+**TP1**
 
-Para el desarrollo del informe correspondiente a la entrega TB2, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+Para el desarrollo del informe correspondiente a la entrega TP1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
 
 |Integrante|Tareas Asignadas|
 |-|-|
@@ -68,8 +68,21 @@ Para el desarrollo del informe correspondiente a la entrega TB2, se estableció 
 |Ricardo Fernando Cardenas Minaya |Correción del Capítulo 3 e implementación de pantalla del frontend app|
 |Jarod Jack Cespedes Pillco | Correción del Capítulo 5 e implementación de pantallas del frontend app|
 |Ronald Joel Peralta Chipa |Correción del Capítulo 2 e implementación de pantallas del frontend app|
-# <font color="red">**Contenido**</font>
 
+**TB3**
+
+Para el desarrollo del informe correspondiente a la entrega TB3, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Victor Andres Cruz Ibarra|Correción del TB1 en el FrontEnd application|
+|Rafael Andres Vivanco Salazar|Correción del TB1 en la Landing Page, Reporte e implementación del Sprint 3 en el capítulo 5|
+|Ricardo Fernando Cardenas Minaya |Implementación y documentación del BackEnd |
+|Jarod Jack Cespedes Pillco | Registro y análisis de las Entrevistas de validación  |
+|Ronald Joel Peralta Chipa | Implementación, despliegue y documentación del BackEnd|
+
+
+# <font color="red">**Contenido**</font>
 ### Tabla de contenidos
 
 - [Universidad Peruana De Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
@@ -165,6 +178,15 @@ Para el desarrollo del informe correspondiente a la entrega TB2, se estableció 
       - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
       - [**5.2.2.7. Software Deployment Evidence for Sprint Review**](#5227-software-deployment-evidence-for-sprint-review)
       - [**5.2.2.8. Team Collaboration Insights during Sprint**](#5228-team-collaboration-insights-during-sprint)
+    - [**5.2.3. Sprint 3**](#523-sprint-3)
+      - [**5.2.3.1. Sprint Planning 3**](#5231-sprint-planning-3)
+      - [**5.2.3.2. Aspect Leaders and Collaborators**](#5232-aspect-leaders-and-collaborators)
+      - [**5.2.3.3. Sprint Backlog 3**](#5223-sprint-backlog-2)
+      - [**5.2.3.4. Development Evidence for Sprint Review**](#5234-development-evidence-for-sprint-review)
+      - [**5.2.3.5. Execution Evidence for Sprint Review**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.3.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
+      - [**5.2.3.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
+      - [**5.2.3.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
   - [**5.3. Validation Interviews**](#53-validation-interviews)
     - [**5.3.1. Diseño de Entrevistas**](#531-diseño-de-entrevistas)
     - [**5.3.2. Registro de Entrevistas**](#532-registro-de-entrevistas)
@@ -1465,53 +1487,30 @@ Para desplegar la landing page debemos cumplir con una serie de requisitos. Algu
 
 #### **5.2.1.1. Sprint Planning 1**
 
-<div>
-    <table>
-        <tr>
-            <th>Sprint #</th>
-            <td>Sprint 1</td>
-        </tr>
-        <tr>
-            <th>Location</th>
-            <td>Reunión virtual a través de Discord</td>
-        </tr>
-        <tr>
-            <th>Prepared by</th>
-            <td>Andrés y Victor</td>
-        </tr>
-        <tr>
-            <th>Attendees (to planning meeting)</th>
-            <td>Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres</td>
-        </tr>
-        <tr>
-            <th>Sprint (n - 1) Review Summary</th>
-            <td>No existe sprint previo</td>
-        </tr>
-        <tr>
-            <th>Sprint 1 Goal</th>
-            <td>In this sprint, we focused on deploying a good looking landing page that delivers satisfaction and confidence to us and to our future users. This will be confirmed when all members and users navigate the page without any issues at all.</td>
-        </tr>
-        <tr>
-            <th>Sprint 1 Velocity</th>
-            <td>20 story points</td>
-        </tr>
-        <tr>
-            <th>Sum of Story Points</th>
-            <td>20 story points</td>
-        </tr>
-    </table>
-</div>
+| Sprint \# | Sprint 1 |
+| :---- | :---- |
+| Date | 2025 \- 04 \- 17 |
+| Time | 13:00 |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Victor Andres  |
+| Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
+| Sprint 2  Review Summary | Se presentó el avance de la landing page y project report dividido en capítulos. |
+| Sprint 2 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación de la landing page y reporte del proyecto para realizar correctamente las bases de la startup. |
+| Sprint (n-1) Review Summary | No existe sprint previo |
+| Sprint 2 Goal | Implementar el Landing page y organizar el proyecto en una organizaciónd en Github dividido en repositorios para el reporte, landing page, etc |
+| Sprint 2 Velocity | 29 story points |
+| Sum of Story Points | 49 story points |}
 
 #### **5.2.1.2. Aspect Leaders and Collaborators**
 
 Durante el primer sprint, el equipo **ATG** mostró una impecable unión y organización, lo que permitió cumplir satisfactoriamente el objetivo de desplegar la landing page del proyecto **AutoNexo**. A continuación, se describe el rol desempeñado por cada integrante del equipo.
-
-- Victor Andrés Cruz Ibarra (u202311053)
-- Rafael Andrés Vivanco Salazar (u202311064)
-- Jarod Jack Céspedes Pillco (u202318588)
-- Ricardo Fernando Cárdenas Minaya (u202310004)
-- Ronald Joel Peralta Chipa (u202224619)
-
+<br>
+- Victor Andrés Cruz Ibarra (u202311053): Desarrollo del Capítulo 2. Además, Implementación y despliegue de la Landing Page.
+- Rafael Andrés Vivanco Salazar (u202311064): Desarrollo del Capítulo 1. Además, Realización de los diagramas C4, Clases y Base de Datos.
+- Jarod Jack Céspedes Pillco (u202318588): Desarrollo del Capítulo 3. Además, Documentación de los sprints.
+- Ricardo Fernando Cárdenas Minaya (u202310004): Desarrollo del Capítulo 2. Además, Registro de User Stories en el Product Backlog.
+- Ronald Joel Peralta Chipa (u202224619): Desarrollo del Capítulo 5. Además, Registro de entrevistas.
+<br>
 La ejecución del sprint fue coordinado mediante reuniones virtuales en Discord, con el respaldo de herramientas colaborativas como Google Docs, para redacción conjunta, y GitHub, como repositorio de control de versiones. Esta experiencia colaborativa permitió consolidar un equipo sincronizado, con roles bien definidos y con el establecimiento de una base sólida para los siguientes ciclos de desarrollo.
 
 #### **5.2.1.3. Sprint Backlog 1**
@@ -1588,7 +1587,7 @@ Link: https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79
         </tr>
         <tr>
             <td rowspan="4">US31</td>
-            <td rowspan="4">Compatibilidad con Lectores de Pantalla</td>
+            <td rowspan="4">Feedback visual en interacciones</td>
             <td>WU06</td>
             <td>Codificar la página para registrarse</td>
             <td>Codificación del HTML para registrarse</td>
@@ -1709,10 +1708,11 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 | Date | 2025 \- 05 \- 12 |
 | Time | 19:00 |
 | Location | Reunión virtual a través de Discord |
-| Prepared by | Andrés Victor  |
+| Prepared by | Ricardo Minaya  |
 | Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
 | Sprint 2  Review Summary | Se presentó el avance del front-end de la aplicación y sus respectivos bounded contexts y diseños. |
 | Sprint 2 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación del frontend, contribuyendo a un desarrollo más ágil y efectivo del proyecto. |
+| Sprint (n-1) Review Summary | 20 story points |
 | Sprint 2 Goal | Implementar y diseñar cada uno de los Bounded Context |
 | Sprint 2 Velocity | 29 story points |
 | Sum of Story Points | 49 story points |}
@@ -1721,11 +1721,11 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 #### **5.2.2.2. Aspect Leaders and Collaborators**
 Durante el segundo sprint, el equipo ATG mostró una gran organización, lo que permitió cumplir satisfactoriamente el objetivo de diseñar e implementar los bounded context de AutoNexo. A continuación, se describe el rol desempeñado por cada integrante del equipo.
 <br>
-    * Victor Andres Cruz Ibarra (U202311053): <br>
-    * Rafael Andres Vivanco Salazar (U202311064): <br>
-    * Jarod Jack Céspedes Pillco (U202318588): <br>
-    * Ricardo Fernando Cardenas Minaya (U202310004): <br>
-    * Ronald Joel Peralta Chipa (U202224619):<br>
+- Victor Andrés Cruz Ibarra (u202311053): Correción del Capítulo 4 e implementación de pantallas del frontend app.
+- Rafael Andrés Vivanco Salazar (u202311064): Correción del Capítulo 4 e implementación de pantallas del frontend app.
+- Jarod Jack Céspedes Pillco (u202318588): Correción del Capítulo 4 e implementación de pantallas del frontend app.
+- Ricardo Fernando Cárdenas Minaya (u202310004): Correción del Capítulo 4 e implementación de pantallas del frontend app.
+- Ronald Joel Peralta Chipa (u202224619): Correción del Capítulo 4 e implementación de pantallas del frontend app.
 <br>
 La ejecución del sprint fue coordinado mediante reuniones virtuales en Discord, con el respaldo de herramientas colaborativas como Google Docs, para redacción conjunta, y GitHub, como repositorio de control de versiones.
 <br>
@@ -1830,6 +1830,41 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 </div>
 <br>
 
+### **5.2.3. Sprint 3**
+#### **5.2.3.1. Sprint Planning 3**
+
+| Sprint \# | Sprint 3 |
+| :---- | :---- |
+| Date | 2025 \- 06 \- 12 |
+| Time | 15:00 |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Rafael Vivanco  |
+| Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
+| Sprint 3  Review Summary | Se presentó el avance del back-end de la aplicación, su despliegue e implementación en su respectivo repositorio. |
+| Sprint 3 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación del backend, contribuyendo a un desarrollo significativo para el proyecto. |
+| Sprint (n-1) Review Summary | 49 story points |
+| Sprint 3 Goal | Implementar, desplegar y documentar el BackEnd |
+| Sprint 3 Velocity | -- story points |
+| Sum of Story Points | -- story points |}
+
+#### **5.2.3.2. Aspect Leaders and Collaborators**
+Durante el tercer sprint, el equipo ATG mantuvo una coordinación efectiva que permitió avanzar significativamente en el desarrollo del backend de AutoNexo. Cada integrante asumió un rol clave dentro del equipo, contribuyendo al cumplimiento de los objetivos establecidos.
+<br>
+- Victor Andrés Cruz Ibarra (u202311053): Correción del TB1 en el FrontEnd application.
+- Rafael Andrés Vivanco Salazar (u202311064): Correción del TB1 en la Landing Page, Reporte e implementación del Sprint 3 en el capítulo 5.
+- Jarod Jack Céspedes Pillco (u202318588): Implementación y documentación del BackEnd.
+- Ricardo Fernando Cárdenas Minaya (u202310004): Registro y análisis de las Entrevistas de validación.
+- Ronald Joel Peralta Chipa (u202224619): Implementación, despliegue y documentación del BackEnd.
+<br>
+La ejecución del sprint se gestionó a través de reuniones virtuales en Discord, complementadas con herramientas colaborativas como Google Drive para la documentación compartida y GitHub para el control de versiones y seguimiento del código.
+
+#### **5.2.3.3. Sprint Backlog 3**
+#### **5.2.3.4. Development Evidence for Sprint Review**
+#### **5.2.3.5. Execution Evidence for Sprint Review**
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+#### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+#### **5.2.3.8. Team Collaboration Insights during Sprint**
+
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
 ### **5.3.2. Registro de Entrevistas**
@@ -1838,13 +1873,22 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 
 ## Conclusiones
 
-**TB1:**   
+**TB1:** 
+<br>
 Desarrollar *Autonexo* como parte de nuestro trabajo en equipo nos permitió comprender de forma práctica cómo se aplica la ingeniería de software en contextos reales, especialmente dentro del desarrollo de soluciones para startups tecnológicas. Esta experiencia no solo fortaleció nuestros conocimientos técnicos en modelado, diseño orientado al dominio y arquitectura de sistemas, sino que también nos permitió entender la importancia de una buena comunicación entre miembros del equipo y con los usuarios finales.
 Aprendimos a identificar necesidades del negocio, transformarlas en requerimientos funcionales y traducirlas en componentes de software robustos y escalables. Además, reforzamos habilidades clave en metodologías ágiles, análisis de sistemas, pensamiento crítico, y sobre todo, en cómo construir productos que realmente aporten valor. Este proyecto nos acercó a la realidad de nuestra carrera y nos motivó a seguir perfeccionando nuestras competencias como futuros ingenieros de software.
 <br>
-**TB2:**
+
+**TP1:**
 <br>
-Durante el TB2, profundizamos en la construcción de Autonexo mediante el diseño e implementación del frontend de la aplicación, lo que nos permitió aplicar conocimientos técnicos en experiencia de usuario, componentes visuales y validación de interfaces. Esta etapa fue clave para fortalecer nuestra capacidad de traducir requerimientos en soluciones tangibles y funcionales. A través del levantamiento de observaciones y la mejora continua del diseño, aprendimos a iterar con base en retroalimentación efectiva, manteniendo siempre una comunicación clara y documentada entre los miembros del equipo. Asimismo, consolidamos nuestras habilidades en trabajo colaborativo, priorización de tareas y control de versiones, pilares esenciales en el desarrollo ágil de software. TB2 nos dio una visión más completa del proceso de desarrollo y reforzó nuestro compromiso con la creación de productos tecnológicos que respondan a necesidades reales del entorno.
+Durante el TP1, profundizamos en la construcción de Autonexo mediante el diseño e implementación del frontend de la aplicación, lo que nos permitió aplicar conocimientos técnicos en experiencia de usuario, componentes visuales y validación de interfaces. Esta etapa fue clave para fortalecer nuestra capacidad de traducir requerimientos en soluciones tangibles y funcionales. A través del levantamiento de observaciones y la mejora continua del diseño, aprendimos a iterar con base en retroalimentación efectiva, manteniendo siempre una comunicación clara y documentada entre los miembros del equipo. Asimismo, consolidamos nuestras habilidades en trabajo colaborativo, priorización de tareas y control de versiones, pilares esenciales en el desarrollo ágil de software. TP1 nos dio una visión más completa del proceso de desarrollo y reforzó nuestro compromiso con la creación de productos tecnológicos que respondan a necesidades reales del entorno.
+<br>
+
+**TB3:**
+<br>
+Durante el TB3, dimos un paso significativo en el desarrollo de Autonexo al enfocarnos en la implementación del Back End, utilizando Java como lenguaje principal. Esta fase fue fundamental para afianzar nuestra comprensión sobre la arquitectura de software, la lógica de negocio y la comunicación entre capas dentro de una aplicación escalable. Nos permitió aplicar principios de diseño limpio, organización modular del código, y conexión con bases de datos, consolidando así una estructura sólida que servirá como soporte para las funcionalidades de la plataforma. Además, corregimos observaciones del TP1, actualizamos la landing page para reflejar mejor la propuesta del proyecto, y preparamos el video “About the Team”. Sin embargo, el desarrollo del backend fue el componente más relevante, ya que nos permitió consolidar nuestros conocimientos técnicos en diseño de APIs, organización de código y buenas prácticas en el desarrollo de software del lado servidor.
+<br>
+
 ## Bibliografía
 Innocar & Roshfrans. (2024, junio 8). _Solo el 23.5% de los talleres mecánicos en América Latina utiliza software especializado para gestionar sus operaciones_. La República. https://www.larepublica.co/internet-economy/uso-de-tecnologia-en-talleres-mecanicos-en-colombia-3877209
 
