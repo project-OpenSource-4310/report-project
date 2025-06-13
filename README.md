@@ -1478,12 +1478,12 @@ Para desplegar la landing page debemos cumplir con una serie de requisitos. Algu
 | Location | Reunión virtual a través de Discord |
 | Prepared by | Victor Andres  |
 | Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
-| Sprint 2  Review Summary | Se presentó el avance de la landing page y project report dividido en capítulos. |
-| Sprint 2 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación de la landing page y reporte del proyecto para realizar correctamente las bases de la startup. |
+| Sprint 1  Review Summary | Se presentó el avance de la landing page y project report dividido en capítulos. |
+| Sprint 1 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación de la landing page y reporte del proyecto para realizar correctamente las bases de la startup. |
 | Sprint (n-1) Review Summary | No existe sprint previo |
-| Sprint 2 Goal | Implementar el Landing page y organizar el proyecto en una organizaciónd en Github dividido en repositorios para el reporte, landing page, etc |
-| Sprint 2 Velocity | 29 story points |
-| Sum of Story Points | 49 story points |}
+| Sprint 1 Goal | Implementar el Landing page y organizar el proyecto en una organizaciónd en Github dividido en repositorios para el reporte, landing page, etc |
+| Sprint 1 Velocity | 24 story points |
+| Sum of Story Points | 24 story points |}
 
 #### **5.2.1.2. Aspect Leaders and Collaborators**
 
@@ -1507,103 +1507,125 @@ Link: https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79
 
 <div>
     <table>
-        <tr>
-            <th colspan="2">Sprint #</th>
-            <td colspan="6">Sprint 1</td>
-        </tr>
-        <tr>
-            <th colspan="2">User Story</th>
-            <th colspan="6">Work-Item/Task</th>
-        </tr>
-        <tr>
-            <th>User Story ID</th>
-            <th>User Story Title</th>
-            <th>Work Item ID</th>
-            <th>Task Title</th>
-            <th>Task Description</th>
-            <th>Estimation (Hours)</th>
-            <th>Assigned To</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td rowspan="3">US29</td>
-            <td rowspan="3">Navegación Intuitiva</td>
-            <td>WU01</td>
-            <td>Diseñar interfaz de la Landing Page</td>
-            <td>Diseñar la interfaz donde aparecerán los datos del proyecto</td>
-            <td>3H</td>
-            <td>Victor</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>WU02</td>
-            <td>Codificar el Landing Page</td>
-            <td>Codificar en HTML</td>
-            <td>2H</td>
-            <td>Victor</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>WU03</td>
-            <td>Aplicar estilos al Landing Page</td>
-            <td>Codificar los estilos en CSS</td>
-            <td>2H</td>
-            <td>Victor</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="2">US30</td>
-            <td rowspan="2">Compatibilidad con Lectores de Pantalla</td>
-            <td>WU04</td>
-            <td>Diseñar interfaz para que sea compatible con lectores de pantalla</td>
-            <td>Diseño de la interfaz en otros dispositivos</td>
-            <td>2H</td>
-            <td>Ronald</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>WU05</td>
-            <td>Codificar los estilos para hacer la landing page responsive</td>
-            <td>Codificación de Estilos Responsive</td>
-            <td>3H</td>
-            <td>Rafael</td>
-            <td>To-Do</td>
-        </tr>
-        <tr>
-            <td rowspan="4">US31</td>
-            <td rowspan="4">Feedback visual en interacciones</td>
-            <td>WU06</td>
-            <td>Codificar la página para registrarse</td>
-            <td>Codificación del HTML para registrarse</td>
-            <td>1H</td>
-            <td>Ricardo</td>
-            <td>To-Do</td>
-        </tr>
-        <tr>
-            <td>WU07</td>
-            <td>Codificar la página para iniciar sesión</td>
-            <td>Codificación del HTML para iniciar sesión</td>
-            <td>1H</td>
-            <td>Ricardo</td>
-            <td>To-Do</td>
-        </tr>
-        <tr>
-            <td>WU08</td>
-            <td>Codificar la página para recuperar contraseña</td>
-            <td>Codificación del HTML para recuperar contraseña</td>
-            <td>1H</td>
-            <td>Ricardo</td>
-            <td>To-Do</td>
-        </tr>
-        <tr>
-            <td>WU09</td>
-            <td>Codificar la página para hacer una barra de navegación funcional</td>
-            <td>Codificación para la barra de navegación</td>
-            <td>2H</td>
-            <td>Jarod</td>
-            <td>Done</td>
-        </tr>
+        <table>
+    <tr>
+        <th colspan="2">Sprint #</th>
+        <td colspan="6">Sprint 1</td>
+    </tr>
+    <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item/Task</th>
+    </tr>
+    <tr>
+        <th>User Story ID</th>
+        <th>User Story Title</th>
+        <th>Work Item ID</th>
+        <th>Task Title</th>
+        <th>Task Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <!-- US21 - Sección Contáctanos -->
+    <tr>
+        <td rowspan="2">US21</td>
+        <td rowspan="2">Sección Contáctanos</td>
+        <td>WU01</td>
+        <td>Diseñar la sección Contáctanos</td>
+        <td>Crear el diseño visual con campos necesarios (nombre, correo, mensaje)</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU02</td>
+        <td>Implementar formulario de contacto</td>
+        <td>Codificar el formulario y conectar con backend</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US24 - Selección del plan de suscripción -->
+    <tr>
+        <td rowspan="2">US24</td>
+        <td rowspan="2">Selección del plan de suscripción</td>
+        <td>WU03</td>
+        <td>Diseñar interfaz de selección de plan</td>
+        <td>Diseñar botones y disposición visual para los planes</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU04</td>
+        <td>Implementar lógica de selección de plan</td>
+        <td>Programar la lógica para registrar el plan seleccionado</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US26 - Barra de Navegación -->
+    <tr>
+        <td rowspan="2">US26</td>
+        <td rowspan="2">Barra de Navegación</td>
+        <td>WU05</td>
+        <td>Diseñar barra de navegación</td>
+        <td>Diseño visual accesible con los enlaces principales</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU06</td>
+        <td>Programar funcionalidad de navegación</td>
+        <td>Agregar enlaces funcionales y scroll interno</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US27 - Cambio de plan de suscripción -->
+    <tr>
+        <td rowspan="2">US27</td>
+        <td rowspan="2">Cambio de plan de suscripción</td>
+        <td>WU07</td>
+        <td>Diseñar interfaz para cambio de plan</td>
+        <td>Diseñar botones e indicadores para el cambio de plan</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU08</td>
+        <td>Implementar backend para cambio de plan</td>
+        <td>Crear lógica para actualizar plan del usuario</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US30 - Compatibilidad con lectores de pantalla -->
+    <tr>
+        <td rowspan="1">US30</td>
+        <td rowspan="1">Compatibilidad con lectores de pantalla</td>
+        <td>WU09</td>
+        <td>Aplicar etiquetas ARIA y atributos accesibles</td>
+        <td>Mejorar el HTML para compatibilidad con tecnologías asistidas</td>
+        <td>2H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US31 - Feedback visual en interacciones -->
+    <tr>
+        <td rowspan="1">US31</td>
+        <td rowspan="1">Feedback visual en interacciones</td>
+        <td>WU10</td>
+        <td>Agregar animaciones y efectos visuales</td>
+        <td>Agregar hover, focus, y transiciones para mejorar la experiencia del usuario</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
     </table>
+      
 </div>
 
 #### **5.2.1.4. Development Evidence for Sprint Review**
@@ -1696,10 +1718,10 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 | Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
 | Sprint 2  Review Summary | Se presentó el avance del front-end de la aplicación y sus respectivos bounded contexts y diseños. |
 | Sprint 2 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación del frontend, contribuyendo a un desarrollo más ágil y efectivo del proyecto. |
-| Sprint (n-1) Review Summary | 20 story points |
+| Sprint (n-1) Review Summary | 24 story points |
 | Sprint 2 Goal | Implementar y diseñar cada uno de los Bounded Context |
-| Sprint 2 Velocity | 29 story points |
-| Sum of Story Points | 49 story points |}
+| Sprint 2 Velocity | 47 story points |
+| Sum of Story Points | 71 story points |}
 <br>
 
 #### **5.2.2.2. Aspect Leaders and Collaborators**
@@ -1721,17 +1743,182 @@ La ejecución del sprint fue coordinado mediante reuniones virtuales en Discord,
 
 Link: [https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79daa19ca44e24e5657A5F126/product-backlog-autonexo](https://trello.com/invite/b/682413b3332f981bd0a0c9e8/ATTI96c86c3989bcd4016c076c5586951a20E5A6A6A8/sprint-backlog-2-atg)
 <br>
-
-| Sprint \# |  | Sprint \#2 |  |  |  |  |  |
-| :---- | :---- | ----- | :---- | :---- | :---- | :---- | :---- |
-| User Story ID | User Story Title | Work Item ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-| US01 | Registro de usuario	 | 1 | Añadir función de registro de usuario | Como nuevo usuario, quiero registrarme en la plataforma para empezar a utilizar los servicios de AutoNexo. | 2H | Victor | Done |
-| US02 | Inicio de sesión seguro | 2 | Función para iniciar sesión en la app | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a todas las funcionalidades de la plataforma | 1H | Ronald | Done |
-| US03 | Registro de vehículos | 3 | Añadir función de registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | 2H | Jarod | Done |
-| US05 | Gestión del perfil del usuario | 4 | Pantalla para gestionar el perfil de usuario | Como usuario, quiero gestionar mi información personal en mi perfil para mantener mis datos actualizados. | 2H | Rafael | Done |
-| US09 | Edición o cancelación de mantenimientos agendados | 5 | Función para editar o cancelar los mantenimientos | Como usuario, quiero editar o cancelar los mantenimientos programados para mantener mi calendario actualizado según mis necesidades. | 2H | Ricardo | Done |
-| US18 | Consulta del historial por vehículo | 6 | Pantalla para ver los datos históricos de cada vehiculo | Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | 2H | Jarod | Done |
-| US19 | Detalle de cada servicio registrado | 7 | Función para mostrar todos los servicios registrados | Como usuario, quiero acceder al detalle de cada servicio registrado para revisar qué repuestos se usaron, el costo y las observaciones del mecánico. | 3H | Ronald | Done |
+<table>
+    <tr>
+        <th colspan="2">Sprint #</th>
+        <td colspan="6">Sprint 2</td>
+    </tr>
+    <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item/Task</th>
+    </tr>
+    <tr>
+        <th>User Story ID</th>
+        <th>User Story Title</th>
+        <th>Work Item ID</th>
+        <th>Task Title</th>
+        <th>Task Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <!-- US01 - Registro de usuario -->
+    <tr>
+        <td rowspan="2">US01</td>
+        <td rowspan="2">Registro de usuario</td>
+        <td>WU11</td>
+        <td>Diseñar formulario de registro</td>
+        <td>Diseñar campos y estructura visual del registro</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU12</td>
+        <td>Implementar lógica de registro</td>
+        <td>Codificar backend y validaciones para el registro</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US02 - Inicio de sesión seguro -->
+    <tr>
+        <td rowspan="2">US02</td>
+        <td rowspan="2">Inicio de sesión seguro</td>
+        <td>WU13</td>
+        <td>Diseñar formulario de inicio de sesión</td>
+        <td>Diseñar campos para email y contraseña</td>
+        <td>1H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU14</td>
+        <td>Programar autenticación segura</td>
+        <td>Codificar validaciones y autenticación del usuario</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US03 - Registro de vehículos -->
+    <tr>
+        <td rowspan="1">US03</td>
+        <td rowspan="1">Registro de vehículos</td>
+        <td>WU15</td>
+        <td>Desarrollar formulario de registro de vehículo</td>
+        <td>Diseñar e implementar el formulario con validaciones</td>
+        <td>3H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- US05 - Gestión del perfil del usuario -->
+    <tr>
+        <td rowspan="1">US05</td>
+        <td rowspan="1">Gestión del perfil del usuario</td>
+        <td>WU16</td>
+        <td>Diseñar e implementar edición de perfil</td>
+        <td>Permitir al usuario actualizar sus datos personales</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US07 - Visualización de vehículos asignados -->
+    <tr>
+        <td rowspan="1">US07</td>
+        <td rowspan="1">Visualización de vehículos asignados</td>
+        <td>WU17</td>
+        <td>Diseñar e implementar vista de vehículos asignados</td>
+        <td>Mostrar al mecánico los vehículos asignados por cliente</td>
+        <td>2H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US08 - Visualización de mantenimientos recomendados -->
+    <tr>
+        <td rowspan="1">US08</td>
+        <td rowspan="1">Mantenimientos recomendados</td>
+        <td>WU18</td>
+        <td>Implementar vista de recomendaciones</td>
+        <td>Mostrar lista de recomendaciones a clientes</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US10 - Restablecer contraseña -->
+    <tr>
+        <td rowspan="2">US10</td>
+        <td rowspan="2">Restablecer contraseña</td>
+        <td>WU19</td>
+        <td>Diseñar interfaz de recuperación</td>
+        <td>Diseñar formulario para solicitud de nueva contraseña</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU20</td>
+        <td>Implementar lógica de restablecimiento</td>
+        <td>Codificar flujo para restablecer contraseña vía email</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US18 - Consulta del historial por vehículo -->
+    <tr>
+        <td rowspan="1">US18</td>
+        <td rowspan="1">Consulta del historial por vehículo</td>
+        <td>WU21</td>
+        <td>Implementar vista de historial por vehículo</td>
+        <td>Mostrar servicios pasados por cada vehículo registrado</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US19 - Detalle de cada servicio registrado -->
+    <tr>
+        <td rowspan="1">US19</td>
+        <td rowspan="1">Detalle de cada servicio registrado</td>
+        <td>WU22</td>
+        <td>Desarrollar vista de detalle del servicio</td>
+        <td>Mostrar repuestos usados, costos y observaciones</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US22 - Página Page Not Found -->
+    <tr>
+        <td rowspan="1">US22</td>
+        <td rowspan="1">Página Page Not Found</td>
+        <td>WU23</td>
+        <td>Diseñar e implementar página 404</td>
+        <td>Incluir mensaje y botón para volver a Home</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- US23 - Language Switcher -->
+    <tr>
+        <td rowspan="1">US23</td>
+        <td rowspan="1">Language Switcher</td>
+        <td>WU24</td>
+        <td>Implementar botón de cambio de idioma</td>
+        <td>Permitir cambiar idioma entre ES y EN</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <!-- US29 - Botón de retroceso -->
+    <tr>
+        <td rowspan="1">US29</td>
+        <td rowspan="1">Botón de retroceso</td>
+        <td>WU25</td>
+        <td>Agregar funcionalidad de retroceso</td>
+        <td>Permitir navegación hacia la página anterior</td>
+        <td>1H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+</table>
 <br>
 
 #### **5.2.2.4. Development Evidence for Sprint Review**
@@ -1826,10 +2013,10 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 | Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
 | Sprint 3  Review Summary | Se presentó el avance del back-end de la aplicación, su despliegue e implementación en su respectivo repositorio. |
 | Sprint 3 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación del backend, contribuyendo a un desarrollo significativo para el proyecto. |
-| Sprint (n-1) Review Summary | 49 story points |
+| Sprint (n-1) Review Summary | 71 story points |
 | Sprint 3 Goal | Implementar, desplegar y documentar el BackEnd |
-| Sprint 3 Velocity | -- story points |
-| Sum of Story Points | -- story points |}
+| Sprint 3 Velocity | 43 story points |
+| Sum of Story Points | 114 story points |}
 
 #### **5.2.3.2. Aspect Leaders and Collaborators**
 Durante el tercer sprint, el equipo ATG mantuvo una coordinación efectiva que permitió avanzar significativamente en el desarrollo del backend de AutoNexo. Cada integrante asumió un rol clave dentro del equipo, contribuyendo al cumplimiento de los objetivos establecidos.
@@ -1843,6 +2030,177 @@ Durante el tercer sprint, el equipo ATG mantuvo una coordinación efectiva que p
 La ejecución del sprint se gestionó a través de reuniones virtuales en Discord, complementadas con herramientas colaborativas como Google Drive para la documentación compartida y GitHub para el control de versiones y seguimiento del código.
 
 #### **5.2.3.3. Sprint Backlog 3**
+<div align="center">
+    <img src="img/sprint-backlog-3.png" alt="sprint-backlog-3.png" width="550px" height="300px">
+</div>
+
+Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38aa5f9d3beff51e3117EF9693/sprint-backlog-3](https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38aa5f9d3beff51e3117EF9693/sprint-backlog-3)
+
+<table>
+    <tr>
+        <th colspan="2">Sprint #</th>
+        <td colspan="6">Sprint 3</td>
+    </tr>
+    <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item/Task</th>
+    </tr>
+    <tr>
+        <th>User Story ID</th>
+        <th>User Story Title</th>
+        <th>Work Item ID</th>
+        <th>Task Title</th>
+        <th>Task Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <!-- US04 - Registro de repuestos -->
+    <tr>
+        <td rowspan="1">US04</td>
+        <td rowspan="1">Registro de repuestos</td>
+        <td>WU26</td>
+        <td>Implementar formulario de registro de repuestos</td>
+        <td>Permitir ingresar datos de repuestos al sistema</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US06 - Edición del perfil desde la app -->
+    <tr>
+        <td rowspan="1">US06</td>
+        <td rowspan="1">Edición del perfil desde la app</td>
+        <td>WU27</td>
+        <td>Adaptar edición de perfil a versión móvil</td>
+        <td>Permitir editar datos personales desde la app</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <!-- US13 - Sección About the Team -->
+    <tr>
+        <td rowspan="1">US13</td>
+        <td rowspan="1">Sección About the Team</td>
+        <td>WU28</td>
+        <td>Diseñar e implementar sección About the Team</td>
+        <td>Mostrar información del equipo detrás del proyecto</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- US14 - Actualización del inventario tras mantenimiento -->
+    <tr>
+        <td rowspan="1">US14</td>
+        <td rowspan="1">Actualización automática del inventario</td>
+        <td>WU29</td>
+        <td>Programar lógica de actualización de stock</td>
+        <td>Reducir automáticamente unidades usadas en mantenimientos</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US11 - Consulta de repuestos disponibles -->
+    <tr>
+        <td rowspan="1">US11</td>
+        <td rowspan="1">Consulta de repuestos disponibles</td>
+        <td>WU30</td>
+        <td>Desarrollar vista de repuestos disponibles</td>
+        <td>Mostrar listado de repuestos en stock</td>
+        <td>2H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US09 - Edición o cancelación de mantenimientos -->
+    <tr>
+        <td rowspan="1">US09</td>
+        <td rowspan="1">Edición o cancelación de mantenimientos</td>
+        <td>WU31</td>
+        <td>Habilitar edición y cancelación de mantenimientos</td>
+        <td>Permitir modificar o eliminar mantenimientos agendados</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US12 - Registro de nuevos ingresos de repuestos -->
+    <tr>
+        <td rowspan="1">US12</td>
+        <td rowspan="1">Registro de nuevos ingresos de repuestos</td>
+        <td>WU32</td>
+        <td>Crear formulario de ingreso de stock</td>
+        <td>Permitir agregar repuestos al inventario</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- US17 - Visualización de gastos históricos por vehículo -->
+    <tr>
+        <td rowspan="1">US17</td>
+        <td rowspan="1">Visualización de gastos históricos</td>
+        <td>WU33</td>
+        <td>Implementar vista de gastos por vehículo</td>
+        <td>Mostrar historial de gastos acumulados</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US20 - Exportación o descarga del historial en PDF -->
+    <tr>
+        <td rowspan="1">US20</td>
+        <td rowspan="1">Descarga de historial en PDF</td>
+        <td>WU34</td>
+        <td>Agregar funcionalidad para exportar historial</td>
+        <td>Permitir descargar historial como archivo PDF</td>
+        <td>3H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <!-- US28 - Cancelación o pausa del servicio -->
+    <tr>
+        <td rowspan="1">US28</td>
+        <td rowspan="1">Cancelación o pausa del servicio</td>
+        <td>WU35</td>
+        <td>Desarrollar opción de cancelar o pausar suscripción</td>
+        <td>Permitir al usuario detener temporal o definitivamente el servicio</td>
+        <td>2H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- TS01 - Registro de usuario vía RESTful API -->
+    <tr>
+        <td rowspan="1">TS01</td>
+        <td rowspan="1">Registro de usuario vía API</td>
+        <td>WU36</td>
+        <td>Programar endpoint POST para usuarios</td>
+        <td>Crear endpoint para registrar usuarios desde el frontend</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- TS03 - Registro de vehículos vía RESTful API -->
+    <tr>
+        <td rowspan="1">TS03</td>
+        <td rowspan="1">Registro de vehículos vía API</td>
+        <td>WU37</td>
+        <td>Programar endpoint POST para vehículos</td>
+        <td>Crear API para ingresar vehículos desde el frontend</td>
+        <td>3H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- TS05 - Creación de mantenimientos mediante RESTful API -->
+    <tr>
+        <td rowspan="1">TS05</td>
+        <td rowspan="1">Creación de mantenimientos vía API</td>
+        <td>WU38</td>
+        <td>Programar endpoint POST para mantenimientos</td>
+        <td>Permitir agendar mantenimientos desde la app vía API</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+
 #### **5.2.3.4. Development Evidence for Sprint Review**
 #### **5.2.3.5. Execution Evidence for Sprint Review**
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
