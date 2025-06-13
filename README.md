@@ -1280,7 +1280,7 @@ Gracias a la perspectiva que brinda DDD, es posible fortalecer la colaboración 
 
 Lo hemos realizado en el software de LucidChart: [https://lucid.app/lucidchart/8cc8249e-65e6-47ef-a7ac-43d18a3e7683/edit?viewport\_loc=-542%2C-345%2C3967%2C1443%2C0\_0\&invitationId=inv\_eca9a654-aa1b-4ef6-b9eb-ed29b8f2660e](https://lucid.app/lucidchart/8cc8249e-65e6-47ef-a7ac-43d18a3e7683/edit?viewport_loc=-542%2C-345%2C3967%2C1443%2C0_0&invitationId=inv_eca9a654-aa1b-4ef6-b9eb-ed29b8f2660e)
 
-![Descripción de la imagen](img/classDiagram.png)
+![Descripción de la imagen](img/classDiagram-v2.png)
 
 ### **4.7.2. Diccionario de Clases**
 
@@ -1355,7 +1355,7 @@ Tiene todos los atributos que un repuesto debe tener (name, info, unitPrice, sto
 
 Lo hemos realizado en el software LucidChart:[https://lucid.app/lucidchart/958d1937-30a6-4a7f-a668-5f8f3ce9a7ee/edit?viewport\_loc=-4769%2C-54%2C3624%2C1530%2C0\_0\&invitationId=inv\_eb407874-6533-4622-8f5a-b521552274b2](https://lucid.app/lucidchart/958d1937-30a6-4a7f-a668-5f8f3ce9a7ee/edit?viewport_loc=-4769%2C-54%2C3624%2C1530%2C0_0&invitationId=inv_eb407874-6533-4622-8f5a-b521552274b2)
 
-![Descripción de la imagen](img/dbDiagram.png)
+![Descripción de la imagen](img/dbDiagram-v2.png)
 
 # <font color="red"> **Capítulo V: Product Implementation, Validation & Deployment** </font>
 
