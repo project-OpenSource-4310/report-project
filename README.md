@@ -267,10 +267,10 @@ En el escenario ideal, el conductor experimenta un proceso mucho más fluido y m
 
 #### **Epics**
 
-**EP01 - Registro y Gestión de Usuario, Vehículo y Repuestos**
+**EP01 - Registro y Gestión de Usuarios y Vehículos**
 
 **Descripción:**
-Como usuario, quiero registrar y gestionar mi perfil, vehículos y repuestos, para tener un control completo de mis activos dentro de AutoNexo.
+Como usuario, quiero registrar y gestionar mi perfil, vehículos, para tener un control completo de mis activos dentro de AutoNexo.
 
 | User Story ID | Título | Prioridad |
 | :---- | :---- | :---- |
@@ -280,20 +280,12 @@ Como usuario, quiero registrar y gestionar mi perfil, vehículos y repuestos, pa
 | US04 | Registro de repuestos | Must |
 | US05 | Gestión del perfil del usuario | Should |
 | US06 | Edición del perfil desde la app | Should |
+| US07 | Visualización de vehículos asignados | Must |
+| US10 | Restablecer contraseña | Could |
+| US22 | Página Page Not Found | Should |
+| US29 | Botón de retroceso | Should |
 
-**EP02 - Calendario de Mantenimientos Programados**
-
-**Descripción:**
-Como usuario, quiero contar con un calendario de mantenimientos para programar servicios futuros y recibir recordatorios automáticos, a fin de evitar fallas o demoras.
-
-| User Story ID | Título | Prioridad |
-| :---- | :---- | :---- |
-| US07 | Visualización del calendario de mantenimientos | Must |
-| US08 | Programación de nuevos mantenimientos | Must |
-| US09 | Edición o cancelación de mantenimientos agendados | Should |
-| US10 | Recordatorios automáticos para mantenimientos programados | Should |
-
-**EP03 - Gestión de Inventario de Repuestos**
+**EP02 - Gestión de Inventario de Repuestos**
 
 **Descripción:**
 Como usuario, quiero gestionar el inventario de repuestos, para asegurarme de contar con los insumos necesarios al momento de realizar mantenimientos.
@@ -302,10 +294,9 @@ Como usuario, quiero gestionar el inventario de repuestos, para asegurarme de co
 | :---- | :---- | :---- |
 | US11 | Consulta de repuestos disponibles | Must |
 | US12 | Registro de nuevos ingresos de repuestos | Must |
-| US13 | Notificación de repuestos bajos en stock | Should |
 | US14 | Actualización del inventario tras mantenimiento | Must |
 
-**EP04 - Cálculo de Presupuesto y Control de Costos**
+**EP03 - Cálculo de Presupuesto y Control de Costos**
 
 **Descripción:**
 Como usuario, quiero calcular el presupuesto de reparaciones y mantenimiento, para poder anticipar costos y optimizar mis recursos.
@@ -316,29 +307,20 @@ Como usuario, quiero calcular el presupuesto de reparaciones y mantenimiento, pa
 | US16 | Edición de costos y repuestos por servicio | Could |
 | US17 | Visualización de gastos históricos por vehículo | Could |
 
-**EP05 - Historial de Mantenimientos**
+**EP04 - Registro e Historial de Mantenimientos**
 
 **Descripción:**
 Como usuario, quiero ver el historial detallado de mantenimientos por vehículo, para llevar un control técnico del estado de cada uno de ellos.
 
 | User Story ID | Título | Prioridad |
 | :---- | :---- | :---- |
+| US08 | Visualización de mantenimientos recomendados a clientes | Must |
+| US09 | Edición o cancelación de mantenimientos agendados | Should |
 | US18 | Consulta del historial por vehículo | Must |
 | US19 | Detalle de cada servicio registrado | Should |
 | US20 | Exportación o descarga del historial en PDF | Could |
 
-**EP06 - Mensajería entre Usuario y Mecánico**
-
-**Descripción:**
-Como usuario, quiero poder comunicarme dentro de la plataforma, para coordinar mantenimientos, resolver dudas y compartir información importante.
-
-| User Story ID | Título | Prioridad |
-| :---- | :---- | :---- |
-| US21 | Envío de mensajes entre usuario y mecánico | Should |
-| US22 | Notificaciones de nuevos mensajes | Could |
-| US23 | Historial de conversación por vehículo o servicio | Could |
-
-**EP07 - Gestión de Suscripción y Pagos**
+**EP05 - Gestión de Suscripción y Pagos**
 
 **Descripción:**
 Como usuario, quiero gestionar mi suscripción y métodos de pago para asegurar el acceso continuo al servicio según mi plan seleccionado.
@@ -347,22 +329,23 @@ Como usuario, quiero gestionar mi suscripción y métodos de pago para asegurar 
 | :---- | :---- | :---- |
 | US24 | Selección del plan de suscripción | Should |
 | US25 | Registro de método de pago seguro | Must |
-| US26 | Renovación automática de suscripción | Could |
 | US27 | Cambio de plan de suscripción | Could |
 | US28 | Cancelación o pausa del servicio | Should |
 
-**EP08 - Interacción y Navegación en la Landing Page**
+**EP06 - Interacción y Navegación en la Landing Page**
 
 **Descripción:**
 Como visitante de la Landing Page, quiero que la navegación sea intuitiva y las acciones claras para poder interactuar fácilmente con la plataforma y descubrir sus funcionalidades.
 
 | User Story ID | Título | Prioridad |
 | :---- | :---- | :---- |
-| US29 | Navegación Intuitiva | Should |
+| US13 | Sección About the Team | Should |
+| US21 | Sección Contáctanos | Must |
+| US26 | Barra de Navegación | Must |
 | US30 | Compatibilidad con lectores de pantalla | Could |
 | US31 | Feedback visual en interacciones | Should |
 
-**EP09 - Integración y Exposición de Servicios vía API RESTful**
+**EP07 - Integración y Exposición de Servicios vía API RESTful**
 
 **Descripción:**
 Como developer, quiero construir y exponer los servicios clave del sistema Autonexo mediante una API RESTful, para permitir la interacción entre el frontend y el backend de manera segura, eficiente y escalable.
@@ -429,42 +412,42 @@ Como developer, quiero construir y exponer los servicios clave del sistema Auton
 | :---: | :---: | :---: | :---: | ----- | :---: |
 | **1** | US01 | Registro de usuario	 | Como nuevo usuario, quiero registrarme en la plataforma para empezar a utilizar los servicios de AutoNexo. | Alta | 5 |
 | **2** | US02 | Inicio de sesión seguro | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a todas las funcionalidades de la plataforma | Media | 3 |
-| **3** | US03 | Registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | Media | 5 |
+| **3** | US03 | Registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | Alta | 5 |
 | **4** | US04 | Registro de repuestos | Como usuario, quiero registrar repuestos en el sistema para tener un control del inventario. | Media | 3 |
-| **5** | US05 | Gestión del perfil del usuario | Como usuario, quiero gestionar mi información personal en mi perfil para mantener mis datos actualizados | Media | 5 |
-| **6** | US06 | Edición del perfil desde la app | Como usuario, quiero editar mi perfil directamente desde la aplicación para mayor comodidad. | Baja | 3 |
-| **7** | US07 | Visualización del calendario de mantenimientos | Como usuario, quiero visualizar un calendario con los mantenimientos programados para tener una vista clara de las fechas importantes. | Media | 3 |
-| **8** | US08 | Programación de nuevos mantenimientos | Como usuario, quiero poder programar nuevos mantenimientos para organizar el cuidado de mi vehículo. | Alta | 5 |
+| **5** | US05 | Gestión del perfil del usuario | Como usuario, quiero gestionar mi información personal en mi perfil para mantener mis datos actualizados | Alta | 5 |
+| **6** | US06 | Edición del perfil desde la app | Como usuario, quiero editar mi perfil directamente desde la aplicación para mayor comodidad. | Media | 3 |
+| **7** | US07 | Visualización de vehículos asignados | Como mecánico, quiero visualizar los vehículos asignados por parte de mis clientes. | Media | 3 |
+| **8** | US08 | Visualización de mantenimientos recomendados a clientes | Como mecánico, quiero poder visualizar las recomendaciones de mantenimientos enviados a mis clientes. | Alta | 5 |
 | **9** | US09 | Edición o cancelación de mantenimientos agendados | Como usuario, quiero editar o cancelar los mantenimientos programados para mantener mi calendario actualizado según mis necesidades. | Media | 3 |
-| **10** | US10 | Recordatorios automáticos para mantenimientos programados | Como usuario, quiero recibir recordatorios automáticos para los mantenimientos agendados, para no olvidar ninguna cita importante. | Media | 3 |
+| **10** | US10 | Restablecer contraseña | Como usuario, quiero poder restablecer mi contraseña en caso de emergencia u olvido. | Baja | 2 |
 | **11** | US11 | Consulta de repuestos disponibles | Como usuario, quiero consultar los repuestos disponibles en el inventario para saber si están en stock antes de agendar un mantenimiento. | Alta | 5 |
-| **12** | US12 | Registro de nuevos ingresos de repuestos | Como administrador, quiero registrar nuevos ingresos de repuestos al sistema para mantener actualizado el inventario. | Media | 3 |
-| **13** | US13 | Notificación de repuestos bajos en stock | Como usuario, quiero recibir notificaciones cuando los repuestos estén por agotarse, para reabastecer el inventario a tiempo. | Baja | 2 |
+| **12** | US12 | Registro de nuevos ingresos de repuestos | Como mecánico, quiero registrar nuevos ingresos de repuestos al sistema para mantener actualizado el inventario. | Media | 3 |
+| **13** | US13 | Sección About the Team | Como usuario, quiero poder visualizar la sección About the Team para empatizar y conocer a las personas detrás de la startup | Media | 3 |
 | **14** | US14 | Actualización del inventario tras mantenimiento | Como usuario, quiero que el sistema actualice automáticamente el inventario cuando se utilicen repuestos en un mantenimiento, para mantener los datos precisos. |    Media | 3 |
-| **15** | US15 | Generación de presupuesto de mantenimiento | Como usuario, quiero que el sistema genere un presupuesto estimado para el mantenimiento del vehículo, para saber cuánto me costará antes de aprobarlo. | Alta | 8 |
-| **16** | US16 | Edición de costos y repuestos por servicio | Como mecánico, quiero poder modificar los costos y repuestos asignados a un servicio, para reflejar cambios reales antes de facturar. | Media | 5 |
+| **15** | US15 | Generación de presupuesto de mantenimiento | Como usuario, quiero que el sistema genere un presupuesto estimado para el mantenimiento del vehículo, para saber cuánto me costará antes de aprobarlo. | Alta | 5 |
+| **16** | US16 | Edición de costos y repuestos por servicio | Como mecánico, quiero poder modificar los costos y repuestos asignados a un servicio, para reflejar cambios reales antes de facturar. | Alta | 5 |
 | **17** | US17 | Visualización de gastos históricos por vehículo | Como usuario, quiero visualizar los gastos acumulados en mantenimientos por cada vehículo, para tener un control de mi inversión en reparaciones. | Media | 3 |
-| **18** | US18 | Consulta del historial por vehículo | Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | Media | 5 |
+| **18** | US18 | Consulta del historial por vehículo | Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | Alta | 5 |
 | **19** | US19 | Detalle de cada servicio registrado | Como usuario, quiero acceder al detalle de cada servicio registrado para revisar qué repuestos se usaron, el costo y las observaciones del mecánico. | Media | 3 |
 | **20** | US20 | Exportación o descarga del historial en PDF | Como usuario, quiero poder exportar o descargar en PDF el historial de mantenimientos de un vehículo para conservarlo o compartirlo fácilmente. | Baja | 2 |
-| **21** | US21 | Envío de mensajes entre usuario y mecánico | Como usuario, quiero poder comunicarme con el mecánico a través de la plataforma para resolver dudas o recibir actualizaciones sobre mis mantenimientos. | Media | 3 |
-| **22** | US22 | Notificaciones de nuevos mensajes | Como usuario, quiero recibir notificaciones cuando el mecánico me envíe un mensaje para estar informado sin necesidad de revisar constantemente la app. | Baja | 2 |
-| **23** | US23 | Historial de conversación por vehículo o servicio | Como usuario, quiero consultar el historial de mensajes asociados a cada vehículo o servicio para revisar fácilmente las conversaciones pasadas con el mecánico. | Media | 3 |
+| **21** | US21 | Sección Contáctanos | Como usuario, quiero poder acceder a la sección contáctanos para enviar mis dudas acerca de los diferentes planes. | Alto | 5 |
+| **22** | US22 | Página Page Not Found | Como usuario, quiero poder ser redirigido a home, mediante un botón en la página page not found en caso escriba una dirección errónea. | Media | 3 |
+| **23** | US23 | Herramienta Language Switcher |  Como usuario, quiero poder cambiar el idioma de la aplicación a través de un botón switch accesible.  | Media | 3 |
 | **24** | US24 | Selección del plan de suscripción | Como usuario, quiero elegir el plan de suscripción que mejor se adapte a mis necesidades para aprovechar los servicios de AutoNexo según mi presupuesto y uso. | Alta | 5 |
-| **25** | US25 | Registro de método de pago seguro | Como usuario, quiero registrar un método de pago seguro para poder realizar mis pagos de suscripción sin preocupaciones y de forma rápida. | Alta | 8 |
-| **26** | US26 | Renovación automática de suscripción | Como usuario, quiero que mi suscripción se renueve automáticamente para seguir disfrutando del servicio sin interrupciones. | Alta | 8 |
+| **25** | US25 | Registro de método de pago seguro | Como usuario, quiero registrar un método de pago seguro para poder realizar mis pagos de suscripción sin preocupaciones y de forma rápida. | Alta | 5 |
+| **26** | US26 | Barra de Navegación | Como usuario, quiero poder navegar de manera fácil e intuitiva mediante una barra de navegación accesible | Alta | 5 |
 | **27** | US27 | Cambio de plan de suscripción | Como usuario, quiero poder cambiar mi plan de suscripción en cualquier momento para ajustarlo a mis necesidades o presupuesto. | Media | 3 |
 | **28** | US28 | Cancelación o pausa del servicio | Como usuario, quiero tener la opción de cancelar o pausar mi suscripción para detener el servicio temporal o permanentemente según mi situación. | Media | 3 |
-| **29** | US29 | Navegación intuitiva | Como visitante de la Landing Page, quiero navegar de forma intuitiva entre las secciones del sitio para encontrar rápidamente la información que necesito. | Alta | 5 |
-| **30** | US30 | Compatibilidad con lectores de pantalla | Como visitante con discapacidad visual, quiero que la Landing Page sea compatible con lectores de pantalla para poder acceder al contenido sin barreras. | Media | 3 |
-| **31** | US31 | Feedback visual en interacciones | Como visitante de la Landing Page, quiero recibir retroalimentación visual al interactuar con los elementos para saber que mis acciones han sido reconocidas. | Media | 3 |
+| **29** | US29 | Botón de retroceso | Como usuario, quiero poder retroceder a la página previa para una navegación más completa y satisfactoria | Medio | 3 |
+| **30** | US30 | Compatibilidad con lectores de pantalla | Como usuario con discapacidad visual, quiero que la Landing Page sea compatible con lectores de pantalla para poder acceder al contenido sin barreras. | Media | 3 |
+| **31** | US31 | Feedback visual en interacciones | Como usuario de la Landing Page, quiero recibir retroalimentación visual al interactuar con los elementos para saber que mis acciones han sido reconocidas. | Media | 3 |
 | **32** | TS01 | Registro de usuario a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar nuevos usuarios a través de una API RESTful, para que los conductores y mecánicos puedan crear sus cuentas en la plataforma. | Alta | 5 |
 | **33** | TS02 | Registro de repuestos en inventario a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar repuestos mediante una API RESTful, para que los usuarios puedan llevar un control del inventario de piezas disponibles. | Media | 3 |
-| **34** | TS03 | Registro de vehículos a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar vehículos mediante una API RESTful, para que los usuarios puedan gestionar sus autos en la plataforma. | Media | 2 |
-| **35** | TS04 | Creación de diagnósticos a través de un RESTful API | Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto. | Alta | 2 |
+| **34** | TS03 | Registro de vehículos a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar vehículos mediante una API RESTful, para que los usuarios puedan gestionar sus autos en la plataforma. | Baja | 2 |
+| **35** | TS04 | Creación de diagnósticos a través de un RESTful API | Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto. | Baja | 2 |
 | **36** | TS05 | Creación de mantenimientos programados mediante RESTful API | Como desarrollador, quiero permitir la programación de mantenimientos a través de una API RESTful, para que los usuarios puedan agendar sus servicios con anticipación. | Alta | 5 |
 | **37** | TS06 | Consulta de historial de servicios por vehículo mediante RESTful API | Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados. | Media | 3 |
-| **38** | TS07 | Actualización del inventario de repuestos mediante RESTful API | Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock. | Media | 2 |
+| **38** | TS07 | Actualización del inventario de repuestos mediante RESTful API | Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock. | Baja | 2 |
 
 Product Backlog en Trello: [https://trello.com/invite/b/6820091b7d003500b1d2cd2a/ATTIfca577753d06f90de7cd5590cef7b936C3B8D00D/product-backlog-autonexo](https://trello.com/invite/b/6820091b7d003500b1d2cd2a/ATTIfca577753d06f90de7cd5590cef7b936C3B8D00D/product-backlog-autonexo) 
 
