@@ -2207,7 +2207,7 @@ En el tercer sprint, logramos desarrollar parcialmente la implementación del Ba
 
 A continuacion el backend ejecutado:
 <div align="center">
-    <img src="img/execution-backend.jpg" alt="json.png" width="550px" height="300px">
+    <img src="img/execution-backend.jpg" alt="execution-backend.jpg" width="550px" height="300px">
 </div>
 <br>
 
@@ -2215,37 +2215,37 @@ A continuacion el backend ejecutado:
 En el tercer sprint, logramos desarrollar parcialmente la implementación del Backend. Donde se muestra la manipulacion de los datos sobre la aplicación. A continuación mostramos algunas evidencias:
 - **Aggregates:** Inventory y User en la carpeta aggregate.
 <div align="center">
-    <img src="img/inventory-aggregate.jpg" alt="home_view.png" width="550px" height="300px">
+    <img src="img/inventory-aggregate.jpg" alt="inventory-aggregate.jpg" width="550px" height="300px">
 </div>
 <div align="center">
-    <img src="img/user-aggregate.jpg" alt="home_view.png" width="550px" height="300px">
+    <img src="img/user-aggregate.jpg" alt="user-aggregate.jpg" width="550px" height="300px">
 </div>
 <br>
 
 - **Command.Services:** User y Driver command service.
 <div align="center">
-    <img src="img/user-command-service.jpg" alt="home_view.png" width="550px" height="300px">
+    <img src="img/user-command-service.jpg" alt="user-command-service.jpg" width="550px" height="300px">
 </div>
 <div align="center">
-    <img src="img/driver-command-service.jpg" alt="home_view.png" width="550px" height="300px">
+    <img src="img/driver-command-service.jpg" alt="driver-command-service.jpg" width="550px" height="300px">
 </div>
 <br>
 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 <div align="center">
-    <img src="img/network-backend.png" alt="login.png" width="550px" height="300px">
+    <img src="img/network-backend.png" alt="network-backend.png" width="550px" height="300px">
 </div>
 <br>
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
 Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 <div align="center">
-    <img src="img/network-backend.png" alt="network.png" width="550px" height="300px">
+    <img src="img/network-backend.png" alt="network-backend.png" width="550px" height="300px">
 </div>
 <br>
 <div align="center">
-    <img src="img/contribuitors-backend.png" alt="contribuitors.png" width="550px" height="300px">
+    <img src="img/contribuitors-backend.png" alt="contribuitors-backend.png" width="550px" height="300px">
 </div>
 <br>
 
