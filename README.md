@@ -2203,9 +2203,51 @@ Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38
 
 #### **5.2.3.4. Development Evidence for Sprint Review**
 #### **5.2.3.5. Execution Evidence for Sprint Review**
+En el tercer sprint, logramos desarrollar parcialmente la implementación del Backend. Donde se muestra la manipulacion de los datos sobre la aplicación. A continuación mostramos algunas evidencias:
+
+A continuacion el backend ejecutado:
+<div align="center">
+    <img src="img/execution-backend.jpg" alt="json.png" width="550px" height="300px">
+</div>
+<br>
+
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+En el tercer sprint, logramos desarrollar parcialmente la implementación del Backend. Donde se muestra la manipulacion de los datos sobre la aplicación. A continuación mostramos algunas evidencias:
+- **Aggregates:** Inventory y User en la carpeta aggregate.
+<div align="center">
+    <img src="img/inventory-aggregate.jpg" alt="home_view.png" width="550px" height="300px">
+</div>
+<div align="center">
+    <img src="img/user-aggregate.jpg" alt="home_view.png" width="550px" height="300px">
+</div>
+<br>
+
+- **Command.Services:** User y Driver command service.
+<div align="center">
+    <img src="img/user-command-service.jpg" alt="home_view.png" width="550px" height="300px">
+</div>
+<div align="center">
+    <img src="img/driver-command-service.jpg" alt="home_view.png" width="550px" height="300px">
+</div>
+<br>
+
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+<div align="center">
+    <img src="img/network-backend.png" alt="login.png" width="550px" height="300px">
+</div>
+<br>
+
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
+Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
+<div align="center">
+    <img src="img/network-backend.png" alt="network.png" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/contribuitors-backend.png" alt="contribuitors.png" width="550px" height="300px">
+</div>
+<br>
 
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
