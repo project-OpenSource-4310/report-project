@@ -47,6 +47,11 @@ Enlace de la organización para el reporte del proyecto: https://github.com/orgs
 
 **TB1**
 
+Enlace del repositorio para la landing page: https://github.com/project-OpenSource-4310/landing-page
+<br>
+Enlace de la landing page desplegada: https://project-opensource-4310.github.io/landing-page/
+<br>
+
 Para el desarrollo del informe correspondiente a la entrega TB1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
 
 |Integrante|Tareas Asignadas|
@@ -59,6 +64,11 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 
 **TP1**
 
+Enlace del repositorio para el frontend: https://github.com/project-OpenSource-4310/frontend-app
+<br>
+Enlace del frontend desplegado: https://front-opensource.web.app/authentication
+<br>
+
 Para el desarrollo del informe correspondiente a la entrega TP1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
 
 |Integrante|Tareas Asignadas|
@@ -70,6 +80,9 @@ Para el desarrollo del informe correspondiente a la entrega TP1, se estableció 
 |Ronald Joel Peralta Chipa |Correción del Capítulo 2 e implementación de pantallas del frontend app|
 
 **TB2**
+
+Enlace del repositorio para el backend: https://github.com/project-OpenSource-4310/backend-app
+<br>
 
 Para el desarrollo del informe correspondiente a la entrega TB2, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
 
@@ -2277,3 +2290,24 @@ Durante el TB2, dimos un paso significativo en el desarrollo de Autonexo al enfo
 Innocar & Roshfrans. (2024, junio 8). _Solo el 23.5% de los talleres mecánicos en América Latina utiliza software especializado para gestionar sus operaciones_. La República. https://www.larepublica.co/internet-economy/uso-de-tecnologia-en-talleres-mecanicos-en-colombia-3877209
 
 ## Anexos
+Video exposición tp1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311064_upc_edu_pe/EWU-TuXkqadEhzFx3faV0C0Bsir4bcbHQDdKn55KZBUkpQ?e=JbzKWq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<br>
+
+Repositorio Landing Page: https://github.com/project-OpenSource-4310/landing-page
+<br>
+Landing Page de Autonexo desplegada: https://project-opensource-4310.github.io/landing-page/
+<br>
+
+Repositorio Frontend: https://github.com/project-OpenSource-4310/frontend-app
+<br>
+Frontend de Autonexo desplegado: https://front-opensource.web.app/authentication
+<br>
+
+Repositorio Backend: https://github.com/project-OpenSource-4310/backend-app
+<br>
+
+Video About the team:
+<br>
+
+Video About the product: 
+
