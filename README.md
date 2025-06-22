@@ -2499,7 +2499,7 @@ Durante el TB2, dimos un paso significativo en el desarrollo de Autonexo al enfo
 Innocar & Roshfrans. (2024, junio 8). _Solo el 23.5% de los talleres mecánicos en América Latina utiliza software especializado para gestionar sus operaciones_. La República. https://www.larepublica.co/internet-economy/uso-de-tecnologia-en-talleres-mecanicos-en-colombia-3877209
 
 ## Anexos
-Documentación del Proyecto: 
+Documentación del Proyecto: https://github.com/project-OpenSource-4310/report-project
 <br>
 
 Video exposición tp1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311064_upc_edu_pe/EWU-TuXkqadEhzFx3faV0C0Bsir4bcbHQDdKn55KZBUkpQ?e=JbzKWq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
@@ -2526,5 +2526,5 @@ Backend desplegado:
 Video About the team:
 <br>
 
-Video About the product: 
+Video About the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EY2vMIMv1LZCvFaFQDiZjXgBn0itlwntEpsmzcefcSWoPw?e=XGA1OF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
