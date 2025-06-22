@@ -2242,6 +2242,17 @@ A continuacion el backend ejecutado:
 </div>
 <br>
 
+Prueba de funcionamiento de Apis:
+<div align="center">
+    <img src="img/postman.jpg" alt="postman.jpg" width="550px" height="300px">
+</div>
+<br>
+
+<div align="center">
+    <img src="img/schemas.jpg" alt="schemas.jpg" width="550px" height="300px">
+</div>
+<br>
+
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 En el tercer sprint, logramos desarrollar parcialmente la implementación del Backend. Donde se muestra la manipulacion de los datos sobre la aplicación. A continuación mostramos algunas evidencias:
 - **Aggregates:** Inventory y User en la carpeta aggregate.
@@ -2495,6 +2506,16 @@ Durante el TP1, profundizamos en la construcción de Autonexo mediante el diseñ
 Durante el TB2, dimos un paso significativo en el desarrollo de Autonexo al enfocarnos en la implementación del Back End, utilizando Java como lenguaje principal. Esta fase fue fundamental para afianzar nuestra comprensión sobre la arquitectura de software, la lógica de negocio y la comunicación entre capas dentro de una aplicación escalable. Nos permitió aplicar principios de diseño limpio, organización modular del código, y conexión con bases de datos, consolidando así una estructura sólida que servirá como soporte para las funcionalidades de la plataforma. Además, corregimos observaciones del TP1, actualizamos la landing page para reflejar mejor la propuesta del proyecto, y preparamos el video “About the Team”. Sin embargo, el desarrollo del backend fue el componente más relevante, ya que nos permitió consolidar nuestros conocimientos técnicos en diseño de APIs, organización de código y buenas prácticas en el desarrollo de software del lado servidor.
 <br>
 
+# Video About-the-Product.
+![Image](https://github.com/user-attachments/assets/64280d3f-4508-417b-abbb-2da1944db249)
+
+link: https://www.youtube.com/watch?v=9Y9z_GlvARo
+
+# Video About-the-Team.
+![Image](https://github.com/user-attachments/assets/0ec393a2-11d0-4387-ad90-44bd1db5a6b8)
+
+link: https://youtu.be/5DUpw20ZWjA?si=7uhaeLpLl-KKKkU4
+
 ## Bibliografía
 Innocar & Roshfrans. (2024, junio 8). _Solo el 23.5% de los talleres mecánicos en América Latina utiliza software especializado para gestionar sus operaciones_. La República. https://www.larepublica.co/internet-economy/uso-de-tecnologia-en-talleres-mecanicos-en-colombia-3877209
 
@@ -2519,8 +2540,6 @@ Frontend de Autonexo desplegado: https://front-opensource.web.app/authentication
 <br>
 
 Repositorio Backend: https://github.com/project-OpenSource-4310/backend-app
-<br>
-Backend desplegado:
 <br>
 
 Video About the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EULs9vqFB6xFseXcsFjO4JsBGTc0SzFTUKJ7l73Ywjzc0w?e=DySzEu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
