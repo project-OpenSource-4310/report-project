@@ -2545,5 +2545,10 @@ Repositorio Backend: https://github.com/project-OpenSource-4310/backend-app
 Video About the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EULs9vqFB6xFseXcsFjO4JsBGTc0SzFTUKJ7l73Ywjzc0w?e=DySzEu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 <br>
 
-Video About the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EY2vMIMv1LZCvFaFQDiZjXgBn0itlwntEpsmzcefcSWoPw?e=XGA1OF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://youtu.be/5DUpw20ZWjA?si=7uhaeLpLl-KKKkU4
+<br>
 
+Video About the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EY2vMIMv1LZCvFaFQDiZjXgBn0itlwntEpsmzcefcSWoPw?e=XGA1OF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<br>
+
+https://youtu.be/9Y9z_GlvARo?si=acim5Cx4m9KE6m-z
