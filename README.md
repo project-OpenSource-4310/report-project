@@ -2457,11 +2457,12 @@ Aunque el sistema incluye un apartado de documentación accesible desde el menú
 **Imagen:**  
 <img src="img/heuristicaA.png" alt="heuristicaA.png" width="600px">
 
-<br>
 **Recomendación:**
 <br>
+
 Incorporar ayudas contextuales dentro del sistema, como tooltips, íconos de información o mensajes emergentes que guíen al usuario según la acción que esté realizando. Además, se sugiere incluir una barra de búsqueda dentro de la documentación para facilitar el acceso a temas específicos sin salir del flujo de uso.
 <br>
+
 #### **PROBLEMA #2:** No se puede editar los datos del vehículo, inventario o mantenimiento
 
 **Severidad:** 4  
