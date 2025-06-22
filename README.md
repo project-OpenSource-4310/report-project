@@ -39,7 +39,7 @@ Ivan Robles Fernández
 |---------|------------|--------------------------------|----------------------------------|
 | TB1     | 24/04/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
 | TP1     | 13/05/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Correción del TB1, Sprint 2 en Capítulo 5|
-| TB3     | 19/06/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Correción del TP1, Sprint 3 en Capítulo 5, Actualización de la Landing Page, Video About the Team e Implementación del Back End |
+| TB3     | 19/06/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar   | Correción del TP1, Sprint 3 en Capítulo 5, Actualización de la Landing Page, Video About the Team e Implementación del Back End |
 
 # <font color="red">**Project Report Collaboration Insights**</font>
 
@@ -79,7 +79,7 @@ Para el desarrollo del informe correspondiente a la entrega TB3, se estableció 
 |Rafael Andres Vivanco Salazar|Correción del TB1 en la Landing Page, Reporte e implementación del Sprint 3 en el capítulo 5|
 |Ricardo Fernando Cardenas Minaya |Implementación y documentación del BackEnd |
 |Jarod Jack Cespedes Pillco | Registro y análisis de las Entrevistas de validación  |
-|Ronald Joel Peralta Chipa | Implementación, despliegue y documentación del BackEnd|
+|Ronald Joel Peralta Chipa | NO REALIZÓ ENTREGA |
 
 
 # <font color="red">**Contenido**</font>
