@@ -2264,8 +2264,31 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
-### **5.3.2. Registro de Entrevistas**
-### **5.3.3. Evaluaciones según heurísticas**
+En esta sección se plantea una estrategia colaborativa con el equipo para detectar los aspectos comunes a partir de las respuestas proporcionadas por cada entrevistado en cada pregunta. Esto permite realizar un análisis más preciso y confiable.
+
+**Segmento 1: Dueños de flotas.**
+1. ¿Qué información esperaba encontrar en la landing page antes de probar la aplicación? ¿Cumplió con sus expectativas?
+2. ¿Ha utilizado alguna vez una aplicación web para gestionar sus vehiculos? ¿Qué le gustó y qué no le gustó de esa experiencia?
+3. Al probar nuestra aplicación, ¿qué funcionalidad le resultó más útil y cuál cree que podría mejorarse?
+4. ¿Cómo calificaría la facilidad de uso de la interfaz? ¿Hubo algún proceso que le resultó confuso o poco intuitivo?
+5. ¿Qué tipo de reportes o datos le gustaría que la aplicación le proporcionara para tomar mejores decisiones?
+6. Si pudiera agregar una función nueva a la aplicación, ¿cuál sería y por qué?
+7. ¿Recomendaría nuestra aplicación a otros conductores? ¿Qué destacaría de ella?
+8. ¿Qué opinas del diseño visual? ¿Te resulta atractivo y profesional para una solución de gestión de flotas?
+9. ¿Entendiste rápidamente de qué trata Autonexo y qué problema busca resolver?
+10. ¿Te motivarías a crear una cuenta o contactarnos después de navegar por la landing page? ¿Por qué?
+
+**Segmento 2: Mecánicos**
+1. ¿Qué información buscaba en la landing page antes de registrarse en la aplicación? ¿Le resultó fácil encontrarla?
+2. ¿Ha usado antes otras aplicaciones o software para gestionar reparaciones? ¿Qué ventajas y desventajas encontró?
+3. Al usar nuestra aplicación, ¿qué le pareció más útil de las funcionalidades de historial de vehiculos, gestion de repuestos, entre otras?
+4. ¿Cómo evalúa la facilidad de registro y acceso a las órdenes de trabajo en la aplicación? ¿Hubo algo que le dificultó el proceso?
+5. ¿Le gustaría que la aplicación le sugiriera pasos específicos para ciertas reparaciones basadas en el modelo del vehículo?
+6. Si pudiera mejorar una función de la aplicación, ¿cuál sería y por qué?
+7. ¿Qué tan probable es que recomiende esta aplicación a otros talleres o mecánicos? ¿Por qué?
+8. ¿Qué opinas del diseño visual? ¿Te resulta atractivo y profesional para una solución de gestión de flotas?
+9. ¿Entendiste rápidamente de qué trata Autonexo y qué problema busca resolver?
+10. ¿Te motivarías a crear una cuenta o contactarnos después de navegar por la landing page? ¿Por qué?
 
 
 ## Conclusiones
