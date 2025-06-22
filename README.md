@@ -1997,12 +1997,30 @@ A continuación evidencias:
 <br>
 
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
-A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
-
+Se ha empleado la página firebase para deployear el frontend, así como se ha creado un repositorio aparte en github para la fake-api y se levanto conectándolo con vercel.
+<br>
+Repositorio de la fake api en Github: https://github.com/project-OpenSource-4310/fake-api
+<br>
 <div align="center">
-    <img src="img/network.png" alt="network.png" width="550px" height="300px">
+    <img src="img/fakeapi.png" alt="fakeapi.png" width="550px" height="300px">
 </div>
-
+<br>
+Repositorio fakeapi conectado con vercel
+<br>
+<div align="center">
+    <img src="img/vercel.png" alt="vercel.png" width="550px" height="300px">
+</div>
+<br>
+Frontend deployeado en firebase:
+<br>
+<div align="center">
+    <img src="img/firebase.jpg" alt="firebase.jpg" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/front-deployeado.png" alt="front-deployeado.png" width="550px" height="300px">
+</div>
+<br>
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
 Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 <div align="center">
