@@ -2283,6 +2283,36 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
 En esta sección se plantea una estrategia colaborativa con el equipo para detectar los aspectos comunes a partir de las respuestas proporcionadas por cada entrevistado en cada pregunta. Esto permite realizar un análisis más preciso y confiable.
+<br> <br>
+**User Flow Involucradas**:
+<br>
+*Usuario:*
+<br>
+→ Crear cuenta (seleccionar rol: Mecánico o Driver)<br>
+→ Completar datos<br>
+→ Ver y aceptar términos y condiciones<br>
+→ Redirección a login<br>
+→ Iniciar sesión<br>
+→ Editar datos en profile<br>
+→ Agregar y modificar foto de perfil<br>
+<br>
+*Mecánico:*
+<br>
+→ Agregar inventarios<br>
+→ Asignar items a cada inventario<br>
+→ Ver solicitudes de asignación de vehiculos<br>
+→ Aceptar o Rechazar solicitudes de asignación de vehiculos<br>
+→ Solicitud aceptada -> vehículo asignado<br>
+→ Ver detalles del vehículo<br>
+→ Enviar solicitud de mantenimiento a Driver<br>
+<br>
+*Driver:*
+<br>
+→ Agregar vehículos<br>
+→ Enviar solicitud de asignación de vehículo<br>
+→ Ver solicitud de mantenimiento<br>
+→ Aceptar o Rechazar solicitud de mantenimiento<br>
+<br>
 
 **Segmento 1: Dueños de flotas.**
 1. ¿Qué información esperaba encontrar en la landing page antes de probar la aplicación? ¿Cumplió con sus expectativas?
@@ -2308,6 +2338,142 @@ En esta sección se plantea una estrategia colaborativa con el equipo para detec
 9. ¿Entendiste rápidamente de qué trata Autonexo y qué problema busca resolver?
 10. ¿Te motivarías a crear una cuenta o contactarnos después de navegar por la landing page? ¿Por qué?
 
+### 5.3.2. Registro de Entrevistas.
+### Segmento 1: Dueño de Flotas
+
+#### Entrevista #1
+- **Nombre completo:** 
+- **Edad:** 
+- **Cargo / Rol en la empresa:**  
+- **Enlace del video:** 
+- **Inicio:**
+- **Fin:** 
+ <img src="img/entrevista-validacion1.png" alt="entrevista-validacion1"> 
+
+#### Entrevista #2
+- **Nombre completo:** 
+- **Edad:** 
+- **Cargo / Rol en la empresa:**  
+- **Enlace del video:** 
+- **Inicio:**
+- **Fin:** 
+ <img src="img/entrevista-validacion2.png" alt="entrevista-validacion2"> 
+
+#### Entrevista #3
+- **Nombre completo:** 
+- **Edad:** 
+- **Cargo / Rol en la empresa:**  
+- **Enlace del video:** 
+- **Inicio:**
+- **Fin:** 
+ <img src="img/entrevista-validacion3.png" alt="entrevista-validacion3">
+
+### Segmento 2:  Mecánicos
+
+#### Entrevista #1
+- **Nombre completo:** 
+- **Edad:** 
+- **Cargo / Rol en la empresa:**  
+- **Enlace del video:** 
+- **Inicio:**
+- **Fin:** 
+ <img src="img/entrevista-validacion4.png" alt="entrevista-validacion4">
+ 
+#### Entrevista #2
+- **Nombre completo:** 
+- **Edad:** 
+- **Cargo / Rol en la empresa:**  
+- **Enlace del video:** 
+- **Inicio:**
+- **Fin:** 
+ <img src="img/entrevista-validacion5.png" alt="entrevista-validacion5">
+
+#### Entrevista #3
+- **Nombre completo:** 
+- **Edad:** 
+- **Cargo / Rol en la empresa:**  
+- **Enlace del video:** 
+- **Inicio:**
+- **Fin:** 
+ <img src="img/entrevista-validacion6.png" alt="entrevista-validacion6"> 
+
+### 5.3.3. Evaluaciones según heurísticas  
+**Sitio o Aplicación Evaluada:** Autonexo
+
+**Tareas evaluadas:**  
+
+La presente evaluación de usabilidad se centró en analizar la experiencia de usuario al completar las siguientes funcionalidades dentro de la plataforma:
+
+- Registro de cuenta en la plataforma  
+- Proceso de inicio de sesión  
+- Acceso y visualización de la pantalla principal  
+- Navegación por la sidebar
+- Consulta de inventarios e items
+- Gestión de vehículos y mantenimientos
+- Revisión de solicitudes de asignación o mantenimiento
+- Acceso a la configuración de cuenta  
+
+Quedan fuera del alcance de esta evaluación:
+- Ingreso a la aplicación desde la landing page  
+- Recuperación de contraseña o cuenta
+- Acceso al historial de manetinimiento en vehículos
+- Modificación de datos en vehículo, inventario y mantenimientos
+- Cálculo de presupuesto de mantenimiento
+---
+
+### Escala de severidad  
+*Los hallazgos fueron clasificados con base en la siguiente escala de severidad:*  
+
+|***Nivel***|***Descripción***|
+| :-: | :-: |
+|*1*|*Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+---
+
+### Tabla resumen
+
+|**#**|**Problema**|**Escala de severidad**|**Heurística/principio violada(o)**|
+| :- | :- | :- | :- |
+|1| No existe un medio para que el usuario obtenga soporte en tiempo real| 3 | Usability: Help and documentation |
+|2| No se puede editar los datos del vehículo, inventario o mantenimiento | 4 | Usability: Flexibility and efficiency of use |
+
+---
+
+### Descripción de problemas
+
+---
+
+#### **PROBLEMA #1:** No existe un medio para que el usuario obtenga soporte en tiempo real
+
+**Severidad:** 3  
+**Heurística violada:** Usability: Help and documentation  
+
+**Descripción:**  
+Aunque el sistema incluye un apartado de documentación accesible desde el menú principal, esta no está integrada de forma contextual en las interfaces donde los usuarios suelen tener más dificultades. La falta de sugerencias automáticas, tooltips o ayudas en tiempo real puede generar frustración durante tareas clave, especialmente en usuarios nuevos, afectando negativamente su experiencia y aumentando la tasa de abandono.
+
+**Imagen:**  
+<img src="img/heuristicaA.png" alt="heuristicaA.png" width="600px">
+
+**Recomendación:**  
+Incorporar ayudas contextuales dentro del sistema, como tooltips, íconos de información o mensajes emergentes que guíen al usuario según la acción que esté realizando. Además, se sugiere incluir una barra de búsqueda dentro de la documentación para facilitar el acceso a temas específicos sin salir del flujo de uso.
+---
+
+#### **PROBLEMA #2:** No se puede editar los datos del vehículo, inventario o mantenimiento
+
+**Severidad:** 4  
+**Heurística violada:** Usability: Flexibility and efficiency of use  
+
+**Descripción:**  
+El sistema no permite editar los datos registrados de vehículos, inventario o mantenimientos, lo que obliga a los usuarios a eliminar y volver a ingresar la información en caso de errores o actualizaciones. Esta limitación reduce la eficiencia operativa, especialmente para usuarios con experiencia que requieren realizar ajustes de manera ágil durante la gestión diaria.
+
+**Imagen:**  
+<img src="img/heuristicaB.png" alt= "heuristicaB.png" width="600px">
+
+**Recomendación:**  
+Habilitar funciones de edición directa para los registros de vehículos, inventario y mantenimiento, permitiendo a los usuarios realizar ajustes sin tener que rehacer procesos. Se recomienda también incluir accesos rápidos para usuarios avanzados y confirmaciones no intrusivas que garanticen control sin comprometer la eficiencia
 
 ## Conclusiones
 
