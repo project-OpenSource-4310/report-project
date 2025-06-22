@@ -2342,59 +2342,59 @@ En esta sección se plantea una estrategia colaborativa con el equipo para detec
 ### Segmento 1: Dueño de Flotas
 
 #### Entrevista #1
-- **Nombre completo:** 
-- **Edad:** 
-- **Cargo / Rol en la empresa:**  
-- **Enlace del video:** 
-- **Inicio:**
-- **Fin:** 
+- **Nombre completo:** Lucero Avalos
+- **Edad:** 25 años
+- **Cargo / Rol en la empresa:** Dueña de flotas de sector de transporte
+- **Enlace del video:** [Validation Interview 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 00:00 s
+- **Fin:** 12:21 s
  <img src="img/entrevista-validacion1.png" alt="entrevista-validacion1"> 
 
 #### Entrevista #2
-- **Nombre completo:** 
-- **Edad:** 
-- **Cargo / Rol en la empresa:**  
-- **Enlace del video:** 
-- **Inicio:**
-- **Fin:** 
+- **Nombre completo:** Cesar Rodriguez
+- **Edad:** 27 años
+- **Cargo / Rol en la empresa:** Dueño de flotas / Conductor
+- **Enlace del video:** [Validation Interview 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 12:22 s
+- **Fin:** 30:48 s
  <img src="img/entrevista-validacion2.png" alt="entrevista-validacion2"> 
 
 #### Entrevista #3
-- **Nombre completo:** 
-- **Edad:** 
-- **Cargo / Rol en la empresa:**  
-- **Enlace del video:** 
-- **Inicio:**
-- **Fin:** 
+- **Nombre completo:** Albano Romero
+- **Edad:** 30 años
+- **Cargo / Rol en la empresa:** Dueño de flotas / Conductor
+- **Enlace del video:** [Validation Interview 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 30:49 s
+- **Fin:** 37:41 s
  <img src="img/entrevista-validacion3.png" alt="entrevista-validacion3">
 
 ### Segmento 2:  Mecánicos
 
 #### Entrevista #1
-- **Nombre completo:** 
-- **Edad:** 
-- **Cargo / Rol en la empresa:**  
-- **Enlace del video:** 
-- **Inicio:**
-- **Fin:** 
+- **Nombre completo:** Mariano Canevaro
+- **Edad:** 30 años
+- **Cargo / Rol en la empresa:** Asistente de Mecanico en taller de repintado/reparaciónes
+- **Enlace del video:** [Validation Interview 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 37:42 s
+- **Fin:** 56:29 s
  <img src="img/entrevista-validacion4.png" alt="entrevista-validacion4">
  
 #### Entrevista #2
-- **Nombre completo:** 
-- **Edad:** 
-- **Cargo / Rol en la empresa:**  
-- **Enlace del video:** 
-- **Inicio:**
-- **Fin:** 
+- **Nombre completo:** Bruno Ontón
+- **Edad:** 33 años
+- **Cargo / Rol en la empresa:** Mecanico en taller de repintado/reparaciónes
+- **Enlace del video:** [Validation Interview 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 56:30 s
+- **Fin:** 01: 02 :09 s
  <img src="img/entrevista-validacion5.png" alt="entrevista-validacion5">
 
 #### Entrevista #3
-- **Nombre completo:** 
-- **Edad:** 
-- **Cargo / Rol en la empresa:**  
-- **Enlace del video:** 
-- **Inicio:**
-- **Fin:** 
+- **Nombre completo:** Brayan Morales
+- **Edad:** 29 años
+- **Cargo / Rol en la empresa:** Mecanico en taller de repintado/reparaciónes
+- **Enlace del video:** [Validation Interview 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 01: 02:10 s
+- **Fin:** 01: 09:53 s
  <img src="img/entrevista-validacion6.png" alt="entrevista-validacion6"> 
 
 ### 5.3.3. Evaluaciones según heurísticas  
