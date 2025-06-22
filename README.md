@@ -1845,13 +1845,13 @@ A continuación evidencias:
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
 <div align="center">
-    <img src="img/network.png" alt="network.png" width="550px" height="300px">
+    <img src="img/networkGraph.png" alt="networkGraph.png" width="550px" height="300px">
 </div>
 
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
 Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 <div align="center">
-    <img src="img/network.png" alt="network.png" width="550px" height="300px">
+    <img src="img/networkGraph.png" alt="networkGraph.png" width="550px" height="300px">
 </div>
 <br>
 <div align="center">
