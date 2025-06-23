@@ -2555,7 +2555,7 @@ Documentación del Proyecto: https://github.com/project-OpenSource-4310/report-p
 Video exposición tp1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311064_upc_edu_pe/EWU-TuXkqadEhzFx3faV0C0Bsir4bcbHQDdKn55KZBUkpQ?e=JbzKWq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 <br>
 
-Video de exposición TB2: 
+Video de exposición TB2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311064_upc_edu_pe/ERqkWkH9oIlFkHjiDzQaJXQBp42FFEpmkKgQOtwACBDLHA?e=FKuDe3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 <br>
 
 Repositorio Landing Page: https://github.com/project-OpenSource-4310/landing-page
