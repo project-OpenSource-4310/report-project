@@ -28,7 +28,7 @@ Ivan Robles Fernández
 </div>
 
 **2025 - 1**
-
+    
 </div>
 
 ---
@@ -37,15 +37,21 @@ Ivan Robles Fernández
 
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
-| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
-| TP1     | 13/05/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Correción del TB1, Sprint 2 en Capitulo 5|
-| TB3     |            |                                |                                  |
+| TB1     | 24/04/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
+| TP1     | 13/05/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Correción del TB1, Sprint 2 en Capítulo 5|
+| TB2     | 19/06/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar | Correción del TP1, Sprint 3 en Capítulo 5, Actualización de la Landing Page, Video About the Team e Implementación del Back End |
+
 
 # <font color="red">**Project Report Collaboration Insights**</font>
 
 Enlace de la organización para el reporte del proyecto: https://github.com/orgs/project-OpenSource-4310/repositories
 
 **TB1**
+
+Enlace del repositorio para la landing page: https://github.com/project-OpenSource-4310/landing-page
+<br>
+Enlace de la landing page desplegada: https://project-opensource-4310.github.io/landing-page/
+<br>
 
 Para el desarrollo del informe correspondiente a la entrega TB1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
 
@@ -58,6 +64,10 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 |Ronald Joel Peralta Chipa|Análisis de entrevistas, NeedFinding, User personas, User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping.|
 
 **TP1**
+Enlace del repositorio para el frontend: https://github.com/project-OpenSource-4310/frontend-app
+<br>
+Enlace del frontend desplegado: https://front-opensource.web.app/authentication
+<br>
 
 Para el desarrollo del informe correspondiente a la entrega TP1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
 
@@ -68,8 +78,24 @@ Para el desarrollo del informe correspondiente a la entrega TP1, se estableció 
 |Ricardo Fernando Cardenas Minaya |Correción del Capítulo 3 e implementación de pantalla del frontend app|
 |Jarod Jack Cespedes Pillco | Correción del Capítulo 5 e implementación de pantallas del frontend app|
 |Ronald Joel Peralta Chipa |Correción del Capítulo 2 e implementación de pantallas del frontend app|
-# <font color="red">**Contenido**</font>
 
+**TB2**
+
+Enlace del repositorio para el backend: https://github.com/project-OpenSource-4310/backend-app
+<br>
+
+Para el desarrollo del informe correspondiente a la entrega TB2, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Victor Andres Cruz Ibarra|Entrevistas, Correción del TP1 en el FrontEnd application|
+|Rafael Andres Vivanco Salazar|Entrevistas, Correción del TP1 en la Landing Page, Reporte e implementación del Sprint 3 en el capítulo 5|
+|Ricardo Fernando Cardenas Minaya |Entrevistas, Implementación y documentación del BackEnd |
+|Jarod Jack Cespedes Pillco | NO REALIZÓ AVANCE ALGUNO |
+|Ronald Joel Peralta Chipa | Entrevistas, Implementación, despliegue y documentación del BackEnd|
+
+
+# <font color="red">**Contenido**</font>
 ### Tabla de contenidos
 
 - [Universidad Peruana De Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
@@ -178,6 +204,15 @@ Para el desarrollo del informe correspondiente a la entrega TP1, se estableció 
       - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
       - [**5.2.2.7. Software Deployment Evidence for Sprint Review**](#5227-software-deployment-evidence-for-sprint-review)
       - [**5.2.2.8. Team Collaboration Insights during Sprint**](#5228-team-collaboration-insights-during-sprint)
+    - [**5.2.3. Sprint 3**](#523-sprint-3)
+      - [**5.2.3.1. Sprint Planning 3**](#5231-sprint-planning-3)
+      - [**5.2.3.2. Aspect Leaders and Collaborators**](#5232-aspect-leaders-and-collaborators)
+      - [**5.2.3.3. Sprint Backlog 3**](#5223-sprint-backlog-2)
+      - [**5.2.3.4. Development Evidence for Sprint Review**](#5234-development-evidence-for-sprint-review)
+      - [**5.2.3.5. Execution Evidence for Sprint Review**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.3.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
+      - [**5.2.3.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
+      - [**5.2.3.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
   - [**5.3. Validation Interviews**](#53-validation-interviews)
     - [**5.3.1. Diseño de Entrevistas**](#531-diseño-de-entrevistas)
     - [**5.3.2. Registro de Entrevistas**](#532-registro-de-entrevistas)
@@ -204,13 +239,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Criterio específico</span></th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Acciones realizadas</span></th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Conclusiones</span></th></tr></thead>
 <tbody>
 <tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica oralmente con efectividad a diferentes rangos de audiencia </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: Me aseguré de comunicarme de manera clara y respetuosa con mi equipo, transmitiendo mis ideas con asertividad y cumpliendo los compromisos adquiridos. <br> <br>Rafael Vivanco: <br> TB1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br> <br>Fernando Cardenas: <br> TB1: Participé activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para alcanzar los objetivos del equipo en tiempo y forma.<br> <br>Jack Cespedes: <br> TB1: Me mantuve comprometido con el equipo, colaborando en cada etapa del proceso y asegurándome de aportar soluciones para alcanzar los objetivos de manera eficiente. <br> <br>Joel Peralta <br> TB1: Me involucré en un diálogo abierto y constante con el equipo, lo que facilitó la distribución de tareas y la obtención de buenos resultados. Además, procuré mantener siempre una actitud colaborativa y proactiva para fortalecer la dinámica grupal.<br><br> Andres Cruz: <br> TP1: En el TP1, aporté al levantamiento de observaciones y al diseño de pantallas, comunicando mis ideas con claridad para mejorar la interfaz y asegurar una experiencia de usuario efectiva. <br> <br>Rafael Vivanco: <br> TP1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br> <br>Fernando Cardenas: <br> TP1: Contribuí al diseño del frontend y levanté observaciones que mejoraron la calidad visual y funcional del proyecto, reforzando la coordinación mediante una comunicación efectiva. <br> <br>Joel Peralta <br> TP1: Participé activamente en la creación de pantallas y en la revisión crítica del diseño, aportando ideas claras que facilitaron mejoras en el producto final.<br><br>Jack Céspedes <br> TP1: Diseñé pantallas y realicé observaciones clave para optimizar la interfaz, manteniendo siempre una comunicación fluida y proactiva con el equipo.<br><br>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: A lo largo del proyecto, todos los integrantes del equipo lograron expresar sus ideas de manera oral con claridad y adecuación al contexto. Esto permitió que tanto compañeros como docentes comprendieran nuestras propuestas con facilidad. Gracias a esta capacidad de adaptación en la comunicación, pudimos distribuir tareas de forma eficiente, resolver inquietudes al instante y mantener una dinámica de colaboración efectiva en todo momento.<br>
-TP1: A lo largo del desarrollo del TP1, el equipo demostró una comunicación oral efectiva al levantar observaciones y discutir propuestas de mejora para las pantallas del frontend. Cada integrante expresó sus ideas con claridad durante las reuniones, facilitando la toma de decisiones en conjunto y promoviendo la mejora continua del producto. Esta capacidad para dialogar, escuchar activamente y adaptarse al nivel técnico de los interlocutores (docentes, compañeros y usuarios potenciales) fortaleció la cohesión del grupo y permitió avanzar de manera eficiente en los objetivos del proyecto.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: Me aseguré de comunicarme de manera clara y respetuosa con mi equipo, transmitiendo mis ideas con asertividad y cumpliendo los compromisos adquiridos. <br> <br>Rafael Vivanco: <br> TB1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br> <br>Ricardo Cardenas: <br> TB1: Participé activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para alcanzar los objetivos del equipo en tiempo y forma.<br> <br>Jarod Céspedes: <br> TB1: Me mantuve comprometido con el equipo, colaborando en cada etapa del proceso y asegurándome de aportar soluciones para alcanzar los objetivos de manera eficiente. <br> <br>Ronald Peralta <br> TB1: Me involucré en un diálogo abierto y constante con el equipo, lo que facilitó la distribución de tareas y la obtención de buenos resultados. Además, procuré mantener siempre una actitud colaborativa y proactiva para fortalecer la dinámica grupal. <br><br> Andres Cruz: <br> TP1: En el TP1, aporté al levantamiento de observaciones y al diseño de pantallas, comunicando mis ideas con claridad para mejorar la interfaz y asegurar una experiencia de usuario efectiva. <br><br> Rafael Vivanco: <br> TP1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br><br> Ricardo Cardenas: <br> TP1: Contribuí al diseño del frontend y levanté observaciones que mejoraron la calidad visual y funcional del proyecto, reforzando la coordinación mediante una comunicación efectiva. <br><br> Jarod Céspedes <br> TP1: Diseñé pantallas y realicé observaciones clave para optimizar la interfaz, manteniendo siempre una comunicación fluida y proactiva con el equipo. <br><br> Ronald Peralta <br> TP1: Participé activamente en la creación de pantallas y en la revisión crítica del diseño, aportando ideas claras que facilitaron mejoras en el producto final. <br><br> Andres Cruz <br> TB2: Durante el Sprint 3, me comuniqué constantemente con mis compañeros para realizar las correcciones del FrontEnd de la aplicación. Las reuniones en Discord fueron esenciales para coordinar ajustes, validar cambios visuales y asegurar que el producto mantuviera coherencia entre las vistas. <br> <br> Rafael Vivanco <br> TB2: En este sprint, comuniqué mis propuestas de mejora en la landing page y en el reporte del capítulo 5, participando activamente en las sesiones grupales para alinear el contenido del entregable con los objetivos del proyecto. <br><br> Ricardo Cardenas <br> TB2: Durante las reuniones, compartí con claridad los hallazgos de las entrevistas de validación. Expliqué las percepciones y necesidades identificadas de los usuarios, facilitando así que el equipo comprendiera mejor el contexto de uso del sistema. <br> <br> Jarod Céspedes <br> TB2:  NO REALIZÓ AVANCE ALGUNO <br> <br> Ronald Peralta <br> TB2: Expresé con claridad las decisiones técnicas tomadas durante el despliegue del BackEnd. Me aseguré de mantener al equipo informado sobre el estado del servidor, los problemas encontrados y las soluciones aplicadas.
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: A lo largo del proyecto, todos los integrantes del equipo lograron expresar sus ideas de manera oral con claridad y adecuación al contexto. Esto permitió que tanto compañeros como docentes comprendieran nuestras propuestas con facilidad. Gracias a esta capacidad de adaptación en la comunicación, pudimos distribuir tareas de forma eficiente, resolver inquietudes al instante y mantener una dinámica de colaboración efectiva en todo momento.<br> <br> TP1: A lo largo del desarrollo del TP1, el equipo demostró una comunicación oral efectiva al levantar observaciones y discutir propuestas de mejora para las pantallas del frontend. Cada integrante expresó sus ideas con claridad durante las reuniones, facilitando la toma de decisiones en conjunto y promoviendo la mejora continua del producto. Esta capacidad para dialogar, escuchar activamente y adaptarse al nivel técnico de los interlocutores (docentes, compañeros y usuarios potenciales) fortaleció la cohesión del grupo y permitió avanzar de manera eficiente en los objetivos del proyecto. <br><br> TB2: Durante el desarrollo de la TB2, el equipo mantuvo una comunicación oral constante y efectiva mediante reuniones virtuales, lo cual fue clave para coordinar la implementación del BackEnd y la corrección de entregables anteriores. Cada integrante supo expresar sus ideas con claridad y adaptarse al nivel técnico de los interlocutores, permitiendo resolver dudas, tomar decisiones conjuntas y ajustar funcionalidades de manera oportuna. Esta capacidad de diálogo directo y enfocado fortaleció la dinámica del grupo y facilitó la integración entre frontend, backend y documentación.</td>
 </tr>
 <tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: Aporté en diferentes etapas del trabajo, garantizando que la información fuera clara, precisa y organizada, lo que permitió una mejor comprensión y aplicación en el desarrollo del proyecto. <br> <br>Rafael Vivanco: <br> TB1: Contribuí en diversos aspectos del trabajo, garantizando que la información fuera precisa, coherente y comprensible tanto para compañeros como para docentes. <br><br>Fernando Cardenas: <br> TB1: Participé activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo de manera efectiva y dentro de los plazos establecidos.<br> <br>Jack Cespedes: <br> TB1:Cumplí con todas las actividades asignadas y considero que tuve un buen desempeño. Sin embargo, reconozco que debo mejorar en la gestión de mi tiempo para optimizar mis resultados en futuros proyectos.<br> <br>Joel Peralta: <br> TB1: Me involucré en la ejecución de las tareas grupales, aportando ideas y soluciones que contribuyeron al desarrollo del proyecto. También procuré mantener una comunicación fluida con mis compañeros para garantizar una coordinación eficiente<br>  Andres Cruz: <br> TP1: En el TP1, aporté al levantamiento de observaciones y al diseño de pantallas, comunicando mis ideas con claridad para mejorar la interfaz y asegurar una experiencia de usuario efectiva. <br> <br>Rafael Vivanco: <br> TP1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br> <br>Fernando Cardenas: <br> TP1: Contribuí al diseño del frontend y levanté observaciones que mejoraron la calidad visual y funcional del proyecto, reforzando la coordinación mediante una comunicación efectiva. <br> <br>Joel Peralta <br> TP1: Participé activamente en la creación de pantallas y en la revisión crítica del diseño, aportando ideas claras que facilitaron mejoras en el producto final.<br><br>Jack Céspedes <br> TP1: Diseñé pantallas y realicé observaciones clave para optimizar la interfaz, manteniendo siempre una comunicación fluida y proactiva con el equipo.<br><br></td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: La eficacia del trabajo en equipo también se evidenció en nuestra habilidad para transmitir información de manera escrita. La documentación desarrollada, que abarcó informes, descripciones técnicas y contenido para la landing page, fue precisa, estructurada y accesible. Esto contribuyó a la validación del proyecto y garantizó que el producto final reflejara con claridad su propósito y funcionalidad.<br><br> TP1:Durante el TP1, se evidenció una comunicación escrita clara y efectiva en los documentos entregables, reportes de observaciones y en la elaboración de contenidos para el frontend de la app. Cada miembro del equipo contribuyó en la redacción técnica y descriptiva de las funcionalidades implementadas, así como en la documentación de cambios y mejoras. El nivel de precisión, estructura y coherencia en estos escritos permitió que docentes y usuarios comprendieran fácilmente el progreso del proyecto, lo que aportó a su validación y evolución continua.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: Aporté en diferentes etapas del trabajo, garantizando que la información fuera clara, precisa y organizada, lo que permitió una mejor comprensión y aplicación en el desarrollo del proyecto. <br> <br>Rafael Vivanco: <br> TB1: Contribuí en diversos aspectos del trabajo, garantizando que la información fuera precisa, coherente y comprensible tanto para compañeros como para docentes. <br><br>Ricardo Cardenas: <br> TB1: Participé activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo de manera efectiva y dentro de los plazos establecidos.<br> <br>Jarod Céspedes: <br> TB1:Cumplí con todas las actividades asignadas y considero que tuve un buen desempeño. Sin embargo, reconozco que debo mejorar en la gestión de mi tiempo para optimizar mis resultados en futuros proyectos.<br> <br>Ronald Peralta: <br> TB1: Me involucré en la ejecución de las tareas grupales, aportando ideas y soluciones que contribuyeron al desarrollo del proyecto. También procuré mantener una comunicación fluida con mis compañeros para garantizar una coordinación eficiente<br> <br> Andres Cruz: <br> TP1: En el TP1, aporté al levantamiento de observaciones y al diseño de pantallas, comunicando mis ideas con claridad para mejorar la interfaz y asegurar una experiencia de usuario efectiva. <br> <br>Rafael Vivanco: <br> TP1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br> <br>Ricardo Cardenas: <br> TP1: Contribuí al diseño del frontend y levanté observaciones que mejoraron la calidad visual y funcional del proyecto, reforzando la coordinación mediante una comunicación efectiva. <br> <br>Ronald Peralta <br> TP1: Participé activamente en la creación de pantallas y en la revisión crítica del diseño, aportando ideas claras que facilitaron mejoras en el producto final.<br><br>Jarod Céspedes <br> TP1: Diseñé pantallas y realicé observaciones clave para optimizar la interfaz, manteniendo siempre una comunicación fluida y proactiva con el equipo. <br> <br> Andres Cruz: <br> TB2: Documenté correctamente los cambios aplicados en el frontend, organizando los componentes y actualizando su funcionalidad según las observaciones del TP1. Mi comunicación escrita fue clara tanto en los comentarios del código como en la documentación compartida. <br> <br> Rafael vivanco: <br> TB2: Me encargué de documentar los cambios realizados en el reporte del proyecto y en el capítulo correspondiente, redactando los avances de manera precisa, comprensible y estructurada para facilitar su revisión. <br> <br> Ricardo Cardenas: <br> TB2: Redacté un informe organizado de las entrevistas, incluyendo insights relevantes y sugerencias que se integraron en la toma de decisiones para el desarrollo. Esta información fue incorporada en el documento del proyecto <br> <br> Jarod Céspedes: <br> TB2: NO REALIZÓ AVANCE ALGUNO <br> <br> Ronald Peralta <br> TB2: Documenté el proceso de despliegue, configuraciones y endpoints expuestos en el backend. También redacté instrucciones precisas para que otros miembros pudieran comprender y probar la funcionalidad desde el frontend.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: La eficacia del trabajo en equipo también se evidenció en nuestra habilidad para transmitir información de manera escrita. La documentación desarrollada, que abarcó informes, descripciones técnicas y contenido para la landing page, fue precisa, estructurada y accesible. Esto contribuyó a la validación del proyecto y garantizó que el producto final reflejara con claridad su propósito y funcionalidad. <br> <br> TP1:Durante el TP1, se evidenció una comunicación escrita clara y efectiva en los documentos entregables, reportes de observaciones y en la elaboración de contenidos para el frontend de la app. Cada miembro del equipo contribuyó en la redacción técnica y descriptiva de las funcionalidades implementadas, así como en la documentación de cambios y mejoras. El nivel de precisión, estructura y coherencia en estos escritos permitió que docentes y usuarios comprendieran fácilmente el progreso del proyecto, lo que aportó a su validación y evolución continua. <br><br> TB2: A lo largo de esta entrega, se consolidó una comunicación escrita clara y precisa en la documentación técnica del backend, en la redacción del capítulo 5 y en los ajustes realizados en los reportes anteriores. La información fue organizada de forma comprensible para distintos públicos, desde compañeros y docentes hasta usuarios potenciales. Gracias a la calidad y coherencia de estos escritos, el equipo logró presentar un producto funcional bien documentado y alineado con los objetivos del proyecto.</td>
 </tr>
 </tbody></table>
 </br></br>
@@ -687,10 +721,10 @@ En el escenario ideal, el conductor experimenta un proceso mucho más fluido y m
 
 #### **Epics**
 
-**EP01 - Registro y Gestión de Usuario, Vehículo y Repuestos**
+**EP01 - Registro y Gestión de Usuarios y Vehículos**
 
 **Descripción:**
-Como usuario, quiero registrar y gestionar mi perfil, vehículos y repuestos, para tener un control completo de mis activos dentro de AutoNexo.
+Como usuario, quiero registrar y gestionar mi perfil, vehículos, para tener un control completo de mis activos dentro de AutoNexo.
 
 | User Story ID | Título | Prioridad |
 | :---- | :---- | :---- |
@@ -700,20 +734,13 @@ Como usuario, quiero registrar y gestionar mi perfil, vehículos y repuestos, pa
 | US04 | Registro de repuestos | Must |
 | US05 | Gestión del perfil del usuario | Should |
 | US06 | Edición del perfil desde la app | Should |
+| US07 | Visualización de vehículos asignados | Must |
+| US10 | Restablecer contraseña | Could |
+| US22 | Página Page Not Found | Should |
+| US23 | Herramienta Language Switcher | Should |
+| US29 | Botón de retroceso | Should |
 
-**EP02 - Calendario de Mantenimientos Programados**
-
-**Descripción:**
-Como usuario, quiero contar con un calendario de mantenimientos para programar servicios futuros y recibir recordatorios automáticos, a fin de evitar fallas o demoras.
-
-| User Story ID | Título | Prioridad |
-| :---- | :---- | :---- |
-| US07 | Visualización del calendario de mantenimientos | Must |
-| US08 | Programación de nuevos mantenimientos | Must |
-| US09 | Edición o cancelación de mantenimientos agendados | Should |
-| US10 | Recordatorios automáticos para mantenimientos programados | Should |
-
-**EP03 - Gestión de Inventario de Repuestos**
+**EP02 - Gestión de Inventario de Repuestos**
 
 **Descripción:**
 Como usuario, quiero gestionar el inventario de repuestos, para asegurarme de contar con los insumos necesarios al momento de realizar mantenimientos.
@@ -722,10 +749,9 @@ Como usuario, quiero gestionar el inventario de repuestos, para asegurarme de co
 | :---- | :---- | :---- |
 | US11 | Consulta de repuestos disponibles | Must |
 | US12 | Registro de nuevos ingresos de repuestos | Must |
-| US13 | Notificación de repuestos bajos en stock | Should |
 | US14 | Actualización del inventario tras mantenimiento | Must |
 
-**EP04 - Cálculo de Presupuesto y Control de Costos**
+**EP03 - Cálculo de Presupuesto y Control de Costos**
 
 **Descripción:**
 Como usuario, quiero calcular el presupuesto de reparaciones y mantenimiento, para poder anticipar costos y optimizar mis recursos.
@@ -736,29 +762,20 @@ Como usuario, quiero calcular el presupuesto de reparaciones y mantenimiento, pa
 | US16 | Edición de costos y repuestos por servicio | Could |
 | US17 | Visualización de gastos históricos por vehículo | Could |
 
-**EP05 - Historial de Mantenimientos**
+**EP04 - Registro e Historial de Mantenimientos**
 
 **Descripción:**
 Como usuario, quiero ver el historial detallado de mantenimientos por vehículo, para llevar un control técnico del estado de cada uno de ellos.
 
 | User Story ID | Título | Prioridad |
 | :---- | :---- | :---- |
+| US08 | Visualización de mantenimientos recomendados a clientes | Must |
+| US09 | Edición o cancelación de mantenimientos agendados | Should |
 | US18 | Consulta del historial por vehículo | Must |
 | US19 | Detalle de cada servicio registrado | Should |
 | US20 | Exportación o descarga del historial en PDF | Could |
 
-**EP06 - Mensajería entre Usuario y Mecánico**
-
-**Descripción:**
-Como usuario, quiero poder comunicarme dentro de la plataforma, para coordinar mantenimientos, resolver dudas y compartir información importante.
-
-| User Story ID | Título | Prioridad |
-| :---- | :---- | :---- |
-| US21 | Envío de mensajes entre usuario y mecánico | Should |
-| US22 | Notificaciones de nuevos mensajes | Could |
-| US23 | Historial de conversación por vehículo o servicio | Could |
-
-**EP07 - Gestión de Suscripción y Pagos**
+**EP05 - Gestión de Suscripción y Pagos**
 
 **Descripción:**
 Como usuario, quiero gestionar mi suscripción y métodos de pago para asegurar el acceso continuo al servicio según mi plan seleccionado.
@@ -767,22 +784,23 @@ Como usuario, quiero gestionar mi suscripción y métodos de pago para asegurar 
 | :---- | :---- | :---- |
 | US24 | Selección del plan de suscripción | Should |
 | US25 | Registro de método de pago seguro | Must |
-| US26 | Renovación automática de suscripción | Could |
 | US27 | Cambio de plan de suscripción | Could |
 | US28 | Cancelación o pausa del servicio | Should |
 
-**EP08 - Interacción y Navegación en la Landing Page**
+**EP06 - Interacción y Navegación en la Landing Page**
 
 **Descripción:**
 Como visitante de la Landing Page, quiero que la navegación sea intuitiva y las acciones claras para poder interactuar fácilmente con la plataforma y descubrir sus funcionalidades.
 
 | User Story ID | Título | Prioridad |
 | :---- | :---- | :---- |
-| US29 | Navegación Intuitiva | Should |
+| US13 | Sección About the Team | Should |
+| US21 | Sección Contáctanos | Must |
+| US26 | Barra de Navegación | Must |
 | US30 | Compatibilidad con lectores de pantalla | Could |
 | US31 | Feedback visual en interacciones | Should |
 
-**EP09 - Integración y Exposición de Servicios vía API RESTful**
+**EP07 - Integración y Exposición de Servicios vía API RESTful**
 
 **Descripción:**
 Como developer, quiero construir y exponer los servicios clave del sistema Autonexo mediante una API RESTful, para permitir la interacción entre el frontend y el backend de manera segura, eficiente y escalable.
@@ -805,39 +823,40 @@ Como developer, quiero construir y exponer los servicios clave del sistema Auton
 | EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US02 | Inicio de sesión seguro | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a todas las funcionalidades de la plataforma. | **Escenario 1:** Inicio de sesión exitoso: Dado que tengo una cuenta activa, cuando ingreso mi correo y contraseña correctamente, entonces debo ser redirigido al panel principal <br> **Escenario 2:** Contraseña incorrecta: Dado que ingreso credenciales, cuando la contraseña no coincide, entonces el sistema debe mostrar un mensaje de error <br> **Escenario 3:** Registro (mecánico): Dado que olvidé mi contraseña, cuando solicito restablecerla, entonces el sistema debe enviarme un enlace de recuperación al correo |
 | EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US03 | Registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | **Escenario 1:** Registro exitoso de vehículo: Dado que ingreso los datos del vehículo, Cuando completo todos los campos obligatorios, Entonces el sistema debe guardar la información y mostrar el vehículo en la lista <br> **Escenario 2:** Validación de campos obligatorios: Dado que dejo campos vacíos, Cuando intento guardar el vehículo, Entonces el sistema debe indicar los campos que faltan <br> **Escenario 3:** Visualización del nuevo vehículo: Dado que el vehículo ha sido registrado, Cuando accedo a la lista de vehículos, Entonces debe aparecer correctamente en la interfaz |
 | EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US04 | Registro de repuestos | Como usuario, quiero registrar repuestos en el sistema para tener un control del inventario. | **Escenario 1:** Registro exitoso de repuesto: Dado que ingreso los datos del repuesto, Cuando completo y envío el formulario, Entonces el sistema debe agregar el repuesto al inventario <br> **Escenario 2:** Campos incompletos: Dado que el formulario no está completo, Cuando intento enviarlo, Entonces el sistema debe advertirme sobre los campos vacíos <br> **Escenario 3:** Duplicado de repuesto: Dado que intento registrar un repuesto existente, Cuando el sistema detecta duplicidad, Entonces debe mostrar un mensaje de advertencia |
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US05 | Gestión del perfil del usuario | Como usuario, quiero gestionar mi información personal en mi perfil para mantener mis datos actualizados | **Escenario 1:** Registro exitoso de información personal: Dado que ingreso mis daos personales, Cuando completo los cambios, Entonces el sistema debe actualizar mi perfil de usuario <br> **Escenario 2:** Campos incompletos: Dado que algún campo no está completo, el sistema debe advertirme sobre los campos vacíos <br> |
 | EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US06 | Edición del perfil desde la app | Como usuario, quiero editar mi perfil directamente desde la aplicación para mayor comodidad. | **Escenario 1:** Edición desde app: Dado que estoy en la aplicación móvil, Cuando accedo a mi perfil y modifico datos, Entonces el sistema debe reflejar los cambios correctamente <br> **Escenario 2:** Guardado exitoso desde app: Dado que termino de editar los datos, Cuando confirmo los cambios, Entonces se deben guardar sin errores <br> **Escenario 3:** Error al guardar cambios: Error al guardar cambios en la app: Dado que hay un fallo al cambiar los datos, Cuando intento guardar, Entonces se debe mostrar un mensaje de error |
-| EP02 | Calendario de Mantenimientos Programados | US07 | Visualización del calendario de mantenimientos | Como usuario, quiero visualizar un calendario con los mantenimientos programados para tener una vista clara de las fechas importantes. | **Escenario 1:** Acceso al calendario: Dado que tengo mantenimientos agendados, Cuando accedo al módulo de calendario, Entonces el sistema debe mostrar las fechas de mantenimiento programadas <br> **Escenario 2:** Detalles del mantenimiento: Dado que selecciono una fecha en el calendario, Cuando hago clic en ella, Entonces el sistema debe mostrar detalles del mantenimiento programado <br> **Escenario 3:** Calendario sin mantenimientos: Dado que no tengo mantenimientos agendados, Cuando accedo al calendario, Entonces debe mostrarse vacío con un mensaje informativo |
-| EP02 | Calendario de Mantenimientos Programados | US08 | Programación de nuevos mantenimientos | Como usuario, quiero poder programar nuevos mantenimientos para organizar el cuidado de mi vehículo. | **Escenario 1:** Programación exitosa: Dado que ingreso los datos requeridos, Cuando confirmo la programación, Entonces el sistema debe registrar el mantenimiento en el calendario <br> **Escenario 2:** Validación de fecha y hora, Dado que selecciono una fecha pasada o inválida, Cuando intento agendar el mantenimiento, Entonces el sistema debe mostrar un mensaje de error <br> **Escenario 3:** Confirmación visual: Dado que he programado correctamente un mantenimiento, Cuando regreso al calendario, Entonces el mantenimiento debe aparecer en la fecha seleccionada |
-| EP02 | Calendario de Mantenimientos Programados | US09 | Edición o cancelación de mantenimientos agendados | Como usuario, quiero editar o cancelar los mantenimientos programados para mantener mi calendario actualizado según mis necesidades. | **Escenario 1:** Edición exitosa de mantenimiento: Dado que tengo un mantenimiento agendado, Cuando modifico la fecha u hora y guardo los cambios, Entonces el sistema debe actualizar el calendario con la nueva información <br> **Escenario 2:** VCancelación de mantenimiento: Dado que ya no necesito un mantenimiento programado, Cuando selecciono la opción de cancelarlo, Entonces el sistema debe eliminarlo del calendario y mostrar una confirmación <br> **Escenario 3:** Validación de cambios inválidos: Dado que intento cambiar la fecha a una inválida, Cuando intento guardar, Entonces el sistema debe mostrar un mensaje de error indicando el problema |
-| EP02 | Calendario de Mantenimientos Programados | US10 | Recordatorios automáticos para mantenimientos programados | Como usuario, quiero recibir recordatorios automáticos para los mantenimientos agendados, para no olvidar ninguna cita importante. | **Escenario 1:** Recepción de recordatorio previo: Dado que tengo un mantenimiento programado, Cuando se acerque la fecha, Entonces el sistema debe enviarme un recordatorio <br> **Escenario 2:** Configuración de recordatorios: Dado que quiero ajustar la anticipación de los avisos, Cuando modifico esta preferencia en la configuración, Entonces el sistema debe aplicar los nuevos intervalos <br> **Escenario 3:** Canales de notificación: Dado que tengo un recordatorio activo, Cuando llega la fecha definida, Entonces el sistema debe enviarlo por la app |
-| EP03 | Gestión de Inventario de Repuestos | US11 | Consulta de repuestos disponibles | Como usuario, quiero consultar los repuestos disponibles en el inventario para saber si están en stock antes de agendar un mantenimiento. | **Escenario 1:** Visualización general del inventario: Dado que accedo a la sección de inventario, Cuando ingreso a la plataforma, Entonces el sistema debe mostrar la lista de repuestos con sus cantidades actuales <br> **Escenario 2:** Filtro de repuestos: Dado que necesito un tipo específico de repuesto, Cuando uso los filtros por categoría, nombre o código, Entonces el sistema debe mostrar solo los repuestos que cumplan con los criterios <br> **Escenario 3:** Indicador de stock bajo o agotado: Dado que un repuesto tiene bajo stock, Cuando consulto su disponibilidad, Entonces el sistema debe mostrar una alerta visual con el estado del repuesto |
-| EP03 | Gestión de Inventario de Repuestos | US12 | Registro de nuevos ingresos de repuestos | Como administrador, quiero registrar nuevos ingresos de repuestos al sistema para mantener actualizado el inventario. | **Escenario 1:** Registro exitoso de ingreso: Dado que estoy ingresando repuestos al sistema, Cuando completo los datos requeridos y los guardo, Entonces el inventario debe reflejar el nuevo stock actualizado <br> **Escenario 2:** Validación de campos al registrar: Dado que omito información esencial, Cuando intento registrar el ingreso, Entonces el sistema debe mostrar un mensaje indicando los campos faltantes <br> **Escenario 3:** Confirmación del registro: Dado que he ingresado correctamente los datos, Cuando finalizo el registro, Entonces el sistema debe mostrarme una notificación confirmando la operación |
-| EP03 | Gestión de Inventario de Repuestos | US13 | Notificación de repuestos bajos en stock | Como usuario, quiero recibir notificaciones cuando los repuestos estén por agotarse, para reabastecer el inventario a tiempo. | **Escenario 1:** Generación automática de alerta: Dado que el stock de un repuesto baja del umbral establecido, Cuando se actualiza el inventario, Entonces el sistema debe generar automáticamente una alerta de stock bajo <br> **Escenario 2:** Visualización en el panel principal: Dado que hay repuestos con bajo stock, Cuando ingreso al panel de control, Entonces el sistema debe mostrar un listado de estos repuestos resaltados <br> **Escenario 3:** Notificación por sistema: Dado que un repuesto se encuentra en nivel crítico, Cuando se registra la disminución de unidades, Entonces el sistema debe enviarme una notificación dentro de la plataforma |
-| EP03 | Gestión de Inventario de Repuestos | US14 | Actualización del inventario tras mantenimiento | Como usuario, quiero que el sistema actualice automáticamente el inventario cuando se utilicen repuestos en un mantenimiento, para mantener los datos precisos. | **Escenario 1:** Descuento automático de repuestos utilizados: Dado que se ha completado un mantenimiento, Cuando se registra el uso de ciertos repuestos, Entonces el sistema debe descontar automáticamente la cantidad utilizada del inventario <br> **Escenario 2:** Validación de stock suficiente: Dado que intento registrar un mantenimiento, Cuando el stock de un repuesto es insuficiente, Entonces el sistema debe impedir el registro y mostrar una advertencia |
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US07 | Visualización de vehículos asignados | Como mecánico, quiero visualizar los vehículos asignados por parte de mis clientes. | **Escenario 1:** Acceso a  vehículos asignados: Dado que tengo múltiples vehículos asignados, Cuando accedo a la vista home, Entonces el sistema debe mostrar los detalles de los vehículos asignados con su usario dueño <br> **Escenario 2:** No hay vehículos asignados: Dado que no tengo vehículos asignados, la vista home se mantendrá vacía <br> |
+| EP04 | Registro e Historial de Mantenimientos | US08 | Visualización de mantenimientos recomendados a clientes | Como mecánico, quiero poder visualizar las recomendaciones de mantenimientos enviados a mis clientes | **Escenario 1:** Acceso a mantenimientos recomendados: Dado que tengo múltiples mantenimientos recomendados a distintos clientes, Cuando accedo a la vista reparaciones enviadas, Entonces el sistema debe mostrar los detalles de los mantenimientos recomendados y a quienes fueron enviados. <br> **Escenario 2:** No hay mantenimientos recomendados: Dado que no tengo mantenimientos recomendados, la vista reparaciones enviadas se mantendrá vacía <br> |
+| EP04 | Registro e Historial de Mantenimientos | US09 | Edición o cancelación de mantenimientos agendados | Como usuario, quiero editar o cancelar los mantenimientos programados para mantener mi calendario actualizado según mis necesidades. | **Escenario 1:** Edición exitosa de mantenimiento: Dado que tengo un mantenimiento agendado, Cuando modifico la fecha u hora y guardo los cambios, Entonces el sistema debe actualizar el calendario con la nueva información <br> **Escenario 2:** VCancelación de mantenimiento: Dado que ya no necesito un mantenimiento programado, Cuando selecciono la opción de cancelarlo, Entonces el sistema debe eliminarlo del calendario y mostrar una confirmación <br> **Escenario 3:** Validación de cambios inválidos: Dado que intento cambiar la fecha a una inválida, Cuando intento guardar, Entonces el sistema debe mostrar un mensaje de error indicando el problema |
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US10 | Restablecer contraseña | Como usuario, quiero poder restablecer mi contraseña en caso de emergencia u olvido. | **Escenario 1:** Restablecer contraseña desde pestaña login: Dado que tengo problemas en utilizar la contraseña de mi cuenta, Cuando presione "olvidé mi contraseña", Entonces se me redirige la vista restablecer contraseña <br> **Escenario 2:** Vista de restablecer contraseña: Dado que me encuentro en la vista restablecer contraseña, Cuando ingreso la nueva contraseña y la repito en el label inferior, Entonces el sistema actualiza la contraseña de mi cuenta <br> |
+| EP02 | Gestión de Inventario de Repuestos | US11 | Consulta de repuestos disponibles | Como usuario, quiero consultar los repuestos disponibles en el inventario para saber si están en stock antes de agendar un mantenimiento. | **Escenario 1:** Visualización general del inventario: Dado que accedo a la sección de inventario, Cuando ingreso a la plataforma, Entonces el sistema debe mostrar la lista de repuestos con sus cantidades actuales <br> **Escenario 2:** Filtro de repuestos: Dado que necesito un tipo específico de repuesto, Cuando uso los filtros por categoría, nombre o código, Entonces el sistema debe mostrar solo los repuestos que cumplan con los criterios <br> **Escenario 3:** Indicador de stock bajo o agotado: Dado que un repuesto tiene bajo stock, Cuando consulto su disponibilidad, Entonces el sistema debe mostrar una alerta visual con el estado del repuesto |
+| EP02 | Gestión de Inventario de Repuestos | US12 | Registro de nuevos ingresos de repuestos | Como administrador, quiero registrar nuevos ingresos de repuestos al sistema para mantener actualizado el inventario. | **Escenario 1:** Registro exitoso de ingreso: Dado que estoy ingresando repuestos al sistema, Cuando completo los datos requeridos y los guardo, Entonces el inventario debe reflejar el nuevo stock actualizado <br> **Escenario 2:** Validación de campos al registrar: Dado que omito información esencial, Cuando intento registrar el ingreso, Entonces el sistema debe mostrar un mensaje indicando los campos faltantes <br> **Escenario 3:** Confirmación del registro: Dado que he ingresado correctamente los datos, Cuando finalizo el registro, Entonces el sistema debe mostrarme una notificación confirmando la operación |
+| EP06 | Interacción y Navegación en la Landing Page | US13 | Sección About the Team | Como usuario, quiero poder visualizar la sección About the Team para empatizar y conocer a las personas detrás de la startup. | **Escenario 1:** : Dado que quiero acceder a la sección de nosotros, Cuando le doy click a "Nosotros" en la barra de navegación, Entonces se me redirigirá para poder observar la misión y visión de la startup <br> **Escenario 2:** Visualización del propósito de la startup: Dado que deseo ver el propósito de la startup y fotos de su realización, Cuando le doy click a "Nosotros" en la barra de navegaciónen, Entonces se me redigirá a la sección propósito junto a las capturas respectivas |
+| EP02 | Gestión de Inventario de Repuestos | US14 | Actualización del inventario tras mantenimiento | Como usuario, quiero que el sistema actualice automáticamente el inventario cuando se utilicen repuestos en un mantenimiento, para mantener los datos precisos. | **Escenario 1:** Descuento automático de repuestos utilizados: Dado que se ha completado un mantenimiento, Cuando se registra el uso de ciertos repuestos, Entonces el sistema debe descontar automáticamente la cantidad utilizada del inventario <br> **Escenario 2:** Validación de stock suficiente: Dado que intento registrar un mantenimiento, Cuando el stock de un repuesto es insuficiente, Entonces el sistema debe impedir el registro y mostrar una advertencia |
 | EP04 | Cálculo de Presupuesto y Control de Costos | US15 | Generación de presupuesto de mantenimiento | Como usuario, quiero que el sistema genere un presupuesto estimado para el mantenimiento del vehículo, para saber cuánto me costará antes de aprobarlo. | **Escenario 1:** Cálculo automático según repuestos y mano de obra: Dado que selecciono los repuestos y servicios necesarios, Cuando confirmo los detalles del mantenimiento, Entonces el sistema debe calcular el costo total y mostrarme un presupuesto estimado <br> **Escenario 2:** Visualización detallada del presupuesto: Dado que he generado un presupuesto, Cuando reviso la propuesta, Entonces debo ver el desglose de costos por cada ítem |
-| EP04 | Cálculo de Presupuesto y Control de Costos | US16 | Edición de costos y repuestos por servicio | Como mecánico, quiero poder modificar los costos y repuestos asignados a un servicio, para reflejar cambios reales antes de facturar. | **Escenario 1:** Modificación de valores antes de confirmar servicio: Dado que he ingresado un mantenimiento, Cuando necesito ajustar los costos o repuestos, Entonces debo poder editar los campos correspondientes antes de la confirmación <br> **Escenario 2:** Validación de datos actualizados: Dado que modifico un presupuesto, Cuando confirmo los cambios, Entonces el sistema debe validar los datos y recalcular el total correctamente |
-| EP04 | Cálculo de Presupuesto y Control de Costos | US17 | Visualización de gastos históricos por vehículo |  Como usuario, quiero visualizar los gastos acumulados en mantenimientos por cada vehículo, para tener un control de mi inversión en reparaciones. | **Escenario 1:** Consulta de gastos totales por vehículo: Dado que selecciono un vehículo, Cuando ingreso a su historial, Entonces el sistema debe mostrarme el total acumulado de gastos en mantenimientos <br> **Escenario 2:** Filtros por periodo de tiempo: Dado que deseo ver los gastos, Cuando aplico filtros de fechas, Entonces el sistema debe mostrar los datos correspondientes al rango elegido <br> **Escenario 3:** Visualización en formato gráfico y tabla: Dado que consulto los gastos, Cuando ingreso a la sección de historial, Entonces debo ver los datos en gráficos de barras o líneas y en una tabla detallada |
-| EP05 | Historial de Mantenimientos | US18 | Consulta del historial por vehículo |  Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | **Escenario 1:** Listado cronológico de mantenimientos: Dado que accedo al historial de un vehículo, Cuando se despliega la información, Entonces debo ver un listado ordenado por fecha de los mantenimientos realizados <br> **Escenario 2:** Visualización de detalles por mantenimiento: Dado que veo el historial, Cuando selecciono un mantenimiento, Entonces debo poder ver sus detalles, como tipo de servicio, repuestos usados y costos <br> **Escenario 3:** Filtros por tipo de servicio: Dado que tengo muchos registros, Cuando aplico un filtro por tipo de servicio, Entonces el sistema debe mostrar solo los resultados que coincidan |
-| EP05 | Historial de Mantenimientos | US19 | Detalle de cada servicio registrado |  Como usuario, quiero acceder al detalle de cada servicio registrado para revisar qué repuestos se usaron, el costo y las observaciones del mecánico. | **Escenario 1:** Acceso al detalle desde el historial: Dado que visualizo el historial de mantenimientos, Cuando selecciono un servicio, Entonces se debe mostrar toda la información relacionada a ese mantenimiento <br> **Escenario 2:** Visualización de repuestos utilizados: Dado que estoy en el detalle de un servicio, Cuando accedo a la sección de repuestos, Entonces debo ver los nombres, cantidades y códigos de cada uno <br> **Escenario 3:** Inclusión de observaciones técnicas: Dado que reviso un servicio, Cuando se carga la información, Entonces debo poder leer las observaciones del mecánico o técnico encargado |
-| EP05 | Historial de Mantenimientos | US20 | Exportación o descarga del historial en PDF |  Como usuario, quiero poder exportar o descargar en PDF el historial de mantenimientos de un vehículo para conservarlo o compartirlo fácilmente. | **Escenario 1:** Opción de exportar historial completo: Dado que visualizo el historial de un vehículo, Cuando selecciono la opción de exportar, Entonces el sistema debe generar un archivo PDF con toda la información <br> **Escenario 2:** Descarga exitosa del documento: Dado que genero el PDF, Cuando la descarga inicia, Entonces el archivo debe guardarse correctamente en mi dispositivo <br> **Escenario 3:** Inclusión de datos detallados en el PDF: Dado que visualizo el PDF generado, Cuando lo abro, Entonces debe contener fechas, servicios realizados, repuestos utilizados y montos |
-| EP06 | Mensajería entre Usuario y Mecánico | US21 | Envío de mensajes entre usuario y mecánico |  Como usuario, quiero poder comunicarme con el mecánico a través de la plataforma para resolver dudas o recibir actualizaciones sobre mis mantenimientos. | **Escenario 1:** Envío de mensaje desde la interfaz del servicio: Dado que tengo un mantenimiento en curso, Cuando ingreso a su detalle y escribo un mensaje, Entonces el sistema debe enviarlo correctamente al mecánico asignado <br> **Escenario 2:** Confirmación de envío: Dado que he enviado un mensaje, Cuando el sistema lo procesa correctamente, Entonces debe aparecer una confirmación visual <br> **Escenario 3:** Comunicación bidireccional: Dado que hay una conversación activa, Cuando el mecánico responde, Entonces el mensaje debe aparecer en la interfaz del chat correspondiente |
-| EP06 | Mensajería entre Usuario y Mecánico | US22 | Notificaciones de nuevos mensajes |  Como usuario, quiero recibir notificaciones cuando el mecánico me envíe un mensaje para estar informado sin necesidad de revisar constantemente la app. | **Escenario 1:** Notificación emergente en la app: Dado que recibo un nuevo mensaje, Cuando estoy usando la plataforma, Entonces debe mostrarse una notificación visual <br> **Escenario 2:** Acceso directo desde la notificación: Dado que toco la notificación, Cuando esta se activa, Entonces debo ser dirigido automáticamente a la conversación correspondiente |
-| EP06 | Mensajería entre Usuario y Mecánico | US23 | Historial de conversación por vehículo o servicio |  Como usuario, quiero consultar el historial de mensajes asociados a cada vehículo o servicio para revisar fácilmente las conversaciones pasadas con el mecánico. | **Escenario 1:** Acceso al historial desde la ficha del vehículo: Dado que tengo vehículos registrados, Cuando ingreso al detalle de uno de ellos, Entonces debe estar disponible la opción de ver las conversaciones asociadas <br> **Escenario 2:** Visualización ordenada cronológicamente: Dado que ingreso al historial de mensajes, Cuando se cargan las conversaciones, Entonces debe mostrar en orden cronológico los mensajes |
-| EP07 | Gestión de Suscripción y Pagos | US24 | Selección del plan de suscripción |  Como usuario, quiero elegir el plan de suscripción que mejor se adapte a mis necesidades para aprovechar los servicios de AutoNexo según mi presupuesto y uso. | **Escenario 1:** Visualización de todos los planes disponibles: Dado que accedo a la sección de suscripciones, Cuando la pantalla carga, Entonces debo ver todos los planes con sus características y precios <br> **Escenario 2:** Selección de un plan: Dado que deseo suscribirme, Cuando selecciono un plan y realizo el pago, Entonces el sistema debe activarlo y mostrarme un mensaje de confirmación <br> **Escenario 3:** Restricciones por plan: Dado que selecciono un plan específico, Cuando utilizo la plataforma, Entonces solo debo tener acceso a las funciones incluidas en dicho plan |
-| EP07 | Gestión de Suscripción y Pagos | US25 | Registro de método de pago seguro |  Como usuario, quiero registrar un método de pago seguro para poder realizar mis pagos de suscripción sin preocupaciones y de forma rápida. | **Escenario 1:** Ingreso de datos de tarjeta válidos: Dado que deseo agregar un nuevo método de pago, Cuando ingreso los datos correctamente, Entonces el sistema debe registrarlos y confirmar que se ha guardado con éxito <br> **Escenario 2:** Validación de campos incorrectos: Dado que ingreso datos incompletos o inválidos, Cuando intento guardar el método de pago, Entonces el sistema debe mostrar mensajes de error y no permitir el registro <br> **Escenario 3:** Seguridad del proceso de registro: Dado que estoy ingresando mis datos bancarios, Cuando realizo el proceso, Entonces debe hacerse mediante un canal cifrado y seguro |
-| EP07 | Gestión de Suscripción y Pagos | US26 | Renovación automática de suscripción |  Como usuario, quiero que mi suscripción se renueve automáticamente para seguir disfrutando del servicio sin interrupciones. | **Escenario 1:** Activación de la renovación automática: Dado que tengo una suscripción activa, Cuando selecciono la opción de renovación automática, Entonces el sistema debe habilitar esta función y notificarme que está activa <br> **Escenario 2:** Cobro exitoso en la fecha programada: Dado que tengo un método de pago válido y renovación activa, Cuando llega la fecha de renovación, Entonces el sistema debe realizar el cobro y mantener mi suscripción activa <br> **Escenario 3:** Notificación previa a la renovación: Dado que tengo activada la renovación, Cuando se acerque la fecha de cobro, Entonces el sistema debe notificarme con anticipación |
-| EP07 | Gestión de Suscripción y Pagos | US27 | Cambio de plan de suscripción |  Como usuario, quiero poder cambiar mi plan de suscripción en cualquier momento para ajustarlo a mis necesidades o presupuesto. | **Escenario 1:** Cambio exitoso de plan: Dado que tengo una suscripción activa, Cuando selecciono un nuevo plan y confirmo el cambio, Entonces el sistema debe aplicar el nuevo plan y mostrar una notificación de éxito <br> **Escenario 2:** Validación de requisitos del nuevo plan: Dado que estoy eligiendo un nuevo plan, Cuando este requiere condiciones específicas (pago anticipado), Entonces el sistema debe indicarlas antes de permitir el cambio <br> **Escenario 3:** Notificación del cambio: Dado que he cambiado mi plan, Cuando se complete el proceso, Entonces debo recibir una notificación de la app confirmando la modificación |
-| EP07 | Gestión de Suscripción y Pagos | US28 | Cancelación o pausa del servicio |  Como usuario, quiero tener la opción de cancelar o pausar mi suscripción para detener el servicio temporal o permanentemente según mi situación. | **Escenario 1:** Cancelación voluntaria del servicio: Dado que deseo dejar de utilizar AutoNexo, Cuando solicito la cancelación desde la sección de suscripción, Entonces el sistema debe procesarla y mostrar una confirmación clara <br> **Escenario 2:** Pausar temporalmente el servicio: Dado que no quiero usar el servicio por un tiempo, Cuando selecciono la opción de pausa, Entonces el sistema debe suspender la facturación <br> **Escenario 3:** Confirmación y efectos del estado cancelado o pausado: Dado que he pausado o cancelado mi suscripción, Cuando intento acceder a funcionalidades premium, Entonces el sistema debe informar que están deshabilitadas |
-| EP08 | Interacción y Navegación en la Landing Page | US29 | Navegación intuitiva |  Como visitante de la Landing Page, quiero navegar de forma intuitiva entre las secciones del sitio para encontrar rápidamente la información que necesito. | **Escenario 1:** Menú visible y funcional: Dado que el visitante se encuentra en la landing page, Cuando accede desde cualquier dispositivo, Entonces debe visualizar un menú de navegación accesible y funcional <br> **Escenario 2:** Transiciones suaves entre secciones: Dado que el visitante se desplaza por la página, Cuando hace clic en los elementos del menú, Entonces la transición entre secciones debe ser fluida y sin errores |
-| EP08 | Interacción y Navegación en la Landing Page | US30 | Compatibilidad con lectores de pantalla |  Como visitante con discapacidad visual, quiero que la Landing Page sea compatible con lectores de pantalla para poder acceder al contenido sin barreras. | **Escenario 1:** Estructura semántica adecuada: Dado que el visitante utiliza un lector de pantalla, Cuando navega por la página, Entonces el lector debe interpretar correctamente los títulos, párrafos, botones y enlaces <br> **Escenario 2:** Etiquetado accesible de imágenes y botones: Dado que el visitante se desplaza por la landing page, Cuando el lector se posiciona sobre imágenes o botones, Entonces debe recibir descripciones adecuadas mediante etiquetas alt o aria-label |
-| EP08 | Interacción y Navegación en la Landing Page | US31 | Feedback visual en interacciones |  Como visitante de la Landing Page, quiero recibir retroalimentación visual al interactuar con los elementos para saber que mis acciones han sido reconocidas. | **Escenario 1:** Cambio visual en botones al hacer clic o pasar el mouse: Dado que el visitante interactúa con botones, Cuando pasa el cursor o da clic sobre ellos, Entonces los botones deben responder visualmente <br> **Escenario 2:** Confirmación visual de acciones: Dado que el visitante completa una acción (como enviar un formulario), Cuando se envía correctamente, Entonces debe mostrarse un mensaje o señal de confirmación |
-| EP09 | Integración y Exposición de Servicios vía API RESTful | TS01 | Registro de usuario a través de un RESTful API |  Como desarrollador, quiero implementar la opción de registrar nuevos usuarios a través de una API RESTful, para que los conductores y mecánicos puedan crear sus cuentas en la plataforma. | **Escenario 1:** Registro exitoso: Dado que soy un developer, Cuando envío una solicitud con los datos del nuevo usuario, Entonces el API debe registrar al usuario <br> **Escenario 2:** Usuario duplicado: Dado que ya existe un usuario con el mismo correo electrónico, Cuando intento registrar un nuevo usuario con ese mismo correo, Entonces el API debe devolver un mensaje de conflicto |
-| EP09 | Integración y Exposición de Servicios vía API RESTful | TS02 | Registro de repuestos en inventario a través de un RESTful API |  Como desarrollador, quiero implementar la opción de registrar repuestos mediante una API RESTful, para que los usuarios puedan llevar un control del inventario de piezas disponibles. | **Escenario 1:** Registro exitoso de repuesto: Dado que tengo datos del repuesto, Cuando envío una solicitud con los datos del nuevo repuesto, Entonces el API debe guardar el repuesto y devolver su ID <br> **Escenario 2:** Repuesto ya existente: Dado que intento registrar un repuesto con un código que ya está en el sistema, Cuando hago la solicitud, Entonces el API debe indicar que el repuesto ya existe |
-| EP09 | Integración y Exposición de Servicios vía API RESTful | TS03 | Registro de vehículos a través de un RESTful API |  Como desarrollador, quiero implementar la opción de registrar vehículos mediante una API RESTful, para que los usuarios puedan gestionar sus autos en la plataforma. | **Escenario 1:** Registro exitoso: Dado que tengo todos los datos del vehículo, Cuando los envío mediante una solicitud, Entonces el API debe guardar el vehículo <br> **Escenario 2:** Asociación con usuario: Dado que un usuario está autenticado, Cuando registra un vehículo, Entonces este debe quedar asociado al ID de ese usuario |
-| EP09 | Integración y Exposición de Servicios vía API RESTful | TS04 | Creación de diagnósticos a través de un RESTful API |  Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto. | **Escenario 1:** Diagnostico creado correctamente: Dado que tengo acceso y los datos del diagnóstico, Cuando envío una solicitud POST, Entonces el sistema debe almacenar el diagnóstico <br> **Escenario 2:** Relación con el vehículo: Dado que el diagnóstico pertenece a un vehículo, Cuando lo registro, Entonces debe quedar asociado al vehículo correspondiente en la respuesta |
-| EP09 | Integración y Exposición de Servicios vía API RESTful | TS05 | Creación de mantenimientos programados mediante RESTful API |  Como desarrollador, quiero permitir la programación de mantenimientos a través de una API RESTful, para que los usuarios puedan agendar sus servicios con anticipación. | **Escenario 1:** Mantenimiento registrado exitosamente: Dado que envío todos los datos necesarios, Cuando hago una solicitud POST válida, Entonces el API debe guardar el mantenimiento <br> **Escenario 2:** Asociación con vehículo y repuestos: Dado que indico los IDs del vehículo y repuestos, Cuando creo el mantenimiento, Entonces deben quedar relacionados en la base de datos |
-| EP09 | Integración y Exposición de Servicios vía API RESTful | TS06 | Consulta de historial de servicios por vehículo mediante RESTful API |  Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados. | **Escenario 1:** Historial disponible: Dado que el vehículo tiene servicios registrados, Cuando realizo una solicitud GET con su ID, Entonces el API debe devolver un listado de los servicios <br> **Escenario 2:** Vehículo no encontrado: Dado que uso un ID de vehículo inexistente, Cuando consulto el historial, Entonces el API debe responder con código erroneo |
-| EP09 | Integración y Exposición de Servicios vía API RESTful | TS07 | Actualización del inventario de repuestos mediante RESTful API |  Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock. | **Escenario 1:** Actualización exitosa: Dado que tengo permisos y datos válidos, Cuando envío una solicitud PUT con el nuevo stock, Entonces el API debe actualizar el inventario <br> **Escenario 2:** Valor inválido: Dado que ingreso una cantidad negativa, Cuando intento actualizar el stock, Entonces el API debe indicar el error de validación |
+| EP03 | Cálculo de Presupuesto y Control de Costos | US16 | Edición de costos y repuestos por servicio | Como mecánico, quiero poder modificar los costos y repuestos asignados a un servicio, para reflejar cambios reales antes de facturar. | **Escenario 1:** Modificación de valores antes de confirmar servicio: Dado que he ingresado un mantenimiento, Cuando necesito ajustar los costos o repuestos, Entonces debo poder editar los campos correspondientes antes de la confirmación <br> **Escenario 2:** Validación de datos actualizados: Dado que modifico un presupuesto, Cuando confirmo los cambios, Entonces el sistema debe validar los datos y recalcular el total correctamente |
+| EP03 | Cálculo de Presupuesto y Control de Costos | US17 | Visualización de gastos históricos por vehículo |  Como usuario, quiero visualizar los gastos acumulados en mantenimientos por cada vehículo, para tener un control de mi inversión en reparaciones. | **Escenario 1:** Consulta de gastos totales por vehículo: Dado que selecciono un vehículo, Cuando ingreso a su historial, Entonces el sistema debe mostrarme el total acumulado de gastos en mantenimientos <br> **Escenario 2:** Filtros por periodo de tiempo: Dado que deseo ver los gastos, Cuando aplico filtros de fechas, Entonces el sistema debe mostrar los datos correspondientes al rango elegido <br> **Escenario 3:** Visualización en formato gráfico y tabla: Dado que consulto los gastos, Cuando ingreso a la sección de historial, Entonces debo ver los datos en gráficos de barras o líneas y en una tabla detallada |
+| EP04 | Registro e Historial de Mantenimientos | US18 | Consulta del historial por vehículo |  Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | **Escenario 1:** Listado cronológico de mantenimientos: Dado que accedo al historial de un vehículo, Cuando se despliega la información, Entonces debo ver un listado ordenado por fecha de los mantenimientos realizados <br> **Escenario 2:** Visualización de detalles por mantenimiento: Dado que veo el historial, Cuando selecciono un mantenimiento, Entonces debo poder ver sus detalles, como tipo de servicio, repuestos usados y costos <br> **Escenario 3:** Filtros por tipo de servicio: Dado que tengo muchos registros, Cuando aplico un filtro por tipo de servicio, Entonces el sistema debe mostrar solo los resultados que coincidan |
+| EP04 | Registro e Historial de Mantenimientos | US19 | Detalle de cada servicio registrado |  Como usuario, quiero acceder al detalle de cada servicio registrado para revisar qué repuestos se usaron, el costo y las observaciones del mecánico. | **Escenario 1:** Acceso al detalle desde el historial: Dado que visualizo el historial de mantenimientos, Cuando selecciono un servicio, Entonces se debe mostrar toda la información relacionada a ese mantenimiento <br> **Escenario 2:** Visualización de repuestos utilizados: Dado que estoy en el detalle de un servicio, Cuando accedo a la sección de repuestos, Entonces debo ver los nombres, cantidades y códigos de cada uno <br> **Escenario 3:** Inclusión de observaciones técnicas: Dado que reviso un servicio, Cuando se carga la información, Entonces debo poder leer las observaciones del mecánico o técnico encargado |
+| EP04 | Registro e Historial de Mantenimientos | US20 | Exportación o descarga del historial en PDF |  Como usuario, quiero poder exportar o descargar en PDF el historial de mantenimientos de un vehículo para conservarlo o compartirlo fácilmente. | **Escenario 1:** Opción de exportar historial completo: Dado que visualizo el historial de un vehículo, Cuando selecciono la opción de exportar, Entonces el sistema debe generar un archivo PDF con toda la información <br> **Escenario 2:** Descarga exitosa del documento: Dado que genero el PDF, Cuando la descarga inicia, Entonces el archivo debe guardarse correctamente en mi dispositivo <br> **Escenario 3:** Inclusión de datos detallados en el PDF: Dado que visualizo el PDF generado, Cuando lo abro, Entonces debe contener fechas, servicios realizados, repuestos utilizados y montos |
+| EP06 | Interacción y Navegación en la Landing Page | US21 | Sección Contáctanos | Como usuario, quiero poder acceder a la sección contáctanos para enviar mis dudas acerca de los diferentes planes. | **Escenario 1:** : Dado que quiero acceder a la sección de contáctonos, Cuando le doy click a "Contáctanos" en la barra de navegación, Entonces se me redirigirá a la sección de contáctanos <br> **Escenario 2:** Enviar duda sobre la startup: Dado que deseo resolver una duda sobre la startup, Relleno los campos de nombre, correo y mensaje en la sección contáctanos, Entonces se eviará mi duda para ser respondida en el correo que registré  |
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US22 | Página Page Not Found |  Como usuario, quiero poder ser redirigido a home, mediante un botón en la página page not found en caso escriba una dirección errónea. | **Escenario 1:** Equivocación en navegación: Dado que escribo una dirección errónea, Cuando estoy usando la aplicación, Entonces debe redirigirme a una página not found <br> **Escenario 2:** Redirección a la vista home: Dado que me encuentro en la página not found, Cuando le de click al botón regresar a home, Entonces se me redirigirá a la vista home para poder continuar con la navegación |
+| EP01 |  Registro y Gestión de Usuario, Vehículo y Repuestos | US23 | Herramienta Language Switcher |  Como usuario, quiero poder cambiar el idioma de la aplicación a través de un botón switch accesible. | **Escenario 1:** Acceso al idioma inglés: Dado que requiero cambiar el idioma ingles a la aplicacion, Cuando le doy click al botón switch de language switcher, Entonces el contenido de la página se traducirá automáticamente al idioma inglés <br> **Escenario 2:** Regresar al idioma español: Dado que deseo volver al idioma original, Cuando vuelvo a darle click al botón language switcher, Entonces el contenido de la página volverá al idioma original |
+| EP05 | Gestión de Suscripción y Pagos | US24 | Selección del plan de suscripción |  Como usuario, quiero elegir el plan de suscripción que mejor se adapte a mis necesidades para aprovechar los servicios de AutoNexo según mi presupuesto y uso. | **Escenario 1:** Visualización de todos los planes disponibles: Dado que accedo a la sección de suscripciones, Cuando la pantalla carga, Entonces debo ver todos los planes con sus características y precios <br> **Escenario 2:** Selección de un plan: Dado que deseo suscribirme, Cuando selecciono un plan y realizo el pago, Entonces el sistema debe activarlo y mostrarme un mensaje de confirmación <br> **Escenario 3:** Restricciones por plan: Dado que selecciono un plan específico, Cuando utilizo la plataforma, Entonces solo debo tener acceso a las funciones incluidas en dicho plan |
+| EP05 | Gestión de Suscripción y Pagos | US25 | Registro de método de pago seguro |  Como usuario, quiero registrar un método de pago seguro para poder realizar mis pagos de suscripción sin preocupaciones y de forma rápida. | **Escenario 1:** Ingreso de datos de tarjeta válidos: Dado que deseo agregar un nuevo método de pago, Cuando ingreso los datos correctamente, Entonces el sistema debe registrarlos y confirmar que se ha guardado con éxito <br> **Escenario 2:** Validación de campos incorrectos: Dado que ingreso datos incompletos o inválidos, Cuando intento guardar el método de pago, Entonces el sistema debe mostrar mensajes de error y no permitir el registro <br> **Escenario 3:** Seguridad del proceso de registro: Dado que estoy ingresando mis datos bancarios, Cuando realizo el proceso, Entonces debe hacerse mediante un canal cifrado y seguro |
+| EP06 | Interacción y Navegación en la Landing Page | US26 | Barra de Navegación |  Como usuario, quiero poder navegar de manera fácil e intuitiva mediante una barra de navegación accesible | **Escenario 1:** Barra de navegación en la landing page: Dado que quiero acceder a las secciones de la landing page, Cuando selecciono los botones de cada sección en la barra de navegación, Entonces se me redirigé al sección del nombre del botón <br> **Escenario 2:** Barra de navegación en la aplicación: Dado que quiero acceder a las vistas de la aplicación, Cuando selecciono los botones de cada funcionalidad en la barra de navegación, se me redirigé a la vista de la funcionalidad del nombre del botón |
+| EP05 | Gestión de Suscripción y Pagos | US27 | Cambio de plan de suscripción |  Como usuario, quiero poder cambiar mi plan de suscripción en cualquier momento para ajustarlo a mis necesidades o presupuesto. | **Escenario 1:** Cambio exitoso de plan: Dado que tengo una suscripción activa, Cuando selecciono un nuevo plan y confirmo el cambio, Entonces el sistema debe aplicar el nuevo plan y mostrar una notificación de éxito <br> **Escenario 2:** Validación de requisitos del nuevo plan: Dado que estoy eligiendo un nuevo plan, Cuando este requiere condiciones específicas (pago anticipado), Entonces el sistema debe indicarlas antes de permitir el cambio <br> **Escenario 3:** Notificación del cambio: Dado que he cambiado mi plan, Cuando se complete el proceso, Entonces debo recibir una notificación de la app confirmando la modificación |
+| EP05 | Gestión de Suscripción y Pagos | US28 | Cancelación o pausa del servicio |  Como usuario, quiero tener la opción de cancelar o pausar mi suscripción para detener el servicio temporal o permanentemente según mi situación. | **Escenario 1:** Cancelación voluntaria del servicio: Dado que deseo dejar de utilizar AutoNexo, Cuando solicito la cancelación desde la sección de suscripción, Entonces el sistema debe procesarla y mostrar una confirmación clara <br> **Escenario 2:** Pausar temporalmente el servicio: Dado que no quiero usar el servicio por un tiempo, Cuando selecciono la opción de pausa, Entonces el sistema debe suspender la facturación <br> **Escenario 3:** Confirmación y efectos del estado cancelado o pausado: Dado que he pausado o cancelado mi suscripción, Cuando intento acceder a funcionalidades premium, Entonces el sistema debe informar que están deshabilitadas |
+| EP01 | Registro y Gestión de Usuario, Vehículo y Repuestos | US29 | Botón de retroceso |  Como usuario, quiero poder retroceder a la página previa para una navegación más completa y satisfactoria | **Escenario 1:** Equivocación en navegación: Dado que me equivocó al momento de dirigirme una vista, Cuando le doy click al botón de retroceso, Entonces vuelvo a la vista anterior <br> **Escenario 2:** Agilizar la navegación: Dado que desei regresar a varias vistas anteriores, Cuando le doy click al botón de retroceso múltiples veces, Entonces regreso hasta la visa donde desee |
+| EP06 | Interacción y Navegación en la Landing Page | US30 | Compatibilidad con lectores de pantalla |  Como visitante con discapacidad visual, quiero que la Landing Page sea compatible con lectores de pantalla para poder acceder al contenido sin barreras. | **Escenario 1:** Estructura semántica adecuada: Dado que el visitante utiliza un lector de pantalla, Cuando navega por la página, Entonces el lector debe interpretar correctamente los títulos, párrafos, botones y enlaces <br> **Escenario 2:** Etiquetado accesible de imágenes y botones: Dado que el visitante se desplaza por la landing page, Cuando el lector se posiciona sobre imágenes o botones, Entonces debe recibir descripciones adecuadas mediante etiquetas alt o aria-label |
+| EP06 | Interacción y Navegación en la Landing Page | US31 | Feedback visual en interacciones |  Como visitante de la Landing Page, quiero recibir retroalimentación visual al interactuar con los elementos para saber que mis acciones han sido reconocidas. | **Escenario 1:** Cambio visual en botones al hacer clic o pasar el mouse: Dado que el visitante interactúa con botones, Cuando pasa el cursor o da clic sobre ellos, Entonces los botones deben responder visualmente <br> **Escenario 2:** Confirmación visual de acciones: Dado que el visitante completa una acción (como enviar un formulario), Cuando se envía correctamente, Entonces debe mostrarse un mensaje o señal de confirmación |
+| EP07 | Integración y Exposición de Servicios vía API RESTful | TS01 | Registro de usuario a través de un RESTful API |  Como desarrollador, quiero implementar la opción de registrar nuevos usuarios a través de una API RESTful, para que los conductores y mecánicos puedan crear sus cuentas en la plataforma. | **Escenario 1:** Registro exitoso: Dado que soy un developer, Cuando envío una solicitud con los datos del nuevo usuario, Entonces el API debe registrar al usuario <br> **Escenario 2:** Usuario duplicado: Dado que ya existe un usuario con el mismo correo electrónico, Cuando intento registrar un nuevo usuario con ese mismo correo, Entonces el API debe devolver un mensaje de conflicto |
+| EP07 | Integración y Exposición de Servicios vía API RESTful | TS02 | Registro de repuestos en inventario a través de un RESTful API |  Como desarrollador, quiero implementar la opción de registrar repuestos mediante una API RESTful, para que los usuarios puedan llevar un control del inventario de piezas disponibles. | **Escenario 1:** Registro exitoso de repuesto: Dado que tengo datos del repuesto, Cuando envío una solicitud con los datos del nuevo repuesto, Entonces el API debe guardar el repuesto y devolver su ID <br> **Escenario 2:** Repuesto ya existente: Dado que intento registrar un repuesto con un código que ya está en el sistema, Cuando hago la solicitud, Entonces el API debe indicar que el repuesto ya existe |
+| EP07 | Integración y Exposición de Servicios vía API RESTful | TS03 | Registro de vehículos a través de un RESTful API |  Como desarrollador, quiero implementar la opción de registrar vehículos mediante una API RESTful, para que los usuarios puedan gestionar sus autos en la plataforma. | **Escenario 1:** Registro exitoso: Dado que tengo todos los datos del vehículo, Cuando los envío mediante una solicitud, Entonces el API debe guardar el vehículo <br> **Escenario 2:** Asociación con usuario: Dado que un usuario está autenticado, Cuando registra un vehículo, Entonces este debe quedar asociado al ID de ese usuario |
+| EP07 | Integración y Exposición de Servicios vía API RESTful | TS04 | Creación de diagnósticos a través de un RESTful API |  Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto. | **Escenario 1:** Diagnostico creado correctamente: Dado que tengo acceso y los datos del diagnóstico, Cuando envío una solicitud POST, Entonces el sistema debe almacenar el diagnóstico <br> **Escenario 2:** Relación con el vehículo: Dado que el diagnóstico pertenece a un vehículo, Cuando lo registro, Entonces debe quedar asociado al vehículo correspondiente en la respuesta |
+| EP07 | Integración y Exposición de Servicios vía API RESTful | TS05 | Creación de mantenimientos programados mediante RESTful API |  Como desarrollador, quiero permitir la programación de mantenimientos a través de una API RESTful, para que los usuarios puedan agendar sus servicios con anticipación. | **Escenario 1:** Mantenimiento registrado exitosamente: Dado que envío todos los datos necesarios, Cuando hago una solicitud POST válida, Entonces el API debe guardar el mantenimiento <br> **Escenario 2:** Asociación con vehículo y repuestos: Dado que indico los IDs del vehículo y repuestos, Cuando creo el mantenimiento, Entonces deben quedar relacionados en la base de datos |
+| EP07 | Integración y Exposición de Servicios vía API RESTful | TS06 | Consulta de historial de servicios por vehículo mediante RESTful API |  Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados. | **Escenario 1:** Historial disponible: Dado que el vehículo tiene servicios registrados, Cuando realizo una solicitud GET con su ID, Entonces el API debe devolver un listado de los servicios <br> **Escenario 2:** Vehículo no encontrado: Dado que uso un ID de vehículo inexistente, Cuando consulto el historial, Entonces el API debe responder con código erroneo |
+| EP07 | Integración y Exposición de Servicios vía API RESTful | TS07 | Actualización del inventario de repuestos mediante RESTful API |  Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock. | **Escenario 1:** Actualización exitosa: Dado que tengo permisos y datos válidos, Cuando envío una solicitud PUT con el nuevo stock, Entonces el API debe actualizar el inventario <br> **Escenario 2:** Valor inválido: Dado que ingreso una cantidad negativa, Cuando intento actualizar el stock, Entonces el API debe indicar el error de validación |
 
 ## **3.3. Impact Mapping**
 
@@ -849,42 +868,42 @@ Como developer, quiero construir y exponer los servicios clave del sistema Auton
 | :---: | :---: | :---: | :---: | ----- | :---: |
 | **1** | US01 | Registro de usuario	 | Como nuevo usuario, quiero registrarme en la plataforma para empezar a utilizar los servicios de AutoNexo. | Alta | 5 |
 | **2** | US02 | Inicio de sesión seguro | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a todas las funcionalidades de la plataforma | Media | 3 |
-| **3** | US03 | Registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | Media | 5 |
+| **3** | US03 | Registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | Alta | 5 |
 | **4** | US04 | Registro de repuestos | Como usuario, quiero registrar repuestos en el sistema para tener un control del inventario. | Media | 3 |
-| **5** | US05 | Gestión del perfil del usuario | Como usuario, quiero gestionar mi información personal en mi perfil para mantener mis datos actualizados | Media | 5 |
-| **6** | US06 | Edición del perfil desde la app | Como usuario, quiero editar mi perfil directamente desde la aplicación para mayor comodidad. | Baja | 3 |
-| **7** | US07 | Visualización del calendario de mantenimientos | Como usuario, quiero visualizar un calendario con los mantenimientos programados para tener una vista clara de las fechas importantes. | Media | 3 |
-| **8** | US08 | Programación de nuevos mantenimientos | Como usuario, quiero poder programar nuevos mantenimientos para organizar el cuidado de mi vehículo. | Alta | 5 |
+| **5** | US05 | Gestión del perfil del usuario | Como usuario, quiero gestionar mi información personal en mi perfil para mantener mis datos actualizados | Alta | 5 |
+| **6** | US06 | Edición del perfil desde la app | Como usuario, quiero editar mi perfil directamente desde la aplicación para mayor comodidad. | Media | 3 |
+| **7** | US07 | Visualización de vehículos asignados | Como mecánico, quiero visualizar los vehículos asignados por parte de mis clientes. | Media | 3 |
+| **8** | US08 | Visualización de mantenimientos recomendados a clientes | Como mecánico, quiero poder visualizar las recomendaciones de mantenimientos enviados a mis clientes. | Alta | 5 |
 | **9** | US09 | Edición o cancelación de mantenimientos agendados | Como usuario, quiero editar o cancelar los mantenimientos programados para mantener mi calendario actualizado según mis necesidades. | Media | 3 |
-| **10** | US10 | Recordatorios automáticos para mantenimientos programados | Como usuario, quiero recibir recordatorios automáticos para los mantenimientos agendados, para no olvidar ninguna cita importante. | Media | 3 |
+| **10** | US10 | Restablecer contraseña | Como usuario, quiero poder restablecer mi contraseña en caso de emergencia u olvido. | Baja | 2 |
 | **11** | US11 | Consulta de repuestos disponibles | Como usuario, quiero consultar los repuestos disponibles en el inventario para saber si están en stock antes de agendar un mantenimiento. | Alta | 5 |
-| **12** | US12 | Registro de nuevos ingresos de repuestos | Como administrador, quiero registrar nuevos ingresos de repuestos al sistema para mantener actualizado el inventario. | Media | 3 |
-| **13** | US13 | Notificación de repuestos bajos en stock | Como usuario, quiero recibir notificaciones cuando los repuestos estén por agotarse, para reabastecer el inventario a tiempo. | Baja | 2 |
+| **12** | US12 | Registro de nuevos ingresos de repuestos | Como mecánico, quiero registrar nuevos ingresos de repuestos al sistema para mantener actualizado el inventario. | Media | 3 |
+| **13** | US13 | Sección About the Team | Como usuario, quiero poder visualizar la sección About the Team para empatizar y conocer a las personas detrás de la startup | Media | 3 |
 | **14** | US14 | Actualización del inventario tras mantenimiento | Como usuario, quiero que el sistema actualice automáticamente el inventario cuando se utilicen repuestos en un mantenimiento, para mantener los datos precisos. |    Media | 3 |
-| **15** | US15 | Generación de presupuesto de mantenimiento | Como usuario, quiero que el sistema genere un presupuesto estimado para el mantenimiento del vehículo, para saber cuánto me costará antes de aprobarlo. | Alta | 8 |
-| **16** | US16 | Edición de costos y repuestos por servicio | Como mecánico, quiero poder modificar los costos y repuestos asignados a un servicio, para reflejar cambios reales antes de facturar. | Media | 5 |
+| **15** | US15 | Generación de presupuesto de mantenimiento | Como usuario, quiero que el sistema genere un presupuesto estimado para el mantenimiento del vehículo, para saber cuánto me costará antes de aprobarlo. | Alta | 5 |
+| **16** | US16 | Edición de costos y repuestos por servicio | Como mecánico, quiero poder modificar los costos y repuestos asignados a un servicio, para reflejar cambios reales antes de facturar. | Alta | 5 |
 | **17** | US17 | Visualización de gastos históricos por vehículo | Como usuario, quiero visualizar los gastos acumulados en mantenimientos por cada vehículo, para tener un control de mi inversión en reparaciones. | Media | 3 |
-| **18** | US18 | Consulta del historial por vehículo | Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | Media | 5 |
+| **18** | US18 | Consulta del historial por vehículo | Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | Alta | 5 |
 | **19** | US19 | Detalle de cada servicio registrado | Como usuario, quiero acceder al detalle de cada servicio registrado para revisar qué repuestos se usaron, el costo y las observaciones del mecánico. | Media | 3 |
 | **20** | US20 | Exportación o descarga del historial en PDF | Como usuario, quiero poder exportar o descargar en PDF el historial de mantenimientos de un vehículo para conservarlo o compartirlo fácilmente. | Baja | 2 |
-| **21** | US21 | Envío de mensajes entre usuario y mecánico | Como usuario, quiero poder comunicarme con el mecánico a través de la plataforma para resolver dudas o recibir actualizaciones sobre mis mantenimientos. | Media | 3 |
-| **22** | US22 | Notificaciones de nuevos mensajes | Como usuario, quiero recibir notificaciones cuando el mecánico me envíe un mensaje para estar informado sin necesidad de revisar constantemente la app. | Baja | 2 |
-| **23** | US23 | Historial de conversación por vehículo o servicio | Como usuario, quiero consultar el historial de mensajes asociados a cada vehículo o servicio para revisar fácilmente las conversaciones pasadas con el mecánico. | Media | 3 |
+| **21** | US21 | Sección Contáctanos | Como usuario, quiero poder acceder a la sección contáctanos para enviar mis dudas acerca de los diferentes planes. | Alto | 5 |
+| **22** | US22 | Página Page Not Found | Como usuario, quiero poder ser redirigido a home, mediante un botón en la página page not found en caso escriba una dirección errónea. | Media | 3 |
+| **23** | US23 | Herramienta Language Switcher |  Como usuario, quiero poder cambiar el idioma de la aplicación a través de un botón switch accesible.  | Media | 3 |
 | **24** | US24 | Selección del plan de suscripción | Como usuario, quiero elegir el plan de suscripción que mejor se adapte a mis necesidades para aprovechar los servicios de AutoNexo según mi presupuesto y uso. | Alta | 5 |
-| **25** | US25 | Registro de método de pago seguro | Como usuario, quiero registrar un método de pago seguro para poder realizar mis pagos de suscripción sin preocupaciones y de forma rápida. | Alta | 8 |
-| **26** | US26 | Renovación automática de suscripción | Como usuario, quiero que mi suscripción se renueve automáticamente para seguir disfrutando del servicio sin interrupciones. | Alta | 8 |
+| **25** | US25 | Registro de método de pago seguro | Como usuario, quiero registrar un método de pago seguro para poder realizar mis pagos de suscripción sin preocupaciones y de forma rápida. | Alta | 5 |
+| **26** | US26 | Barra de Navegación | Como usuario, quiero poder navegar de manera fácil e intuitiva mediante una barra de navegación accesible | Alta | 5 |
 | **27** | US27 | Cambio de plan de suscripción | Como usuario, quiero poder cambiar mi plan de suscripción en cualquier momento para ajustarlo a mis necesidades o presupuesto. | Media | 3 |
 | **28** | US28 | Cancelación o pausa del servicio | Como usuario, quiero tener la opción de cancelar o pausar mi suscripción para detener el servicio temporal o permanentemente según mi situación. | Media | 3 |
-| **29** | US29 | Navegación intuitiva | Como visitante de la Landing Page, quiero navegar de forma intuitiva entre las secciones del sitio para encontrar rápidamente la información que necesito. | Alta | 5 |
-| **30** | US30 | Compatibilidad con lectores de pantalla | Como visitante con discapacidad visual, quiero que la Landing Page sea compatible con lectores de pantalla para poder acceder al contenido sin barreras. | Media | 3 |
-| **31** | US31 | Feedback visual en interacciones | Como visitante de la Landing Page, quiero recibir retroalimentación visual al interactuar con los elementos para saber que mis acciones han sido reconocidas. | Media | 3 |
+| **29** | US29 | Botón de retroceso | Como usuario, quiero poder retroceder a la página previa para una navegación más completa y satisfactoria | Medio | 3 |
+| **30** | US30 | Compatibilidad con lectores de pantalla | Como usuario con discapacidad visual, quiero que la Landing Page sea compatible con lectores de pantalla para poder acceder al contenido sin barreras. | Media | 3 |
+| **31** | US31 | Feedback visual en interacciones | Como usuario de la Landing Page, quiero recibir retroalimentación visual al interactuar con los elementos para saber que mis acciones han sido reconocidas. | Media | 3 |
 | **32** | TS01 | Registro de usuario a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar nuevos usuarios a través de una API RESTful, para que los conductores y mecánicos puedan crear sus cuentas en la plataforma. | Alta | 5 |
 | **33** | TS02 | Registro de repuestos en inventario a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar repuestos mediante una API RESTful, para que los usuarios puedan llevar un control del inventario de piezas disponibles. | Media | 3 |
-| **34** | TS03 | Registro de vehículos a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar vehículos mediante una API RESTful, para que los usuarios puedan gestionar sus autos en la plataforma. | Media | 2 |
-| **35** | TS04 | Creación de diagnósticos a través de un RESTful API | Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto. | Alta | 2 |
+| **34** | TS03 | Registro de vehículos a través de un RESTful API | Como desarrollador, quiero implementar la opción de registrar vehículos mediante una API RESTful, para que los usuarios puedan gestionar sus autos en la plataforma. | Baja | 2 |
+| **35** | TS04 | Creación de diagnósticos a través de un RESTful API | Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto. | Baja | 2 |
 | **36** | TS05 | Creación de mantenimientos programados mediante RESTful API | Como desarrollador, quiero permitir la programación de mantenimientos a través de una API RESTful, para que los usuarios puedan agendar sus servicios con anticipación. | Alta | 5 |
 | **37** | TS06 | Consulta de historial de servicios por vehículo mediante RESTful API | Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados. | Media | 3 |
-| **38** | TS07 | Actualización del inventario de repuestos mediante RESTful API | Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock. | Media | 2 |
+| **38** | TS07 | Actualización del inventario de repuestos mediante RESTful API | Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock. | Baja | 2 |
 
 Product Backlog en Trello: [https://trello.com/invite/b/6820091b7d003500b1d2cd2a/ATTIfca577753d06f90de7cd5590cef7b936C3B8D00D/product-backlog-autonexo](https://trello.com/invite/b/6820091b7d003500b1d2cd2a/ATTIfca577753d06f90de7cd5590cef7b936C3B8D00D/product-backlog-autonexo) 
 
@@ -1303,7 +1322,7 @@ Gracias a la perspectiva que brinda DDD, es posible fortalecer la colaboración 
 
 Lo hemos realizado en el software de LucidChart: [https://lucid.app/lucidchart/8cc8249e-65e6-47ef-a7ac-43d18a3e7683/edit?viewport\_loc=-542%2C-345%2C3967%2C1443%2C0\_0\&invitationId=inv\_eca9a654-aa1b-4ef6-b9eb-ed29b8f2660e](https://lucid.app/lucidchart/8cc8249e-65e6-47ef-a7ac-43d18a3e7683/edit?viewport_loc=-542%2C-345%2C3967%2C1443%2C0_0&invitationId=inv_eca9a654-aa1b-4ef6-b9eb-ed29b8f2660e)
 
-![Descripción de la imagen](img/classDiagram.png)
+![Descripción de la imagen](img/classDiagram-v2.png)
 
 ### **4.7.2. Diccionario de Clases**
 
@@ -1378,7 +1397,7 @@ Tiene todos los atributos que un repuesto debe tener (name, info, unitPrice, sto
 
 Lo hemos realizado en el software LucidChart:[https://lucid.app/lucidchart/958d1937-30a6-4a7f-a668-5f8f3ce9a7ee/edit?viewport\_loc=-4769%2C-54%2C3624%2C1530%2C0\_0\&invitationId=inv\_eb407874-6533-4622-8f5a-b521552274b2](https://lucid.app/lucidchart/958d1937-30a6-4a7f-a668-5f8f3ce9a7ee/edit?viewport_loc=-4769%2C-54%2C3624%2C1530%2C0_0&invitationId=inv_eb407874-6533-4622-8f5a-b521552274b2)
 
-![Descripción de la imagen](img/dbDiagram.png)
+![Descripción de la imagen](img/dbDiagram-v2.png)
 
 # <font color="red"> **Capítulo V: Product Implementation, Validation & Deployment** </font>
 
@@ -1494,53 +1513,30 @@ Para desplegar la landing page debemos cumplir con una serie de requisitos. Algu
 
 #### **5.2.1.1. Sprint Planning 1**
 
-<div>
-    <table>
-        <tr>
-            <th>Sprint #</th>
-            <td>Sprint 1</td>
-        </tr>
-        <tr>
-            <th>Location</th>
-            <td>Reunión virtual a través de Discord</td>
-        </tr>
-        <tr>
-            <th>Prepared by</th>
-            <td>Andrés y Victor</td>
-        </tr>
-        <tr>
-            <th>Attendees (to planning meeting)</th>
-            <td>Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres</td>
-        </tr>
-        <tr>
-            <th>Sprint (n - 1) Review Summary</th>
-            <td>No existe sprint previo</td>
-        </tr>
-        <tr>
-            <th>Sprint 1 Goal</th>
-            <td>In this sprint, we focused on deploying a good looking landing page that delivers satisfaction and confidence to us and to our future users. This will be confirmed when all members and users navigate the page without any issues at all.</td>
-        </tr>
-        <tr>
-            <th>Sprint 1 Velocity</th>
-            <td>20 story points</td>
-        </tr>
-        <tr>
-            <th>Sum of Story Points</th>
-            <td>20 story points</td>
-        </tr>
-    </table>
-</div>
+| Sprint \# | Sprint 1 |
+| :---- | :---- |
+| Date | 2025 \- 04 \- 17 |
+| Time | 13:00 |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Victor Andres  |
+| Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
+| Sprint 1  Review Summary | Se presentó el avance de la landing page y project report dividido en capítulos. |
+| Sprint 1 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación de la landing page y reporte del proyecto para realizar correctamente las bases de la startup. |
+| Sprint (n-1) Review Summary | No existe sprint previo |
+| Sprint 1 Goal | Implementar el Landing page y organizar el proyecto en una organizaciónd en Github dividido en repositorios para el reporte, landing page, etc |
+| Sprint 1 Velocity | 24 story points |
+| Sum of Story Points | 24 story points |}
 
 #### **5.2.1.2. Aspect Leaders and Collaborators**
 
 Durante el primer sprint, el equipo **ATG** mostró una impecable unión y organización, lo que permitió cumplir satisfactoriamente el objetivo de desplegar la landing page del proyecto **AutoNexo**. A continuación, se describe el rol desempeñado por cada integrante del equipo.
-
-- Victor Andrés Cruz Ibarra (u202311053)
-- Rafael Andrés Vivanco Salazar (u202311064)
-- Jarod Jack Céspedes Pillco (u202318588)
-- Ricardo Fernando Cárdenas Minaya (u202310004)
-- Ronald Joel Peralta Chipa (u202224619)
-
+<br>
+- Victor Andrés Cruz Ibarra (u202311053): Desarrollo del Capítulo 2. Además, Implementación y despliegue de la Landing Page.
+- Rafael Andrés Vivanco Salazar (u202311064): Desarrollo del Capítulo 1. Además, Realización de los diagramas C4, Clases y Base de Datos.
+- Jarod Jack Céspedes Pillco (u202318588): Desarrollo del Capítulo 3. Además, Documentación de los sprints.
+- Ricardo Fernando Cárdenas Minaya (u202310004): Desarrollo del Capítulo 2. Además, Registro de User Stories en el Product Backlog.
+- Ronald Joel Peralta Chipa (u202224619): Desarrollo del Capítulo 5. Además, Registro de entrevistas.
+<br>
 La ejecución del sprint fue coordinado mediante reuniones virtuales en Discord, con el respaldo de herramientas colaborativas como Google Docs, para redacción conjunta, y GitHub, como repositorio de control de versiones. Esta experiencia colaborativa permitió consolidar un equipo sincronizado, con roles bien definidos y con el establecimiento de una base sólida para los siguientes ciclos de desarrollo.
 
 #### **5.2.1.3. Sprint Backlog 1**
@@ -1553,103 +1549,125 @@ Link: https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79
 
 <div>
     <table>
-        <tr>
-            <th colspan="2">Sprint #</th>
-            <td colspan="6">Sprint 1</td>
-        </tr>
-        <tr>
-            <th colspan="2">User Story</th>
-            <th colspan="6">Work-Item/Task</th>
-        </tr>
-        <tr>
-            <th>User Story ID</th>
-            <th>User Story Title</th>
-            <th>Work Item ID</th>
-            <th>Task Title</th>
-            <th>Task Description</th>
-            <th>Estimation (Hours)</th>
-            <th>Assigned To</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td rowspan="3">US29</td>
-            <td rowspan="3">Navegación Intuitiva</td>
-            <td>WU01</td>
-            <td>Diseñar interfaz de la Landing Page</td>
-            <td>Diseñar la interfaz donde aparecerán los datos del proyecto</td>
-            <td>3H</td>
-            <td>Victor</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>WU02</td>
-            <td>Codificar el Landing Page</td>
-            <td>Codificar en HTML</td>
-            <td>2H</td>
-            <td>Victor</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>WU03</td>
-            <td>Aplicar estilos al Landing Page</td>
-            <td>Codificar los estilos en CSS</td>
-            <td>2H</td>
-            <td>Victor</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="2">US30</td>
-            <td rowspan="2">Compatibilidad con Lectores de Pantalla</td>
-            <td>WU04</td>
-            <td>Diseñar interfaz para que sea compatible con lectores de pantalla</td>
-            <td>Diseño de la interfaz en otros dispositivos</td>
-            <td>2H</td>
-            <td>Ronald</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>WU05</td>
-            <td>Codificar los estilos para hacer la landing page responsive</td>
-            <td>Codificación de Estilos Responsive</td>
-            <td>3H</td>
-            <td>Rafael</td>
-            <td>To-Do</td>
-        </tr>
-        <tr>
-            <td rowspan="4">US31</td>
-            <td rowspan="4">Compatibilidad con Lectores de Pantalla</td>
-            <td>WU06</td>
-            <td>Codificar la página para registrarse</td>
-            <td>Codificación del HTML para registrarse</td>
-            <td>1H</td>
-            <td>Ricardo</td>
-            <td>To-Do</td>
-        </tr>
-        <tr>
-            <td>WU07</td>
-            <td>Codificar la página para iniciar sesión</td>
-            <td>Codificación del HTML para iniciar sesión</td>
-            <td>1H</td>
-            <td>Ricardo</td>
-            <td>To-Do</td>
-        </tr>
-        <tr>
-            <td>WU08</td>
-            <td>Codificar la página para recuperar contraseña</td>
-            <td>Codificación del HTML para recuperar contraseña</td>
-            <td>1H</td>
-            <td>Ricardo</td>
-            <td>To-Do</td>
-        </tr>
-        <tr>
-            <td>WU09</td>
-            <td>Codificar la página para hacer una barra de navegación funcional</td>
-            <td>Codificación para la barra de navegación</td>
-            <td>2H</td>
-            <td>Jarod</td>
-            <td>Done</td>
-        </tr>
+        <table>
+    <tr>
+        <th colspan="2">Sprint #</th>
+        <td colspan="6">Sprint 1</td>
+    </tr>
+    <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item/Task</th>
+    </tr>
+    <tr>
+        <th>User Story ID</th>
+        <th>User Story Title</th>
+        <th>Work Item ID</th>
+        <th>Task Title</th>
+        <th>Task Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <!-- US21 - Sección Contáctanos -->
+    <tr>
+        <td rowspan="2">US21</td>
+        <td rowspan="2">Sección Contáctanos</td>
+        <td>WU01</td>
+        <td>Diseñar la sección Contáctanos</td>
+        <td>Crear el diseño visual con campos necesarios (nombre, correo, mensaje)</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU02</td>
+        <td>Implementar formulario de contacto</td>
+        <td>Codificar el formulario y conectar con backend</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US24 - Selección del plan de suscripción -->
+    <tr>
+        <td rowspan="2">US24</td>
+        <td rowspan="2">Selección del plan de suscripción</td>
+        <td>WU03</td>
+        <td>Diseñar interfaz de selección de plan</td>
+        <td>Diseñar botones y disposición visual para los planes</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU04</td>
+        <td>Implementar lógica de selección de plan</td>
+        <td>Programar la lógica para registrar el plan seleccionado</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US26 - Barra de Navegación -->
+    <tr>
+        <td rowspan="2">US26</td>
+        <td rowspan="2">Barra de Navegación</td>
+        <td>WU05</td>
+        <td>Diseñar barra de navegación</td>
+        <td>Diseño visual accesible con los enlaces principales</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU06</td>
+        <td>Programar funcionalidad de navegación</td>
+        <td>Agregar enlaces funcionales y scroll interno</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US27 - Cambio de plan de suscripción -->
+    <tr>
+        <td rowspan="2">US27</td>
+        <td rowspan="2">Cambio de plan de suscripción</td>
+        <td>WU07</td>
+        <td>Diseñar interfaz para cambio de plan</td>
+        <td>Diseñar botones e indicadores para el cambio de plan</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU08</td>
+        <td>Implementar backend para cambio de plan</td>
+        <td>Crear lógica para actualizar plan del usuario</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US30 - Compatibilidad con lectores de pantalla -->
+    <tr>
+        <td rowspan="1">US30</td>
+        <td rowspan="1">Compatibilidad con lectores de pantalla</td>
+        <td>WU09</td>
+        <td>Aplicar etiquetas ARIA y atributos accesibles</td>
+        <td>Mejorar el HTML para compatibilidad con tecnologías asistidas</td>
+        <td>2H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US31 - Feedback visual en interacciones -->
+    <tr>
+        <td rowspan="1">US31</td>
+        <td rowspan="1">Feedback visual en interacciones</td>
+        <td>WU10</td>
+        <td>Agregar animaciones y efectos visuales</td>
+        <td>Agregar hover, focus, y transiciones para mejorar la experiencia del usuario</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
     </table>
+      
 </div>
 
 #### **5.2.1.4. Development Evidence for Sprint Review**
@@ -1738,23 +1756,24 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 | Date | 2025 \- 05 \- 12 |
 | Time | 19:00 |
 | Location | Reunión virtual a través de Discord |
-| Prepared by | Andrés Victor  |
+| Prepared by | Ricardo Minaya  |
 | Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
 | Sprint 2  Review Summary | Se presentó el avance del front-end de la aplicación y sus respectivos bounded contexts y diseños. |
 | Sprint 2 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación del frontend, contribuyendo a un desarrollo más ágil y efectivo del proyecto. |
+| Sprint (n-1) Review Summary | 24 story points |
 | Sprint 2 Goal | Implementar y diseñar cada uno de los Bounded Context |
-| Sprint 2 Velocity | 29 story points |
-| Sum of Story Points | 49 story points |}
+| Sprint 2 Velocity | 47 story points |
+| Sum of Story Points | 71 story points |}
 <br>
 
 #### **5.2.2.2. Aspect Leaders and Collaborators**
 Durante el segundo sprint, el equipo ATG mostró una gran organización, lo que permitió cumplir satisfactoriamente el objetivo de diseñar e implementar los bounded context de AutoNexo. A continuación, se describe el rol desempeñado por cada integrante del equipo.
 <br>
-    * Victor Andres Cruz Ibarra (U202311053): <br>
-    * Rafael Andres Vivanco Salazar (U202311064): <br>
-    * Jarod Jack Céspedes Pillco (U202318588): <br>
-    * Ricardo Fernando Cardenas Minaya (U202310004): <br>
-    * Ronald Joel Peralta Chipa (U202224619):<br>
+- Victor Andrés Cruz Ibarra (u202311053): Correción del Capítulo 4 e implementación de pantallas del frontend app.
+- Rafael Andrés Vivanco Salazar (u202311064): Correción del Capítulo 4 e implementación de pantallas del frontend app.
+- Jarod Jack Céspedes Pillco (u202318588): Correción del Capítulo 4 e implementación de pantallas del frontend app.
+- Ricardo Fernando Cárdenas Minaya (u202310004): Correción del Capítulo 4 e implementación de pantallas del frontend app.
+- Ronald Joel Peralta Chipa (u202224619): Correción del Capítulo 4 e implementación de pantallas del frontend app.
 <br>
 La ejecución del sprint fue coordinado mediante reuniones virtuales en Discord, con el respaldo de herramientas colaborativas como Google Docs, para redacción conjunta, y GitHub, como repositorio de control de versiones.
 <br>
@@ -1766,17 +1785,182 @@ La ejecución del sprint fue coordinado mediante reuniones virtuales en Discord,
 
 Link: [https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79daa19ca44e24e5657A5F126/product-backlog-autonexo](https://trello.com/invite/b/682413b3332f981bd0a0c9e8/ATTI96c86c3989bcd4016c076c5586951a20E5A6A6A8/sprint-backlog-2-atg)
 <br>
-
-| Sprint \# |  | Sprint \#2 |  |  |  |  |  |
-| :---- | :---- | ----- | :---- | :---- | :---- | :---- | :---- |
-| User Story ID | User Story Title | Work Item ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-| US01 | Registro de usuario	 | 1 | Añadir función de registro de usuario | Como nuevo usuario, quiero registrarme en la plataforma para empezar a utilizar los servicios de AutoNexo. | 2H | Victor | Done |
-| US02 | Inicio de sesión seguro | 2 | Función para iniciar sesión en la app | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a todas las funcionalidades de la plataforma | 1H | Ronald | Done |
-| US03 | Registro de vehículos | 3 | Añadir función de registro de vehículos | Como usuario, quiero registrar mis vehículos en la plataforma para gestionar su mantenimiento y seguimiento. | 2H | Jarod | Done |
-| US05 | Gestión del perfil del usuario | 4 | Pantalla para gestionar el perfil de usuario | Como usuario, quiero gestionar mi información personal en mi perfil para mantener mis datos actualizados. | 2H | Rafael | Done |
-| US09 | Edición o cancelación de mantenimientos agendados | 5 | Función para editar o cancelar los mantenimientos | Como usuario, quiero editar o cancelar los mantenimientos programados para mantener mi calendario actualizado según mis necesidades. | 2H | Ricardo | Done |
-| US18 | Consulta del historial por vehículo | 6 | Pantalla para ver los datos históricos de cada vehiculo | Como usuario, quiero consultar el historial completo de mantenimientos por cada vehículo, para tener claridad sobre los servicios realizados. | 2H | Jarod | Done |
-| US19 | Detalle de cada servicio registrado | 7 | Función para mostrar todos los servicios registrados | Como usuario, quiero acceder al detalle de cada servicio registrado para revisar qué repuestos se usaron, el costo y las observaciones del mecánico. | 3H | Ronald | Done |
+<table>
+    <tr>
+        <th colspan="2">Sprint #</th>
+        <td colspan="6">Sprint 2</td>
+    </tr>
+    <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item/Task</th>
+    </tr>
+    <tr>
+        <th>User Story ID</th>
+        <th>User Story Title</th>
+        <th>Work Item ID</th>
+        <th>Task Title</th>
+        <th>Task Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <!-- US01 - Registro de usuario -->
+    <tr>
+        <td rowspan="2">US01</td>
+        <td rowspan="2">Registro de usuario</td>
+        <td>WU11</td>
+        <td>Diseñar formulario de registro</td>
+        <td>Diseñar campos y estructura visual del registro</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU12</td>
+        <td>Implementar lógica de registro</td>
+        <td>Codificar backend y validaciones para el registro</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US02 - Inicio de sesión seguro -->
+    <tr>
+        <td rowspan="2">US02</td>
+        <td rowspan="2">Inicio de sesión seguro</td>
+        <td>WU13</td>
+        <td>Diseñar formulario de inicio de sesión</td>
+        <td>Diseñar campos para email y contraseña</td>
+        <td>1H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU14</td>
+        <td>Programar autenticación segura</td>
+        <td>Codificar validaciones y autenticación del usuario</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US03 - Registro de vehículos -->
+    <tr>
+        <td rowspan="1">US03</td>
+        <td rowspan="1">Registro de vehículos</td>
+        <td>WU15</td>
+        <td>Desarrollar formulario de registro de vehículo</td>
+        <td>Diseñar e implementar el formulario con validaciones</td>
+        <td>3H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- US05 - Gestión del perfil del usuario -->
+    <tr>
+        <td rowspan="1">US05</td>
+        <td rowspan="1">Gestión del perfil del usuario</td>
+        <td>WU16</td>
+        <td>Diseñar e implementar edición de perfil</td>
+        <td>Permitir al usuario actualizar sus datos personales</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US07 - Visualización de vehículos asignados -->
+    <tr>
+        <td rowspan="1">US07</td>
+        <td rowspan="1">Visualización de vehículos asignados</td>
+        <td>WU17</td>
+        <td>Diseñar e implementar vista de vehículos asignados</td>
+        <td>Mostrar al mecánico los vehículos asignados por cliente</td>
+        <td>2H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US08 - Visualización de mantenimientos recomendados -->
+    <tr>
+        <td rowspan="1">US08</td>
+        <td rowspan="1">Mantenimientos recomendados</td>
+        <td>WU18</td>
+        <td>Implementar vista de recomendaciones</td>
+        <td>Mostrar lista de recomendaciones a clientes</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US10 - Restablecer contraseña -->
+    <tr>
+        <td rowspan="2">US10</td>
+        <td rowspan="2">Restablecer contraseña</td>
+        <td>WU19</td>
+        <td>Diseñar interfaz de recuperación</td>
+        <td>Diseñar formulario para solicitud de nueva contraseña</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>WU20</td>
+        <td>Implementar lógica de restablecimiento</td>
+        <td>Codificar flujo para restablecer contraseña vía email</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US18 - Consulta del historial por vehículo -->
+    <tr>
+        <td rowspan="1">US18</td>
+        <td rowspan="1">Consulta del historial por vehículo</td>
+        <td>WU21</td>
+        <td>Implementar vista de historial por vehículo</td>
+        <td>Mostrar servicios pasados por cada vehículo registrado</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US19 - Detalle de cada servicio registrado -->
+    <tr>
+        <td rowspan="1">US19</td>
+        <td rowspan="1">Detalle de cada servicio registrado</td>
+        <td>WU22</td>
+        <td>Desarrollar vista de detalle del servicio</td>
+        <td>Mostrar repuestos usados, costos y observaciones</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US22 - Página Page Not Found -->
+    <tr>
+        <td rowspan="1">US22</td>
+        <td rowspan="1">Página Page Not Found</td>
+        <td>WU23</td>
+        <td>Diseñar e implementar página 404</td>
+        <td>Incluir mensaje y botón para volver a Home</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- US23 - Language Switcher -->
+    <tr>
+        <td rowspan="1">US23</td>
+        <td rowspan="1">Language Switcher</td>
+        <td>WU24</td>
+        <td>Implementar botón de cambio de idioma</td>
+        <td>Permitir cambiar idioma entre ES y EN</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <!-- US29 - Botón de retroceso -->
+    <tr>
+        <td rowspan="1">US29</td>
+        <td rowspan="1">Botón de retroceso</td>
+        <td>WU25</td>
+        <td>Agregar funcionalidad de retroceso</td>
+        <td>Permitir navegación hacia la página anterior</td>
+        <td>1H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+</table>
 <br>
 
 #### **5.2.2.4. Development Evidence for Sprint Review**
@@ -1842,12 +2026,30 @@ A continuación evidencias:
 <br>
 
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
-A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
-
+Se ha empleado la página firebase para deployear el frontend, así como se ha creado un repositorio aparte en github para la fake-api y se levanto conectándolo con vercel.
+<br>
+Repositorio de la fake api en Github: https://github.com/project-OpenSource-4310/fake-api
+<br>
 <div align="center">
-    <img src="img/networkGraph.png" alt="networkGraph.png" width="550px" height="300px">
+    <img src="img/fakeapi.png" alt="fakeapi.png" width="550px" height="300px">
 </div>
-
+<br>
+Repositorio fakeapi conectado con vercel
+<br>
+<div align="center">
+    <img src="img/vercel.png" alt="vercel.png" width="550px" height="300px">
+</div>
+<br>
+Frontend deployeado en firebase:
+<br>
+<div align="center">
+    <img src="img/firebase.jpg" alt="firebase.jpg" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/front-deployeado.png" alt="front-deployeado.png" width="550px" height="300px">
+</div>
+<br>
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
 Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 <div align="center">
@@ -1859,22 +2061,523 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 </div>
 <br>
 
+### **5.2.3. Sprint 3**
+#### **5.2.3.1. Sprint Planning 3**
+
+| Sprint \# | Sprint 3 |
+| :---- | :---- |
+| Date | 2025 \- 06 \- 12 |
+| Time | 15:00 |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Rafael Vivanco  |
+| Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres; Cespedes Pillco, Jarod Jack y Vivanco Salazar, Ricardo Andres |
+| Sprint 3  Review Summary | Se presentó el avance del back-end de la aplicación, su despliegue e implementación en su respectivo repositorio. |
+| Sprint 3 Retrospective Summary | En esta reunión, todos colaboraron en el diseño y la implementación del backend, contribuyendo a un desarrollo significativo para el proyecto. |
+| Sprint (n-1) Review Summary | 71 story points |
+| Sprint 3 Goal | Implementar, desplegar y documentar el BackEnd |
+| Sprint 3 Velocity | 43 story points |
+| Sum of Story Points | 114 story points |}
+
+#### **5.2.3.2. Aspect Leaders and Collaborators**
+Durante el tercer sprint, el equipo ATG mantuvo una coordinación efectiva que permitió avanzar significativamente en el desarrollo del backend de AutoNexo. Cada integrante asumió un rol clave dentro del equipo, contribuyendo al cumplimiento de los objetivos establecidos.
+<br>
+- Victor Andrés Cruz Ibarra (u202311053): Correción del TB1 en el FrontEnd application.
+- Rafael Andrés Vivanco Salazar (u202311064): Correción del TB1 en la Landing Page, Reporte e implementación del Sprint 3 en el capítulo 5.
+- Jarod Jack Céspedes Pillco (u202318588): Implementación y documentación del BackEnd.
+- Ricardo Fernando Cárdenas Minaya (u202310004): Registro y análisis de las Entrevistas de validación.
+- Ronald Joel Peralta Chipa (u202224619): Implementación, despliegue y documentación del BackEnd.
+<br>
+La ejecución del sprint se gestionó a través de reuniones virtuales en Discord, complementadas con herramientas colaborativas como Google Drive para la documentación compartida y GitHub para el control de versiones y seguimiento del código.
+
+#### **5.2.3.3. Sprint Backlog 3**
+<div align="center">
+    <img src="img/sprint-backlog-3.png" alt="sprint-backlog-3.png" width="550px" height="300px">
+</div>
+
+Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38aa5f9d3beff51e3117EF9693/sprint-backlog-3](https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38aa5f9d3beff51e3117EF9693/sprint-backlog-3)
+
+<table>
+    <tr>
+        <th colspan="2">Sprint #</th>
+        <td colspan="6">Sprint 3</td>
+    </tr>
+    <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item/Task</th>
+    </tr>
+    <tr>
+        <th>User Story ID</th>
+        <th>User Story Title</th>
+        <th>Work Item ID</th>
+        <th>Task Title</th>
+        <th>Task Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <!-- US04 - Registro de repuestos -->
+    <tr>
+        <td rowspan="1">US04</td>
+        <td rowspan="1">Registro de repuestos</td>
+        <td>WU26</td>
+        <td>Implementar formulario de registro de repuestos</td>
+        <td>Permitir ingresar datos de repuestos al sistema</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US06 - Edición del perfil desde la app -->
+    <tr>
+        <td rowspan="1">US06</td>
+        <td rowspan="1">Edición del perfil desde la app</td>
+        <td>WU27</td>
+        <td>Adaptar edición de perfil a versión móvil</td>
+        <td>Permitir editar datos personales desde la app</td>
+        <td>2H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <!-- US13 - Sección About the Team -->
+    <tr>
+        <td rowspan="1">US13</td>
+        <td rowspan="1">Sección About the Team</td>
+        <td>WU28</td>
+        <td>Diseñar e implementar sección About the Team</td>
+        <td>Mostrar información del equipo detrás del proyecto</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- US14 - Actualización del inventario tras mantenimiento -->
+    <tr>
+        <td rowspan="1">US14</td>
+        <td rowspan="1">Actualización automática del inventario</td>
+        <td>WU29</td>
+        <td>Programar lógica de actualización de stock</td>
+        <td>Reducir automáticamente unidades usadas en mantenimientos</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- US11 - Consulta de repuestos disponibles -->
+    <tr>
+        <td rowspan="1">US11</td>
+        <td rowspan="1">Consulta de repuestos disponibles</td>
+        <td>WU30</td>
+        <td>Desarrollar vista de repuestos disponibles</td>
+        <td>Mostrar listado de repuestos en stock</td>
+        <td>2H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US09 - Edición o cancelación de mantenimientos -->
+    <tr>
+        <td rowspan="1">US09</td>
+        <td rowspan="1">Edición o cancelación de mantenimientos</td>
+        <td>WU31</td>
+        <td>Habilitar edición y cancelación de mantenimientos</td>
+        <td>Permitir modificar o eliminar mantenimientos agendados</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- US12 - Registro de nuevos ingresos de repuestos -->
+    <tr>
+        <td rowspan="1">US12</td>
+        <td rowspan="1">Registro de nuevos ingresos de repuestos</td>
+        <td>WU32</td>
+        <td>Crear formulario de ingreso de stock</td>
+        <td>Permitir agregar repuestos al inventario</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- US17 - Visualización de gastos históricos por vehículo -->
+    <tr>
+        <td rowspan="1">US17</td>
+        <td rowspan="1">Visualización de gastos históricos</td>
+        <td>WU33</td>
+        <td>Implementar vista de gastos por vehículo</td>
+        <td>Mostrar historial de gastos acumulados</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- US20 - Exportación o descarga del historial en PDF -->
+    <tr>
+        <td rowspan="1">US20</td>
+        <td rowspan="1">Descarga de historial en PDF</td>
+        <td>WU34</td>
+        <td>Agregar funcionalidad para exportar historial</td>
+        <td>Permitir descargar historial como archivo PDF</td>
+        <td>3H</td>
+        <td>Victor</td>
+        <td>Done</td>
+    </tr>
+    <!-- US28 - Cancelación o pausa del servicio -->
+    <tr>
+        <td rowspan="1">US28</td>
+        <td rowspan="1">Cancelación o pausa del servicio</td>
+        <td>WU35</td>
+        <td>Desarrollar opción de cancelar o pausar suscripción</td>
+        <td>Permitir al usuario detener temporal o definitivamente el servicio</td>
+        <td>2H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- TS01 - Registro de usuario vía RESTful API -->
+    <tr>
+        <td rowspan="1">TS01</td>
+        <td rowspan="1">Registro de usuario vía API</td>
+        <td>WU36</td>
+        <td>Programar endpoint POST para usuarios</td>
+        <td>Crear endpoint para registrar usuarios desde el frontend</td>
+        <td>3H</td>
+        <td>Jarod</td>
+        <td>Done</td>
+    </tr>
+    <!-- TS03 - Registro de vehículos vía RESTful API -->
+    <tr>
+        <td rowspan="1">TS03</td>
+        <td rowspan="1">Registro de vehículos vía API</td>
+        <td>WU37</td>
+        <td>Programar endpoint POST para vehículos</td>
+        <td>Crear API para ingresar vehículos desde el frontend</td>
+        <td>3H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- TS05 - Creación de mantenimientos mediante RESTful API -->
+    <tr>
+        <td rowspan="1">TS05</td>
+        <td rowspan="1">Creación de mantenimientos vía API</td>
+        <td>WU38</td>
+        <td>Programar endpoint POST para mantenimientos</td>
+        <td>Permitir agendar mantenimientos desde la app vía API</td>
+        <td>3H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+
+#### **5.2.3.4. Development Evidence for Sprint Review**
+#### **5.2.3.5. Execution Evidence for Sprint Review**
+En el tercer sprint, logramos desarrollar parcialmente la implementación del Backend. Donde se muestra la manipulacion de los datos sobre la aplicación. A continuación mostramos algunas evidencias:
+
+A continuacion el backend ejecutado:
+<div align="center">
+    <img src="img/execution-backend.jpg" alt="execution-backend.jpg" width="550px" height="300px">
+</div>
+<br>
+
+Prueba de funcionamiento de Apis:
+<div align="center">
+    <img src="img/postman.jpg" alt="postman.jpg" width="550px" height="300px">
+</div>
+<br>
+
+<div align="center">
+    <img src="img/schemas.jpg" alt="schemas.jpg" width="550px" height="300px">
+</div>
+<br>
+
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+En el tercer sprint, logramos desarrollar parcialmente la implementación del Backend. Donde se muestra la manipulacion de los datos sobre la aplicación. A continuación mostramos algunas evidencias:
+- **Aggregates:** Inventory y User en la carpeta aggregate.
+<div align="center">
+    <img src="img/inventory-aggregate.jpg" alt="inventory-aggregate.jpg" width="550px" height="300px">
+</div>
+<div align="center">
+    <img src="img/user-aggregate.jpg" alt="user-aggregate.jpg" width="550px" height="300px">
+</div>
+<br>
+
+- **Command.Services:** User y Driver command service.
+<div align="center">
+    <img src="img/user-command-service.jpg" alt="user-command-service.jpg" width="550px" height="300px">
+</div>
+<div align="center">
+    <img src="img/driver-command-service.jpg" alt="driver-command-service.jpg" width="550px" height="300px">
+</div>
+<br>
+
+#### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+<div align="center">
+    <img src="img/network-backend.png" alt="network-backend.png" width="550px" height="300px">
+</div>
+<br>
+
+#### **5.2.3.8. Team Collaboration Insights during Sprint**
+Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
+<div align="center">
+    <img src="img/network-backend.png" alt="network-backend.png" width="550px" height="300px">
+</div>
+<br>
+<div align="center">
+    <img src="img/contribuitors-backend.png" alt="contribuitors-backend.png" width="550px" height="300px">
+</div>
+<br>
+
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
-### **5.3.2. Registro de Entrevistas**
-### **5.3.3. Evaluaciones según heurísticas**
+En esta sección se plantea una estrategia colaborativa con el equipo para detectar los aspectos comunes a partir de las respuestas proporcionadas por cada entrevistado en cada pregunta. Esto permite realizar un análisis más preciso y confiable.
+<br> <br>
+**User Flow Involucradas**:
+<br>
+*Usuario:*
+<br>
+→ Crear cuenta (seleccionar rol: Mecánico o Driver)<br>
+→ Completar datos<br>
+→ Ver y aceptar términos y condiciones<br>
+→ Redirección a login<br>
+→ Iniciar sesión<br>
+→ Editar datos en profile<br>
+→ Agregar y modificar foto de perfil<br>
+<br>
+*Mecánico:*
+<br>
+→ Agregar inventarios<br>
+→ Asignar items a cada inventario<br>
+→ Ver solicitudes de asignación de vehiculos<br>
+→ Aceptar o Rechazar solicitudes de asignación de vehiculos<br>
+→ Solicitud aceptada -> vehículo asignado<br>
+→ Ver detalles del vehículo<br>
+→ Enviar solicitud de mantenimiento a Driver<br>
+<br>
+*Driver:*
+<br>
+→ Agregar vehículos<br>
+→ Enviar solicitud de asignación de vehículo<br>
+→ Ver solicitud de mantenimiento<br>
+→ Aceptar o Rechazar solicitud de mantenimiento<br>
+<br>
 
+**Segmento 1: Dueños de flotas.**
+1. ¿Qué información esperaba encontrar en la landing page antes de probar la aplicación? ¿Cumplió con sus expectativas?
+2. ¿Ha utilizado alguna vez una aplicación web para gestionar sus vehiculos? ¿Qué le gustó y qué no le gustó de esa experiencia?
+3. Al probar nuestra aplicación, ¿qué funcionalidad le resultó más útil y cuál cree que podría mejorarse?
+4. ¿Cómo calificaría la facilidad de uso de la interfaz? ¿Hubo algún proceso que le resultó confuso o poco intuitivo?
+5. ¿Qué tipo de reportes o datos le gustaría que la aplicación le proporcionara para tomar mejores decisiones?
+6. Si pudiera agregar una función nueva a la aplicación, ¿cuál sería y por qué?
+7. ¿Recomendaría nuestra aplicación a otros conductores? ¿Qué destacaría de ella?
+8. ¿Qué opinas del diseño visual? ¿Te resulta atractivo y profesional para una solución de gestión de flotas?
+9. ¿Entendiste rápidamente de qué trata Autonexo y qué problema busca resolver?
+10. ¿Te motivarías a crear una cuenta o contactarnos después de navegar por la landing page? ¿Por qué?
+
+**Segmento 2: Mecánicos**
+1. ¿Qué información buscaba en la landing page antes de registrarse en la aplicación? ¿Le resultó fácil encontrarla?
+2. ¿Ha usado antes otras aplicaciones o software para gestionar reparaciones? ¿Qué ventajas y desventajas encontró?
+3. Al usar nuestra aplicación, ¿qué le pareció más útil de las funcionalidades de historial de vehiculos, gestion de repuestos, entre otras?
+4. ¿Cómo evalúa la facilidad de registro y acceso a las órdenes de trabajo en la aplicación? ¿Hubo algo que le dificultó el proceso?
+5. ¿Le gustaría que la aplicación le sugiriera pasos específicos para ciertas reparaciones basadas en el modelo del vehículo?
+6. Si pudiera mejorar una función de la aplicación, ¿cuál sería y por qué?
+7. ¿Qué tan probable es que recomiende esta aplicación a otros talleres o mecánicos? ¿Por qué?
+8. ¿Qué opinas del diseño visual? ¿Te resulta atractivo y profesional para una solución de gestión de flotas?
+9. ¿Entendiste rápidamente de qué trata Autonexo y qué problema busca resolver?
+10. ¿Te motivarías a crear una cuenta o contactarnos después de navegar por la landing page? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas.
+### Segmento 1: Dueño de Flotas
+
+#### Entrevista #1
+- **Nombre completo:** Lucero Avalos
+- **Edad:** 25 años
+- **Cargo / Rol en la empresa:** Dueña de flotas de sector de transporte
+- **Enlace del video:** [Validation Interview 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 00:00 s
+- **Fin:** 12:21 s
+ <img src="img/entrevista-validacion1.png" alt="entrevista-validacion1"> 
+
+#### Entrevista #2
+- **Nombre completo:** Cesar Rodriguez
+- **Edad:** 27 años
+- **Cargo / Rol en la empresa:** Dueño de flotas / Conductor
+- **Enlace del video:** [Validation Interview 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 12:22 s
+- **Fin:** 30:48 s
+ <img src="img/entrevista-validacion2.png" alt="entrevista-validacion2"> 
+
+#### Entrevista #3
+- **Nombre completo:** Albano Romero
+- **Edad:** 30 años
+- **Cargo / Rol en la empresa:** Dueño de flotas / Conductor
+- **Enlace del video:** [Validation Interview 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 30:49 s
+- **Fin:** 37:41 s
+ <img src="img/entrevista-validacion3.png" alt="entrevista-validacion3">
+
+### Segmento 2:  Mecánicos
+
+#### Entrevista #1
+- **Nombre completo:** Mariano Canevaro
+- **Edad:** 30 años
+- **Cargo / Rol en la empresa:** Asistente de Mecanico en taller de repintado/reparaciónes
+- **Enlace del video:** [Validation Interview 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 37:42 s
+- **Fin:** 56:29 s
+ <img src="img/entrevista-validacion4.png" alt="entrevista-validacion4">
+ 
+#### Entrevista #2
+- **Nombre completo:** Bruno Ontón
+- **Edad:** 33 años
+- **Cargo / Rol en la empresa:** Mecanico en taller de repintado/reparaciónes
+- **Enlace del video:** [Validation Interview 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 56:30 s
+- **Fin:** 01: 02 :09 s
+ <img src="img/entrevista-validacion5.png" alt="entrevista-validacion5">
+
+#### Entrevista #3
+- **Nombre completo:** Brayan Morales
+- **Edad:** 29 años
+- **Cargo / Rol en la empresa:** Mecanico en taller de repintado/reparaciónes
+- **Enlace del video:** [Validation Interview 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWeZ4GHc3N9HuwQprpd_j8YBtKnZs6gPiqYsTXBCQATByA?e=RekpvU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 01: 02:10 s
+- **Fin:** 01: 09:53 s
+ <img src="img/entrevista-validacion6.png" alt="entrevista-validacion6"> 
+
+### 5.3.3. Evaluaciones según heurísticas  
+**Sitio o Aplicación Evaluada:** Autonexo
+
+**Tareas evaluadas:**  
+
+La presente evaluación de usabilidad se centró en analizar la experiencia de usuario al completar las siguientes funcionalidades dentro de la plataforma:
+
+- Registro de cuenta en la plataforma  
+- Proceso de inicio de sesión  
+- Acceso y visualización de la pantalla principal  
+- Navegación por la sidebar
+- Consulta de inventarios e items
+- Gestión de vehículos y mantenimientos
+- Revisión de solicitudes de asignación o mantenimiento
+- Acceso a la configuración de cuenta  
+
+Quedan fuera del alcance de esta evaluación:
+- Ingreso a la aplicación desde la landing page  
+- Recuperación de contraseña o cuenta
+- Acceso al historial de manetinimiento en vehículos
+- Modificación de datos en vehículo, inventario y mantenimientos
+- Cálculo de presupuesto de mantenimiento
+---
+
+### Escala de severidad  
+*Los hallazgos fueron clasificados con base en la siguiente escala de severidad:*  
+
+|***Nivel***|***Descripción***|
+| :-: | :-: |
+|*1*|*Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+---
+
+### Tabla resumen
+
+|**#**|**Problema**|**Escala de severidad**|**Heurística/principio violada(o)**|
+| :- | :- | :- | :- |
+|1| No existe un medio para que el usuario obtenga soporte en tiempo real| 3 | Usability: Help and documentation |
+|2| No se puede editar los datos del vehículo, inventario o mantenimiento | 4 | Usability: Flexibility and efficiency of use |
+
+---
+
+### Descripción de problemas
+
+---
+
+#### **PROBLEMA #1:** No existe un medio para que el usuario obtenga soporte en tiempo real
+
+**Severidad:** 3  
+**Heurística violada:** Usability: Help and documentation  
+
+**Descripción:**  
+Aunque el sistema incluye un apartado de documentación accesible desde el menú principal, esta no está integrada de forma contextual en las interfaces donde los usuarios suelen tener más dificultades. La falta de sugerencias automáticas, tooltips o ayudas en tiempo real puede generar frustración durante tareas clave, especialmente en usuarios nuevos, afectando negativamente su experiencia y aumentando la tasa de abandono.
+
+**Imagen:**  
+<img src="img/heuristicaA.png" alt="heuristicaA.png" width="600px">
+
+**Recomendación:**
+<br>
+
+Incorporar ayudas contextuales dentro del sistema, como tooltips, íconos de información o mensajes emergentes que guíen al usuario según la acción que esté realizando. Además, se sugiere incluir una barra de búsqueda dentro de la documentación para facilitar el acceso a temas específicos sin salir del flujo de uso.
+<br>
+
+#### **PROBLEMA #2:** No se puede editar los datos del vehículo, inventario o mantenimiento
+
+**Severidad:** 4  
+**Heurística violada:** Usability: Flexibility and efficiency of use  
+
+**Descripción:**  
+El sistema no permite editar los datos registrados de vehículos, inventario o mantenimientos, lo que obliga a los usuarios a eliminar y volver a ingresar la información en caso de errores o actualizaciones. Esta limitación reduce la eficiencia operativa, especialmente para usuarios con experiencia que requieren realizar ajustes de manera ágil durante la gestión diaria.
+
+**Imagen:**  
+<img src="img/heuristicaB.png" alt= "heuristicaB.png" width="600px">
+
+**Recomendación:**  
+Habilitar funciones de edición directa para los registros de vehículos, inventario y mantenimiento, permitiendo a los usuarios realizar ajustes sin tener que rehacer procesos. Se recomienda también incluir accesos rápidos para usuarios avanzados y confirmaciones no intrusivas que garanticen control sin comprometer la eficiencia
 
 ## Conclusiones
 
-**TB1:**   
+**TB1:** 
+<br>
 Desarrollar *Autonexo* como parte de nuestro trabajo en equipo nos permitió comprender de forma práctica cómo se aplica la ingeniería de software en contextos reales, especialmente dentro del desarrollo de soluciones para startups tecnológicas. Esta experiencia no solo fortaleció nuestros conocimientos técnicos en modelado, diseño orientado al dominio y arquitectura de sistemas, sino que también nos permitió entender la importancia de una buena comunicación entre miembros del equipo y con los usuarios finales.
 Aprendimos a identificar necesidades del negocio, transformarlas en requerimientos funcionales y traducirlas en componentes de software robustos y escalables. Además, reforzamos habilidades clave en metodologías ágiles, análisis de sistemas, pensamiento crítico, y sobre todo, en cómo construir productos que realmente aporten valor. Este proyecto nos acercó a la realidad de nuestra carrera y nos motivó a seguir perfeccionando nuestras competencias como futuros ingenieros de software.
 <br>
+
 **TP1:**
 <br>
 Durante el TP1, profundizamos en la construcción de Autonexo mediante el diseño e implementación del frontend de la aplicación, lo que nos permitió aplicar conocimientos técnicos en experiencia de usuario, componentes visuales y validación de interfaces. Esta etapa fue clave para fortalecer nuestra capacidad de traducir requerimientos en soluciones tangibles y funcionales. A través del levantamiento de observaciones y la mejora continua del diseño, aprendimos a iterar con base en retroalimentación efectiva, manteniendo siempre una comunicación clara y documentada entre los miembros del equipo. Asimismo, consolidamos nuestras habilidades en trabajo colaborativo, priorización de tareas y control de versiones, pilares esenciales en el desarrollo ágil de software. TP1 nos dio una visión más completa del proceso de desarrollo y reforzó nuestro compromiso con la creación de productos tecnológicos que respondan a necesidades reales del entorno.
+<br>
+
+**TB2:**
+<br>
+Durante el TB2, dimos un paso significativo en el desarrollo de Autonexo al enfocarnos en la implementación del Back End, utilizando Java como lenguaje principal. Esta fase fue fundamental para afianzar nuestra comprensión sobre la arquitectura de software, la lógica de negocio y la comunicación entre capas dentro de una aplicación escalable. Nos permitió aplicar principios de diseño limpio, organización modular del código, y conexión con bases de datos, consolidando así una estructura sólida que servirá como soporte para las funcionalidades de la plataforma. Además, corregimos observaciones del TP1, actualizamos la landing page para reflejar mejor la propuesta del proyecto, y preparamos el video “About the Team”. Sin embargo, el desarrollo del backend fue el componente más relevante, ya que nos permitió consolidar nuestros conocimientos técnicos en diseño de APIs, organización de código y buenas prácticas en el desarrollo de software del lado servidor.
+<br>
+
+# Video About-the-Product.
+![Image](https://github.com/user-attachments/assets/64280d3f-4508-417b-abbb-2da1944db249)
+
+link: https://www.youtube.com/watch?v=9Y9z_GlvARo
+
+# Video About-the-Team.
+![Image](https://github.com/user-attachments/assets/0ec393a2-11d0-4387-ad90-44bd1db5a6b8)
+
+link: https://youtu.be/5DUpw20ZWjA?si=7uhaeLpLl-KKKkU4
+
 ## Bibliografía
 Innocar & Roshfrans. (2024, junio 8). _Solo el 23.5% de los talleres mecánicos en América Latina utiliza software especializado para gestionar sus operaciones_. La República. https://www.larepublica.co/internet-economy/uso-de-tecnologia-en-talleres-mecanicos-en-colombia-3877209
 
 ## Anexos
+Documentación del Proyecto: https://github.com/project-OpenSource-4310/report-project
+<br>
+
+Video exposición tp1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311064_upc_edu_pe/EWU-TuXkqadEhzFx3faV0C0Bsir4bcbHQDdKn55KZBUkpQ?e=JbzKWq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<br>
+
+Video de exposición TB2: 
+<br>
+
+Repositorio Landing Page: https://github.com/project-OpenSource-4310/landing-page
+<br>
+Landing Page de Autonexo desplegada: https://project-opensource-4310.github.io/landing-page/
+<br>
+
+Repositorio Frontend: https://github.com/project-OpenSource-4310/frontend-app
+<br>
+Frontend de Autonexo desplegado: https://front-opensource.web.app/authentication
+<br>
+
+Repositorio Backend: https://github.com/project-OpenSource-4310/backend-app
+<br>
+
+Video About the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EULs9vqFB6xFseXcsFjO4JsBGTc0SzFTUKJ7l73Ywjzc0w?e=DySzEu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<br>
+
+https://youtu.be/5DUpw20ZWjA?si=7uhaeLpLl-KKKkU4
+<br>
+
+Video About the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EY2vMIMv1LZCvFaFQDiZjXgBn0itlwntEpsmzcefcSWoPw?e=XGA1OF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<br>
+
+https://youtu.be/9Y9z_GlvARo?si=acim5Cx4m9KE6m-z
