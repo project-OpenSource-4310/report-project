@@ -41,6 +41,7 @@ Ivan Robles Fernández
 | TP1     | 13/05/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Correción del TB1, Sprint 2 en Capítulo 5|
 | TB2     | 19/06/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar | Correción del TP1, Sprint 3 en Capítulo 5, Actualización de la Landing Page, Video About the Team e Implementación del Back End |
 
+
 # <font color="red">**Project Report Collaboration Insights**</font>
 
 Enlace de la organización para el reporte del proyecto: https://github.com/orgs/project-OpenSource-4310/repositories
@@ -63,7 +64,6 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 |Ronald Joel Peralta Chipa|Análisis de entrevistas, NeedFinding, User personas, User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping.|
 
 **TP1**
-
 Enlace del repositorio para el frontend: https://github.com/project-OpenSource-4310/frontend-app
 <br>
 Enlace del frontend desplegado: https://front-opensource.web.app/authentication
@@ -113,9 +113,19 @@ Para el desarrollo del informe correspondiente a la entrega TB2, se estableció 
     - [**1.1.2. Perfiles de integrantes del equipo**](#112-perfiles-de-integrantes-del-equipo)
   - [**1.2. Solution Profile**](#12-solution-profile)
     - [**1.2.1. Antecedentes y problemática**](#121-antecedentes-y-problemática)
+    - [Who (¿Quién?)](#who-quién)
+    - [What (¿Qué?)](#what-qué)
+    - [Where (¿Dónde?)](#where-dónde)
+    - [When (¿Cuándo?)](#when-cuándo)
+    - [Why (¿Por qué?)](#why-por-qué)
+    - [How (¿Cómo?)](#how-cómo)
+    - [How Much (¿Cuánto?)](#how-much-cuánto)
     - [**1.2.2. Lean UX Process**](#122-lean-ux-process)
       - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
       - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
+    - [Users:](#users)
+    - [User Outcomes:](#user-outcomes)
+    - [Business Outcomes:](#business-outcomes)
       - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
       - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
   - [**1.3. Segmentos objetivo**](#13-segmentos-objetivo)
@@ -175,6 +185,9 @@ Para el desarrollo del informe correspondiente a la entrega TB2, se estableció 
     - [**5.1.2. Source Code Management**](#512-source-code-management)
     - [**5.1.3. Source Code Style Guide \& Conventions**](#513-source-code-style-guide--conventions)
     - [**5.1.4. Software Deployment Configuration**](#514-software-deployment-configuration)
+  - [**5.2. Landing Page, Services \& Applications Implementation**](#52-landing-page-services--applications-implementation)
+    - [**5.2.1. Sprint 1**](#521-sprint-1)
+      - [**5.2.1.1. Sprint Planning 1**](#5211-sprint-planning-1)
       - [**5.2.1.2. Aspect Leaders and Collaborators**](#5212-aspect-leaders-and-collaborators)
       - [**5.2.1.3. Sprint Backlog 1**](#5213-sprint-backlog-1)
       - [**5.2.1.4. Development Evidence for Sprint Review**](#5214-development-evidence-for-sprint-review)
@@ -1278,14 +1291,30 @@ Gracias a la perspectiva que brinda DDD, es posible fortalecer la colaboración 
 ![Descripción de la imagen](img/containerDiagram.png)
 
 ### **4.6.3. Software Architecture Components Diagrams**
+**Gestion de Usuarios:**
+<br>
+![Descripción de la imagen](img/componentsDiagramUsers.png)
 
-![Descripción de la imagen](img/componentsDiagramA.png)
+**Gestion de Inventario:**
+<br>
+![Descripción de la imagen](img/componentsDiagramInventario.png)
 
-![Descripción de la imagen](img/componentsDiagramB.png)
+**Gestion de Mantenimiento:**
+<br>
+![Descripción de la imagen](img/componentsDiagramMantenimiento.png)
 
+**Gestion de Vehiculos:**
+<br>
+![Descripción de la imagen](img/componentsDiagramVehiculos.png)
+
+**Gestion de Mensajeria:**
+<br>
 ![Descripción de la imagen](img/componentsDiagramC.png)
 
+**Gestion de Pago:**
+<br>
 ![Descripción de la imagen](img/componentsDiagramD.png)
+
 
 ## **4.7. Software Object-Oriented Design**
 
@@ -2024,7 +2053,7 @@ Frontend deployeado en firebase:
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
 Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 <div align="center">
-    <img src="img/network.png" alt="network.png" width="550px" height="300px">
+    <img src="img/networkGraph.png" alt="networkGraph.png" width="550px" height="300px">
 </div>
 <br>
 <div align="center">
