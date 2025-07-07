@@ -220,26 +220,39 @@ Para el desarrollo del informe correspondiente a la entrega TF1, se estableció 
     - [**5.2.3. Sprint 3**](#523-sprint-3)
       - [**5.2.3.1. Sprint Planning 3**](#5231-sprint-planning-3)
       - [**5.2.3.2. Aspect Leaders and Collaborators**](#5232-aspect-leaders-and-collaborators)
-      - [**5.2.3.3. Sprint Backlog 3**](#5223-sprint-backlog-2)
-      - [**5.2.3.4. Development Evidence for Sprint Review**](#5234-development-evidence-for-sprint-review)
-      - [**5.2.3.5. Execution Evidence for Sprint Review**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.3.3. Sprint Backlog 3**](#5233-sprint-backlog-3)
       - [**5.2.3.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
       - [**5.2.3.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
       - [**5.2.3.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
-    - [**5.2.3. Sprint 4**](#523-sprint-3)
-      - [**5.2.4.1. Sprint Planning 4**](#5231-sprint-planning-3)
-      - [**5.2.4.2. Aspect Leaders and Collaborators**](#5232-aspect-leaders-and-collaborators)
-      - [**5.2.4.3. Sprint Backlog 4**](#5223-sprint-backlog-2)
-      - [**5.2.4.4. Development Evidence for Sprint Review**](#5234-development-evidence-for-sprint-review)
-      - [**5.2.4.5. Execution Evidence for Sprint Review**](#5235-execution-evidence-for-sprint-review)
-      - [**5.2.4.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
-      - [**5.2.4.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
-      - [**5.2.4.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
+    - [**5.2.4. Sprint 4**](#524-sprint-4)
+      - [**5.2.4.1. Sprint Planning 4**](#5241-sprint-planning-4)
+      - [**5.2.4.2. Aspect Leaders and Collaborators**](#5242-aspect-leaders-and-collaborators)
+      - [**5.2.4.3. Sprint Backlog 4**](#5243-sprint-backlog-4)
+      - [**5.2.4.4. Development Evidence for Sprint Review**](#5244-development-evidence-for-sprint-review)
+      - [**5.2.4.5. Execution Evidence for Sprint Review**](#5245-execution-evidence-for-sprint-review)
+      - [**5.2.4.6. Services Documentation Evidence for Sprint Review**](#5246-services-documentation-evidence-for-sprint-review)
+      - [**5.2.4.7. Software Deployment Evidence for Sprint Review**](#5247-software-deployment-evidence-for-sprint-review)
+      - [**5.2.4.8. Team Collaboration Insights during Sprint**](#5248-team-collaboration-insights-during-sprint)
   - [**5.3. Validation Interviews**](#53-validation-interviews)
     - [**5.3.1. Diseño de Entrevistas**](#531-diseño-de-entrevistas)
-    - [**5.3.2. Registro de Entrevistas**](#532-registro-de-entrevistas)
-    - [**5.3.3. Evaluaciones según heurísticas**](#533-evaluaciones-según-heurísticas)
+    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
+    - [Segmento 1: Dueño de Flotas](#segmento-1-dueño-de-flotas)
+      - [Entrevista #1](#entrevista-1)
+      - [Entrevista #2](#entrevista-2)
+      - [Entrevista #3](#entrevista-3)
+    - [Segmento 2:  Mecánicos](#segmento-2--mecánicos)
+      - [Entrevista #1](#entrevista-1-1)
+      - [Entrevista #2](#entrevista-2-1)
+      - [Entrevista #3](#entrevista-3-1)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [Escala de severidad](#escala-de-severidad)
+    - [Tabla resumen](#tabla-resumen)
+    - [Descripción de problemas](#descripción-de-problemas)
+      - [**PROBLEMA #1:** No existe un medio para que el usuario obtenga soporte en tiempo real](#problema-1-no-existe-un-medio-para-que-el-usuario-obtenga-soporte-en-tiempo-real)
+      - [**PROBLEMA #2:** No se puede editar los datos del vehículo, inventario o mantenimiento](#problema-2-no-se-puede-editar-los-datos-del-vehículo-inventario-o-mantenimiento)
   - [Conclusiones](#conclusiones)
+- [Video About-the-Product.](#video-about-the-product)
+- [Video About-the-Team.](#video-about-the-team)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
 
@@ -2341,8 +2354,106 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 
 ### **5.2.4. Sprint 4**
 #### **5.2.4.1. Sprint Planning 4**
+
+| Sprint \# | Sprint 4 |
+| :---- | :---- |
+| Date | 2025 \- 07 \- 06 |
+| Time | 11:00 |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Andres Vivanco  |
+| Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres y Vivanco Salazar |
+| Sprint 4 Review Summary | Se presento la conexión entre el back-end y el front-end desplegados del back-end. |
+| Sprint 4 Retrospective Summary | En esta reunión, todos colaboraron con la conexión entre el backend y el frontend, contribuyendo a un desarrollo significativo para el proyecto. |
+| Sprint (n-1) Review Summary | 71 story points |
+| Sprint 4 Goal | Conectar el BackEnd con el FrontEnd |
+| Sprint 4 Velocity | 43 story points |
+| Sum of Story Points | 114 story points |}	
+
 #### **5.2.4.2. Aspect Leaders and Collaborators**
+
+Durante el cuarto sprint, el equipo ATG mantuvo una coordinación efectiva que permitió culminar el desarrollo de AutoNexo. Cada integrante asumió un rol clave dentro del equipo, contribuyendo al cumplimiento de los objetivo.
+<br>
+- Victor Andrés Cruz Ibarra (u202311053): Correción del TB2 en el FrontEnd application.
+- Rafael Andrés Vivanco Salazar (u202311064): Correción del FrontEnd application.
+- Jarod Jack Céspedes Pillco (u202318588): No participo/ No entrego / No se presento.
+- Ricardo Fernando Cárdenas Minaya (u202310004): Implementación y despliegue del Backend.
+- Ronald Joel Peralta Chipa (u202224619): Implementación del Backend.
+<br>
+La ejecución del sprint se gestionó a través de reuniones virtuales en Discord, complementadas con herramientas colaborativas como Google Drive para la documentación compartida y GitHub para el control de versiones y seguimiento del código.
+
 #### **5.2.4.3. Sprint Backlog 4**
+
+<div align="center">
+    <img src="img/sprint-backlog-4.png" alt="sprint-backlog-4.png" width="550px" height="300px">
+</div>
+
+Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38aa5f9d3beff51e3117EF9693/sprint-backlog-4](https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38aa5f9d3beff51e3117EF9693/sprint-backlog-4)
+
+<table>
+    <tr>
+        <th colspan="2">Sprint #</th>
+        <td colspan="6">Sprint 4</td>
+    </tr>
+    <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item/Task</th>
+    </tr>
+    <tr>
+        <th>User Story ID</th>
+        <th>User Story Title</th>
+        <th>Work Item ID</th>
+        <th>Task Title</th>
+        <th>Task Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <!-- US04 - Registro de repuestos -->
+    <tr>
+        <td>TS06</td>
+        <td>Consulta de historial de servicios por vehículo mediante RESTful API</td>
+        <td>WU39</td>
+        <td>Implementar API para consult    a de historial</td>
+        <td>Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados.</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>To Do</td>
+    </tr>
+    <!-- TS07 - Actualización de inventario -->
+    <tr>
+        <td>TS07</td>
+        <td>Actualización del inventario de repuestos mediante RESTful API</td>
+        <td>WU40</td>
+        <td>Programar lógica de actualización de inventario</td>
+        <td>Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock.</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>To Do</td>
+    </tr>
+    <!-- TS04 - Creación de diagnósticos -->
+    <tr>
+        <td>TS04</td>
+        <td>Creación de diagnósticos a través de un RESTful API</td>
+        <td>WU41</td>
+        <td>Desarrollar endpoint para diagnósticos</td>
+        <td>Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto.</td>
+        <td>2H</td>
+        <td>Ronald</td>
+        <td>To Do</td>
+    </tr>
+    <!-- TS02 - Registro de repuestos -->
+    <tr>
+        <td>TS02</td>
+        <td>Registro de repuestos en inventario a través de un RESTful API</td>
+        <td>WU42</td>
+        <td>Crear API para gestión de repuestos</td>
+        <td>Como desarrollador, quiero implementar la opción de registrar repuestos mediante una API RESTful, para que los usuarios puedan llevar un control del inventario de piezas disponibles.</td>
+        <td>3H</td>
+        <td>Andres</td>
+        <td>To Do</td>
+    </tr>
+</table>
+
 #### **5.2.4.4. Development Evidence for Sprint Review**
 #### **5.2.4.5. Execution Evidence for Sprint Review**
 #### **5.2.4.6. Services Documentation Evidence for Sprint Review**
@@ -2599,7 +2710,7 @@ Frontend de Autonexo desplegado: https://front-opensource.web.app/authentication
 
 Repositorio Backend: https://github.com/project-OpenSource-4310/backend-app
 <br>
-Backend de Autonexo desplegado: https://autonexo-app-hnb8dqewdkgxdvev.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/Drivers/getAllRoles_1
+Backend de Autonexo desplegado: https://autonexo-app-hnb8dqewdkgxdvev.canadacentral-01.azurewebsites.net/swagger-ui/index.html
 <br>
 
 Video About the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EULs9vqFB6xFseXcsFjO4JsBGTc0SzFTUKJ7l73Ywjzc0w?e=DySzEu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
