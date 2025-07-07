@@ -2282,9 +2282,6 @@ Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38
     </tr>
 </table>
 
-
-#### **5.2.3.4. Development Evidence for Sprint Review**
-#### **5.2.3.5. Execution Evidence for Sprint Review**
 En el tercer sprint, logramos desarrollar parcialmente la implementación del Backend. Donde se muestra la manipulacion de los datos sobre la aplicación. A continuación mostramos algunas evidencias:
 
 A continuacion el backend ejecutado:
@@ -2341,6 +2338,16 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
     <img src="img/contribuitors-backend.png" alt="contribuitors-backend.png" width="550px" height="300px">
 </div>
 <br>
+
+### **5.2.4. Sprint 4**
+#### **5.2.4.1. Sprint Planning 4**
+#### **5.2.4.2. Aspect Leaders and Collaborators**
+#### **5.2.4.3. Sprint Backlog 4**
+#### **5.2.4.4. Development Evidence for Sprint Review**
+#### **5.2.4.5. Execution Evidence for Sprint Review**
+#### **5.2.4.6. Services Documentation Evidence for Sprint Review**
+#### **5.2.4.7. Software Deployment Evidence for Sprint Review**
+#### **5.2.4.8. Team Collaboration Insights during Sprint**
 
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
@@ -2591,6 +2598,8 @@ Frontend de Autonexo desplegado: https://front-opensource.web.app/authentication
 <br>
 
 Repositorio Backend: https://github.com/project-OpenSource-4310/backend-app
+<br>
+Backend de Autonexo desplegado: https://autonexo-app-hnb8dqewdkgxdvev.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/Drivers/getAllRoles_1
 <br>
 
 Video About the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EULs9vqFB6xFseXcsFjO4JsBGTc0SzFTUKJ7l73Ywjzc0w?e=DySzEu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
