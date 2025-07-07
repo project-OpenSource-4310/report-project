@@ -2364,10 +2364,10 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 | Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres y Vivanco Salazar |
 | Sprint 4 Review Summary | Se presento la conexión entre el back-end y el front-end desplegados del back-end. |
 | Sprint 4 Retrospective Summary | En esta reunión, todos colaboraron con la conexión entre el backend y el frontend, contribuyendo a un desarrollo significativo para el proyecto. |
-| Sprint (n-1) Review Summary | 71 story points |
+| Sprint (n-1) Review Summary | 57 story points |
 | Sprint 4 Goal | Conectar el BackEnd con el FrontEnd |
-| Sprint 4 Velocity | 43 story points |
-| Sum of Story Points | 114 story points |}	
+| Sprint 4 Velocity | 14 story points |
+| Sum of Story Points | 128 story points |}	
 
 #### **5.2.4.2. Aspect Leaders and Collaborators**
 
@@ -2387,7 +2387,7 @@ La ejecución del sprint se gestionó a través de reuniones virtuales en Discor
     <img src="img/sprint-backlog-4.png" alt="sprint-backlog-4.png" width="550px" height="300px">
 </div>
 
-Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38aa5f9d3beff51e3117EF9693/sprint-backlog-4](https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38aa5f9d3beff51e3117EF9693/sprint-backlog-4)
+Link: [https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79daa19ca44e24e5657A5F126/sprint-backlog-4-autonexo](https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79daa19ca44e24e5657A5F126/sprint-backlog-4-autonexo)
 
 <table>
     <tr>
@@ -2417,7 +2417,7 @@ Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38
         <td>Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados.</td>
         <td>3H</td>
         <td>Ricardo</td>
-        <td>To Do</td>
+        <td>Done</td>
     </tr>
     <!-- TS07 - Actualización de inventario -->
     <tr>
@@ -2428,7 +2428,7 @@ Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38
         <td>Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock.</td>
         <td>2H</td>
         <td>Rafael</td>
-        <td>To Do</td>
+        <td>Done</td>
     </tr>
     <!-- TS04 - Creación de diagnósticos -->
     <tr>
@@ -2439,7 +2439,7 @@ Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38
         <td>Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto.</td>
         <td>2H</td>
         <td>Ronald</td>
-        <td>To Do</td>
+        <td>Done</td>
     </tr>
     <!-- TS02 - Registro de repuestos -->
     <tr>
@@ -2450,15 +2450,59 @@ Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38
         <td>Como desarrollador, quiero implementar la opción de registrar repuestos mediante una API RESTful, para que los usuarios puedan llevar un control del inventario de piezas disponibles.</td>
         <td>3H</td>
         <td>Andres</td>
-        <td>To Do</td>
+        <td>Done</td>
     </tr>
 </table>
 
 #### **5.2.4.4. Development Evidence for Sprint Review**
+
+En el cuarto sprint desarrollamos la conexion entre el frontend y el backend
+
+A continuacion las evidencias:
+
+Prueba de back de Apis:
+<div align="center">
+    <img src="img/backend-deploy.png" alt="backend-deploy.png" width="550px" height="300px">
+</div>
+<br>
+
 #### **5.2.4.5. Execution Evidence for Sprint Review**
+
+En el cuarto sprint, logramos desplegar el backend y conectarlo con el front. A continuación mostramos algunas evidencias:
+
+A continuacion el backend desplegado:
+<div align="center">
+    <img src="img/deploy-backend.png" alt="deploy-backend.png" width="550px" height="300px">
+</div>
+<br>
+
 #### **5.2.4.6. Services Documentation Evidence for Sprint Review**
+
+Se permitio la conexion entre front y back mediante SecurityFilterChain implementado
+
+Aplicación de CORS en el backend:
+<div align="center">
+    <img src="img/cors-backend.png" alt="cors-backend.png" width="550px" height="300px">
+</div>
+<br>
+
 #### **5.2.4.7. Software Deployment Evidence for Sprint Review**
+
+Se realizo el despliegue de la aplicación mediante Azure Web Apps.
+
+Aplicación web en azure:
+<div align="center">
+    <img src="img/deploy-azure.png" alt="deploy-azure.png" width="550px" height="300px">
+</div>
+<br>
+
 #### **5.2.4.8. Team Collaboration Insights during Sprint**
+
+Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
+<div align="center">
+    <img src="img/collaboration.png" alt="collaboration.png" width="550px" height="300px">
+</div>
+<br>
 
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
