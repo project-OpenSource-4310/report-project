@@ -40,7 +40,7 @@ Ivan Robles Fernández
 | TB1     | 24/04/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
 | TP1     | 13/05/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar - Jarod Jack Cespedes Pillco   | Correción del TB1, Sprint 2 en Capítulo 5|
 | TB2     | 19/06/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar | Correción del TP1, Sprint 3 en Capítulo 5, Actualización de la Landing Page, Video About the Team e Implementación del Back End |
-
+| TF1     | 19/06/2025 | Ronald Joel Peralta Chipa - Victor Andres Cruz Ibarra - Ricardo Fernando Cardenas Minaya - Rafael Andres Vivanco Salazar | Correción del TB2, Sprint 4 en Capítulo 5, Conexión Backend con Frontend|
 
 # <font color="red">**Project Report Collaboration Insights**</font>
 
@@ -83,6 +83,8 @@ Para el desarrollo del informe correspondiente a la entrega TP1, se estableció 
 
 Enlace del repositorio para el backend: https://github.com/project-OpenSource-4310/backend-app
 <br>
+Enlace del backend desplegado: https://autonexo-app-hnb8dqewdkgxdvev.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/Drivers/getAllRoles_1
+<br>
 
 Para el desarrollo del informe correspondiente a la entrega TB2, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
 
@@ -94,6 +96,17 @@ Para el desarrollo del informe correspondiente a la entrega TB2, se estableció 
 |Jarod Jack Cespedes Pillco | NO REALIZÓ AVANCE ALGUNO |
 |Ronald Joel Peralta Chipa | Entrevistas, Implementación, despliegue y documentación del BackEnd|
 
+ **TF1**
+ 
+Para el desarrollo del informe correspondiente a la entrega TF1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Victor Andres Cruz Ibarra| Conexión entre el backend y frontend |
+|Rafael Andres Vivanco Salazar| Conexión entre el backend y frontend |
+|Ricardo Fernando Cardenas Minaya | Correción sobre el backend |
+|Jarod Jack Cespedes Pillco | NO REALIZÓ AVANCE ALGUNO |
+|Ronald Joel Peralta Chipa | Documentación del Sprint 4|
 
 # <font color="red">**Contenido**</font>
 ### Tabla de contenidos
@@ -207,17 +220,39 @@ Para el desarrollo del informe correspondiente a la entrega TB2, se estableció 
     - [**5.2.3. Sprint 3**](#523-sprint-3)
       - [**5.2.3.1. Sprint Planning 3**](#5231-sprint-planning-3)
       - [**5.2.3.2. Aspect Leaders and Collaborators**](#5232-aspect-leaders-and-collaborators)
-      - [**5.2.3.3. Sprint Backlog 3**](#5223-sprint-backlog-2)
-      - [**5.2.3.4. Development Evidence for Sprint Review**](#5234-development-evidence-for-sprint-review)
-      - [**5.2.3.5. Execution Evidence for Sprint Review**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.3.3. Sprint Backlog 3**](#5233-sprint-backlog-3)
       - [**5.2.3.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
       - [**5.2.3.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
       - [**5.2.3.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
+    - [**5.2.4. Sprint 4**](#524-sprint-4)
+      - [**5.2.4.1. Sprint Planning 4**](#5241-sprint-planning-4)
+      - [**5.2.4.2. Aspect Leaders and Collaborators**](#5242-aspect-leaders-and-collaborators)
+      - [**5.2.4.3. Sprint Backlog 4**](#5243-sprint-backlog-4)
+      - [**5.2.4.4. Development Evidence for Sprint Review**](#5244-development-evidence-for-sprint-review)
+      - [**5.2.4.5. Execution Evidence for Sprint Review**](#5245-execution-evidence-for-sprint-review)
+      - [**5.2.4.6. Services Documentation Evidence for Sprint Review**](#5246-services-documentation-evidence-for-sprint-review)
+      - [**5.2.4.7. Software Deployment Evidence for Sprint Review**](#5247-software-deployment-evidence-for-sprint-review)
+      - [**5.2.4.8. Team Collaboration Insights during Sprint**](#5248-team-collaboration-insights-during-sprint)
   - [**5.3. Validation Interviews**](#53-validation-interviews)
     - [**5.3.1. Diseño de Entrevistas**](#531-diseño-de-entrevistas)
-    - [**5.3.2. Registro de Entrevistas**](#532-registro-de-entrevistas)
-    - [**5.3.3. Evaluaciones según heurísticas**](#533-evaluaciones-según-heurísticas)
+    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
+    - [Segmento 1: Dueño de Flotas](#segmento-1-dueño-de-flotas)
+      - [Entrevista #1](#entrevista-1)
+      - [Entrevista #2](#entrevista-2)
+      - [Entrevista #3](#entrevista-3)
+    - [Segmento 2:  Mecánicos](#segmento-2--mecánicos)
+      - [Entrevista #1](#entrevista-1-1)
+      - [Entrevista #2](#entrevista-2-1)
+      - [Entrevista #3](#entrevista-3-1)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [Escala de severidad](#escala-de-severidad)
+    - [Tabla resumen](#tabla-resumen)
+    - [Descripción de problemas](#descripción-de-problemas)
+      - [**PROBLEMA #1:** No existe un medio para que el usuario obtenga soporte en tiempo real](#problema-1-no-existe-un-medio-para-que-el-usuario-obtenga-soporte-en-tiempo-real)
+      - [**PROBLEMA #2:** No se puede editar los datos del vehículo, inventario o mantenimiento](#problema-2-no-se-puede-editar-los-datos-del-vehículo-inventario-o-mantenimiento)
   - [Conclusiones](#conclusiones)
+- [Video About-the-Product.](#video-about-the-product)
+- [Video About-the-Team.](#video-about-the-team)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
 
@@ -239,12 +274,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Criterio específico</span></th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Acciones realizadas</span></th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Conclusiones</span></th></tr></thead>
 <tbody>
 <tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica oralmente con efectividad a diferentes rangos de audiencia </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: Me aseguré de comunicarme de manera clara y respetuosa con mi equipo, transmitiendo mis ideas con asertividad y cumpliendo los compromisos adquiridos. <br> <br>Rafael Vivanco: <br> TB1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br> <br>Ricardo Cardenas: <br> TB1: Participé activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para alcanzar los objetivos del equipo en tiempo y forma.<br> <br>Jarod Céspedes: <br> TB1: Me mantuve comprometido con el equipo, colaborando en cada etapa del proceso y asegurándome de aportar soluciones para alcanzar los objetivos de manera eficiente. <br> <br>Ronald Peralta <br> TB1: Me involucré en un diálogo abierto y constante con el equipo, lo que facilitó la distribución de tareas y la obtención de buenos resultados. Además, procuré mantener siempre una actitud colaborativa y proactiva para fortalecer la dinámica grupal. <br><br> Andres Cruz: <br> TP1: En el TP1, aporté al levantamiento de observaciones y al diseño de pantallas, comunicando mis ideas con claridad para mejorar la interfaz y asegurar una experiencia de usuario efectiva. <br><br> Rafael Vivanco: <br> TP1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br><br> Ricardo Cardenas: <br> TP1: Contribuí al diseño del frontend y levanté observaciones que mejoraron la calidad visual y funcional del proyecto, reforzando la coordinación mediante una comunicación efectiva. <br><br> Jarod Céspedes <br> TP1: Diseñé pantallas y realicé observaciones clave para optimizar la interfaz, manteniendo siempre una comunicación fluida y proactiva con el equipo. <br><br> Ronald Peralta <br> TP1: Participé activamente en la creación de pantallas y en la revisión crítica del diseño, aportando ideas claras que facilitaron mejoras en el producto final. <br><br> Andres Cruz <br> TB2: Durante el Sprint 3, me comuniqué constantemente con mis compañeros para realizar las correcciones del FrontEnd de la aplicación. Las reuniones en Discord fueron esenciales para coordinar ajustes, validar cambios visuales y asegurar que el producto mantuviera coherencia entre las vistas. <br> <br> Rafael Vivanco <br> TB2: En este sprint, comuniqué mis propuestas de mejora en la landing page y en el reporte del capítulo 5, participando activamente en las sesiones grupales para alinear el contenido del entregable con los objetivos del proyecto. <br><br> Ricardo Cardenas <br> TB2: Durante las reuniones, compartí con claridad los hallazgos de las entrevistas de validación. Expliqué las percepciones y necesidades identificadas de los usuarios, facilitando así que el equipo comprendiera mejor el contexto de uso del sistema. <br> <br> Jarod Céspedes <br> TB2:  NO REALIZÓ AVANCE ALGUNO <br> <br> Ronald Peralta <br> TB2: Expresé con claridad las decisiones técnicas tomadas durante el despliegue del BackEnd. Me aseguré de mantener al equipo informado sobre el estado del servidor, los problemas encontrados y las soluciones aplicadas.
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: A lo largo del proyecto, todos los integrantes del equipo lograron expresar sus ideas de manera oral con claridad y adecuación al contexto. Esto permitió que tanto compañeros como docentes comprendieran nuestras propuestas con facilidad. Gracias a esta capacidad de adaptación en la comunicación, pudimos distribuir tareas de forma eficiente, resolver inquietudes al instante y mantener una dinámica de colaboración efectiva en todo momento.<br> <br> TP1: A lo largo del desarrollo del TP1, el equipo demostró una comunicación oral efectiva al levantar observaciones y discutir propuestas de mejora para las pantallas del frontend. Cada integrante expresó sus ideas con claridad durante las reuniones, facilitando la toma de decisiones en conjunto y promoviendo la mejora continua del producto. Esta capacidad para dialogar, escuchar activamente y adaptarse al nivel técnico de los interlocutores (docentes, compañeros y usuarios potenciales) fortaleció la cohesión del grupo y permitió avanzar de manera eficiente en los objetivos del proyecto. <br><br> TB2: Durante el desarrollo de la TB2, el equipo mantuvo una comunicación oral constante y efectiva mediante reuniones virtuales, lo cual fue clave para coordinar la implementación del BackEnd y la corrección de entregables anteriores. Cada integrante supo expresar sus ideas con claridad y adaptarse al nivel técnico de los interlocutores, permitiendo resolver dudas, tomar decisiones conjuntas y ajustar funcionalidades de manera oportuna. Esta capacidad de diálogo directo y enfocado fortaleció la dinámica del grupo y facilitó la integración entre frontend, backend y documentación.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: Me aseguré de comunicarme de manera clara y respetuosa con mi equipo, transmitiendo mis ideas con asertividad y cumpliendo los compromisos adquiridos. <br> <br>Rafael Vivanco: <br> TB1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br> <br>Ricardo Cardenas: <br> TB1: Participé activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para alcanzar los objetivos del equipo en tiempo y forma.<br> <br>Jarod Céspedes: <br> TB1: Me mantuve comprometido con el equipo, colaborando en cada etapa del proceso y asegurándome de aportar soluciones para alcanzar los objetivos de manera eficiente. <br> <br>Ronald Peralta <br> TB1: Me involucré en un diálogo abierto y constante con el equipo, lo que facilitó la distribución de tareas y la obtención de buenos resultados. Además, procuré mantener siempre una actitud colaborativa y proactiva para fortalecer la dinámica grupal. <br><br> Andres Cruz: <br> TP1: En el TP1, aporté al levantamiento de observaciones y al diseño de pantallas, comunicando mis ideas con claridad para mejorar la interfaz y asegurar una experiencia de usuario efectiva. <br><br> Rafael Vivanco: <br> TP1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br><br> Ricardo Cardenas: <br> TP1: Contribuí al diseño del frontend y levanté observaciones que mejoraron la calidad visual y funcional del proyecto, reforzando la coordinación mediante una comunicación efectiva. <br><br> Jarod Céspedes <br> TP1: Diseñé pantallas y realicé observaciones clave para optimizar la interfaz, manteniendo siempre una comunicación fluida y proactiva con el equipo. <br><br> Ronald Peralta <br> TP1: Participé activamente en la creación de pantallas y en la revisión crítica del diseño, aportando ideas claras que facilitaron mejoras en el producto final. <br><br> Andres Cruz <br> TB2: Durante el Sprint 3, me comuniqué constantemente con mis compañeros para realizar las correcciones del FrontEnd de la aplicación. Las reuniones en Discord fueron esenciales para coordinar ajustes, validar cambios visuales y asegurar que el producto mantuviera coherencia entre las vistas. <br> <br> Rafael Vivanco <br> TB2: En este sprint, comuniqué mis propuestas de mejora en la landing page y en el reporte del capítulo 5, participando activamente en las sesiones grupales para alinear el contenido del entregable con los objetivos del proyecto. <br><br> Ricardo Cardenas <br> TB2: Durante las reuniones, compartí con claridad los hallazgos de las entrevistas de validación. Expliqué las percepciones y necesidades identificadas de los usuarios, facilitando así que el equipo comprendiera mejor el contexto de uso del sistema. <br> <br> Jarod Céspedes <br> TB2:  NO REALIZÓ AVANCE ALGUNO <br> <br> Ronald Peralta <br> TB2: Expresé con claridad las decisiones técnicas tomadas durante el despliegue del BackEnd. Me aseguré de mantener al equipo informado sobre el estado del servidor, los problemas encontrados y las soluciones aplicadas. <br> <br> Andres Cruz <br> TF1: Durante la fase final del proyecto, mantuve una comunicación constante con Rafael para consolidar la integración entre backend y frontend. A través de reuniones por Discord y sesiones de revisión técnica, expuse con claridad los avances, problemas encontrados y validaciones necesarias, adaptando el lenguaje técnico según el contexto y los interlocutores. <br> <br> Rafael Vivanco: <br> TF1: En la entrega final, lideré la integración técnica entre frontend y backend. Me comuniqué efectivamente con mis compañeros, explicando en detalle los flujos de consumo de datos, gestionando pruebas funcionales y coordinando los ajustes en tiempo real. Mis intervenciones orales facilitaron una resolución ágil de errores críticos antes de la entrega. <br> <br> Ricardo Cardenas <br> TF1: Contribuí con la corrección del backend y participé activamente en las sesiones de validación final, comunicando de manera clara las modificaciones realizadas. Expliqué cómo estas correcciones impactaban en el comportamiento del sistema, facilitando que los demás miembros comprendieran y ajustaran sus componentes en función de ello. <br> <br> Jarod Céspedes <br> TF1: NO REALIZÓ AVANCE ALGUNO <br> <br> Ronald Peralta <br> TF1: Durante esta última etapa, expuse con claridad la estructura y contenidos del Sprint 4 en las reuniones. Recibí retroalimentación del equipo y la integré adecuadamente en la documentación final, asegurando que el informe reflejara el trabajo real del grupo. </td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: A lo largo del proyecto, todos los integrantes del equipo lograron expresar sus ideas de manera oral con claridad y adecuación al contexto. Esto permitió que tanto compañeros como docentes comprendieran nuestras propuestas con facilidad. Gracias a esta capacidad de adaptación en la comunicación, pudimos distribuir tareas de forma eficiente, resolver inquietudes al instante y mantener una dinámica de colaboración efectiva en todo momento.<br> <br> TP1: A lo largo del desarrollo del TP1, el equipo demostró una comunicación oral efectiva al levantar observaciones y discutir propuestas de mejora para las pantallas del frontend. Cada integrante expresó sus ideas con claridad durante las reuniones, facilitando la toma de decisiones en conjunto y promoviendo la mejora continua del producto. Esta capacidad para dialogar, escuchar activamente y adaptarse al nivel técnico de los interlocutores (docentes, compañeros y usuarios potenciales) fortaleció la cohesión del grupo y permitió avanzar de manera eficiente en los objetivos del proyecto. <br><br> TB2: Durante el desarrollo de la TB2, el equipo mantuvo una comunicación oral constante y efectiva mediante reuniones virtuales, lo cual fue clave para coordinar la implementación del BackEnd y la corrección de entregables anteriores. Cada integrante supo expresar sus ideas con claridad y adaptarse al nivel técnico de los interlocutores, permitiendo resolver dudas, tomar decisiones conjuntas y ajustar funcionalidades de manera oportuna. Esta capacidad de diálogo directo y enfocado fortaleció la dinámica del grupo y facilitó la integración entre frontend, backend y documentación.<br><br> TF1: En la entrega final del proyecto, el equipo demostró una comunicación oral efectiva centrada en la coordinación técnica y en la resolución de problemas en tiempo real. Las reuniones permitieron consolidar los esfuerzos individuales en un producto funcional e integrado. La claridad, precisión y enfoque colaborativo fueron determinantes para culminar satisfactoriamente el trabajo, aunque la falta de participación de un miembro fue notoria en esta etapa crítica.</td>
 </tr>
 <tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: Aporté en diferentes etapas del trabajo, garantizando que la información fuera clara, precisa y organizada, lo que permitió una mejor comprensión y aplicación en el desarrollo del proyecto. <br> <br>Rafael Vivanco: <br> TB1: Contribuí en diversos aspectos del trabajo, garantizando que la información fuera precisa, coherente y comprensible tanto para compañeros como para docentes. <br><br>Ricardo Cardenas: <br> TB1: Participé activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo de manera efectiva y dentro de los plazos establecidos.<br> <br>Jarod Céspedes: <br> TB1:Cumplí con todas las actividades asignadas y considero que tuve un buen desempeño. Sin embargo, reconozco que debo mejorar en la gestión de mi tiempo para optimizar mis resultados en futuros proyectos.<br> <br>Ronald Peralta: <br> TB1: Me involucré en la ejecución de las tareas grupales, aportando ideas y soluciones que contribuyeron al desarrollo del proyecto. También procuré mantener una comunicación fluida con mis compañeros para garantizar una coordinación eficiente<br> <br> Andres Cruz: <br> TP1: En el TP1, aporté al levantamiento de observaciones y al diseño de pantallas, comunicando mis ideas con claridad para mejorar la interfaz y asegurar una experiencia de usuario efectiva. <br> <br>Rafael Vivanco: <br> TP1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br> <br>Ricardo Cardenas: <br> TP1: Contribuí al diseño del frontend y levanté observaciones que mejoraron la calidad visual y funcional del proyecto, reforzando la coordinación mediante una comunicación efectiva. <br> <br>Ronald Peralta <br> TP1: Participé activamente en la creación de pantallas y en la revisión crítica del diseño, aportando ideas claras que facilitaron mejoras en el producto final.<br><br>Jarod Céspedes <br> TP1: Diseñé pantallas y realicé observaciones clave para optimizar la interfaz, manteniendo siempre una comunicación fluida y proactiva con el equipo. <br> <br> Andres Cruz: <br> TB2: Documenté correctamente los cambios aplicados en el frontend, organizando los componentes y actualizando su funcionalidad según las observaciones del TP1. Mi comunicación escrita fue clara tanto en los comentarios del código como en la documentación compartida. <br> <br> Rafael vivanco: <br> TB2: Me encargué de documentar los cambios realizados en el reporte del proyecto y en el capítulo correspondiente, redactando los avances de manera precisa, comprensible y estructurada para facilitar su revisión. <br> <br> Ricardo Cardenas: <br> TB2: Redacté un informe organizado de las entrevistas, incluyendo insights relevantes y sugerencias que se integraron en la toma de decisiones para el desarrollo. Esta información fue incorporada en el documento del proyecto <br> <br> Jarod Céspedes: <br> TB2: NO REALIZÓ AVANCE ALGUNO <br> <br> Ronald Peralta <br> TB2: Documenté el proceso de despliegue, configuraciones y endpoints expuestos en el backend. También redacté instrucciones precisas para que otros miembros pudieran comprender y probar la funcionalidad desde el frontend.</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: La eficacia del trabajo en equipo también se evidenció en nuestra habilidad para transmitir información de manera escrita. La documentación desarrollada, que abarcó informes, descripciones técnicas y contenido para la landing page, fue precisa, estructurada y accesible. Esto contribuyó a la validación del proyecto y garantizó que el producto final reflejara con claridad su propósito y funcionalidad. <br> <br> TP1:Durante el TP1, se evidenció una comunicación escrita clara y efectiva en los documentos entregables, reportes de observaciones y en la elaboración de contenidos para el frontend de la app. Cada miembro del equipo contribuyó en la redacción técnica y descriptiva de las funcionalidades implementadas, así como en la documentación de cambios y mejoras. El nivel de precisión, estructura y coherencia en estos escritos permitió que docentes y usuarios comprendieran fácilmente el progreso del proyecto, lo que aportó a su validación y evolución continua. <br><br> TB2: A lo largo de esta entrega, se consolidó una comunicación escrita clara y precisa en la documentación técnica del backend, en la redacción del capítulo 5 y en los ajustes realizados en los reportes anteriores. La información fue organizada de forma comprensible para distintos públicos, desde compañeros y docentes hasta usuarios potenciales. Gracias a la calidad y coherencia de estos escritos, el equipo logró presentar un producto funcional bien documentado y alineado con los objetivos del proyecto.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: Aporté en diferentes etapas del trabajo, garantizando que la información fuera clara, precisa y organizada, lo que permitió una mejor comprensión y aplicación en el desarrollo del proyecto. <br> <br>Rafael Vivanco: <br> TB1: Contribuí en diversos aspectos del trabajo, garantizando que la información fuera precisa, coherente y comprensible tanto para compañeros como para docentes. <br><br>Ricardo Cardenas: <br> TB1: Participé activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo de manera efectiva y dentro de los plazos establecidos.<br> <br>Jarod Céspedes: <br> TB1:Cumplí con todas las actividades asignadas y considero que tuve un buen desempeño. Sin embargo, reconozco que debo mejorar en la gestión de mi tiempo para optimizar mis resultados en futuros proyectos.<br> <br>Ronald Peralta: <br> TB1: Me involucré en la ejecución de las tareas grupales, aportando ideas y soluciones que contribuyeron al desarrollo del proyecto. También procuré mantener una comunicación fluida con mis compañeros para garantizar una coordinación eficiente<br> <br> Andres Cruz: <br> TP1: En el TP1, aporté al levantamiento de observaciones y al diseño de pantallas, comunicando mis ideas con claridad para mejorar la interfaz y asegurar una experiencia de usuario efectiva. <br> <br>Rafael Vivanco: <br> TP1: Durante las reuniones grupales, me centré en expresar mis ideas y propuestas con claridad, adaptando mi comunicación al contexto para facilitar la comprensión de todos. <br> <br>Ricardo Cardenas: <br> TP1: Contribuí al diseño del frontend y levanté observaciones que mejoraron la calidad visual y funcional del proyecto, reforzando la coordinación mediante una comunicación efectiva. <br> <br>Ronald Peralta <br> TP1: Participé activamente en la creación de pantallas y en la revisión crítica del diseño, aportando ideas claras que facilitaron mejoras en el producto final.<br><br>Jarod Céspedes <br> TP1: Diseñé pantallas y realicé observaciones clave para optimizar la interfaz, manteniendo siempre una comunicación fluida y proactiva con el equipo. <br> <br> Andres Cruz: <br> TB2: Documenté correctamente los cambios aplicados en el frontend, organizando los componentes y actualizando su funcionalidad según las observaciones del TP1. Mi comunicación escrita fue clara tanto en los comentarios del código como en la documentación compartida. <br> <br> Rafael vivanco: <br> TB2: Me encargué de documentar los cambios realizados en el reporte del proyecto y en el capítulo correspondiente, redactando los avances de manera precisa, comprensible y estructurada para facilitar su revisión. <br> <br> Ricardo Cardenas: <br> TB2: Redacté un informe organizado de las entrevistas, incluyendo insights relevantes y sugerencias que se integraron en la toma de decisiones para el desarrollo. Esta información fue incorporada en el documento del proyecto <br> <br> Jarod Céspedes: <br> TB2: NO REALIZÓ AVANCE ALGUNO <br> <br> Ronald Peralta <br> TB2: Documenté el proceso de despliegue, configuraciones y endpoints expuestos en el backend. También redacté instrucciones precisas para que otros miembros pudieran comprender y probar la funcionalidad desde el frontend.<br> <br> Andres Cruz <br> TF1: Documenté de forma clara las rutas consumidas por el frontend y dejé evidencia de los endpoints funcionales con ejemplos prácticos. Mis anotaciones en el código y los mensajes compartidos en el canal del equipo facilitaron la revisión final del sistema. <br> <br> Rafael Vivanco: <br> TF1: Redacté instrucciones claras para la ejecución del frontend conectado al backend, incluyendo detalles sobre headers, autenticación y flujo de datos. Asimismo, ayudé a estructurar parte del entregable final con redacción técnica precisa y adaptada a los distintos lectores del informe. <br> <br> Ricardo Cardenas <br> TF1: Registré detalladamente los cambios aplicados en el backend, manteniendo una estructura coherente y comentarios explicativos en el código. Esta documentación técnica fue esencial para que los demás miembros pudieran testear las funcionalidades corregidas sin inconvenientes. <br> <br> Jarod Céspedes <br> TF1: NO REALIZÓ AVANCE ALGUNO <br> <br> Ronald Peralta <br> TF1: Redacté la documentación completa del Sprint 4, detallando objetivos, tareas ejecutadas y responsabilidades individuales. Aseguré una redacción técnica adecuada y clara para su integración directa en el informe final del proyecto. </td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: La eficacia del trabajo en equipo también se evidenció en nuestra habilidad para transmitir información de manera escrita. La documentación desarrollada, que abarcó informes, descripciones técnicas y contenido para la landing page, fue precisa, estructurada y accesible. Esto contribuyó a la validación del proyecto y garantizó que el producto final reflejara con claridad su propósito y funcionalidad. <br> <br> TP1:Durante el TP1, se evidenció una comunicación escrita clara y efectiva en los documentos entregables, reportes de observaciones y en la elaboración de contenidos para el frontend de la app. Cada miembro del equipo contribuyó en la redacción técnica y descriptiva de las funcionalidades implementadas, así como en la documentación de cambios y mejoras. El nivel de precisión, estructura y coherencia en estos escritos permitió que docentes y usuarios comprendieran fácilmente el progreso del proyecto, lo que aportó a su validación y evolución continua. <br><br> TB2: A lo largo de esta entrega, se consolidó una comunicación escrita clara y precisa en la documentación técnica del backend, en la redacción del capítulo 5 y en los ajustes realizados en los reportes anteriores. La información fue organizada de forma comprensible para distintos públicos, desde compañeros y docentes hasta usuarios potenciales. Gracias a la calidad y coherencia de estos escritos, el equipo logró presentar un producto funcional bien documentado y alineado con los objetivos del proyecto. <br><br> TF1: Para la entrega final, el equipo consolidó una comunicación escrita clara, técnica y orientada a documentar todo el proceso de desarrollo. Las contribuciones escritas facilitaron la integración del código, la ejecución de pruebas y la elaboración del informe formal. La calidad de la redacción técnica fue clave para reflejar el valor del producto final ante distintos públicos. Sin embargo, la ausencia de contribuciones por parte de un integrante restó uniformidad al esfuerzo grupal en este aspecto.</td>
 </tr>
 </tbody></table>
 </br></br>
@@ -2260,9 +2295,6 @@ Link: [https://trello.com/invite/b/684c86d41bcf5ce86f14a34c/ATTI3a60b6b53746be38
     </tr>
 </table>
 
-
-#### **5.2.3.4. Development Evidence for Sprint Review**
-#### **5.2.3.5. Execution Evidence for Sprint Review**
 En el tercer sprint, logramos desarrollar parcialmente la implementación del Backend. Donde se muestra la manipulacion de los datos sobre la aplicación. A continuación mostramos algunas evidencias:
 
 A continuacion el backend ejecutado:
@@ -2317,6 +2349,158 @@ Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
 <br>
 <div align="center">
     <img src="img/contribuitors-backend.png" alt="contribuitors-backend.png" width="550px" height="300px">
+</div>
+<br>
+
+### **5.2.4. Sprint 4**
+#### **5.2.4.1. Sprint Planning 4**
+
+| Sprint \# | Sprint 4 |
+| :---- | :---- |
+| Date | 2025 \- 07 \- 06 |
+| Time | 11:00 |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Andres Vivanco  |
+| Attendees (to planning meeting) | Peralta Chiba, Ronald Joel; Cardenas Minaya, Ricardo Fernando; Ibarra Cruz, Victor Andres y Vivanco Salazar |
+| Sprint 4 Review Summary | Se presento la conexión entre el back-end y el front-end desplegados del back-end. |
+| Sprint 4 Retrospective Summary | En esta reunión, todos colaboraron con la conexión entre el backend y el frontend, contribuyendo a un desarrollo significativo para el proyecto. |
+| Sprint (n-1) Review Summary | 57 story points |
+| Sprint 4 Goal | Conectar el BackEnd con el FrontEnd |
+| Sprint 4 Velocity | 14 story points |
+| Sum of Story Points | 128 story points |}	
+
+#### **5.2.4.2. Aspect Leaders and Collaborators**
+
+Durante el cuarto sprint, el equipo ATG mantuvo una coordinación efectiva que permitió culminar el desarrollo de AutoNexo. Cada integrante asumió un rol clave dentro del equipo, contribuyendo al cumplimiento de los objetivo.
+<br>
+- Victor Andrés Cruz Ibarra (u202311053): Correción del TB2 en el FrontEnd application.
+- Rafael Andrés Vivanco Salazar (u202311064): Correción del FrontEnd application.
+- Jarod Jack Céspedes Pillco (u202318588): No participo/ No entrego / No se presento.
+- Ricardo Fernando Cárdenas Minaya (u202310004): Implementación y despliegue del Backend.
+- Ronald Joel Peralta Chipa (u202224619): Implementación del Backend.
+<br>
+La ejecución del sprint se gestionó a través de reuniones virtuales en Discord, complementadas con herramientas colaborativas como Google Drive para la documentación compartida y GitHub para el control de versiones y seguimiento del código.
+
+#### **5.2.4.3. Sprint Backlog 4**
+
+<div align="center">
+    <img src="img/sprint-backlog-4.png" alt="sprint-backlog-4.png" width="550px" height="300px">
+</div>
+
+Link: [https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79daa19ca44e24e5657A5F126/sprint-backlog-4-autonexo](https://trello.com/invite/b/680b04bd8f9b8672e4f52732/ATTIcb2cd6271a6b1ae79daa19ca44e24e5657A5F126/sprint-backlog-4-autonexo)
+
+<table>
+    <tr>
+        <th colspan="2">Sprint #</th>
+        <td colspan="6">Sprint 4</td>
+    </tr>
+    <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item/Task</th>
+    </tr>
+    <tr>
+        <th>User Story ID</th>
+        <th>User Story Title</th>
+        <th>Work Item ID</th>
+        <th>Task Title</th>
+        <th>Task Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <!-- US04 - Registro de repuestos -->
+    <tr>
+        <td>TS06</td>
+        <td>Consulta de historial de servicios por vehículo mediante RESTful API</td>
+        <td>WU39</td>
+        <td>Implementar API para consult    a de historial</td>
+        <td>Como desarrollador, quiero permitir la visualización del historial de mantenimiento de un vehículo mediante una API RESTful, para que el usuario tenga acceso completo a los servicios realizados.</td>
+        <td>3H</td>
+        <td>Ricardo</td>
+        <td>Done</td>
+    </tr>
+    <!-- TS07 - Actualización de inventario -->
+    <tr>
+        <td>TS07</td>
+        <td>Actualización del inventario de repuestos mediante RESTful API</td>
+        <td>WU40</td>
+        <td>Programar lógica de actualización de inventario</td>
+        <td>Como desarrollador, quiero actualizar automáticamente el inventario de repuestos usados después de un mantenimiento mediante una API RESTful, para reflejar en tiempo real los niveles de stock.</td>
+        <td>2H</td>
+        <td>Rafael</td>
+        <td>Done</td>
+    </tr>
+    <!-- TS04 - Creación de diagnósticos -->
+    <tr>
+        <td>TS04</td>
+        <td>Creación de diagnósticos a través de un RESTful API</td>
+        <td>WU41</td>
+        <td>Desarrollar endpoint para diagnósticos</td>
+        <td>Como desarrollador, quiero permitir que los mecánicos registren diagnósticos de los vehículos mediante una API RESTful, para que los conductores puedan recibir un reporte claro del estado de su auto.</td>
+        <td>2H</td>
+        <td>Ronald</td>
+        <td>Done</td>
+    </tr>
+    <!-- TS02 - Registro de repuestos -->
+    <tr>
+        <td>TS02</td>
+        <td>Registro de repuestos en inventario a través de un RESTful API</td>
+        <td>WU42</td>
+        <td>Crear API para gestión de repuestos</td>
+        <td>Como desarrollador, quiero implementar la opción de registrar repuestos mediante una API RESTful, para que los usuarios puedan llevar un control del inventario de piezas disponibles.</td>
+        <td>3H</td>
+        <td>Andres</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+#### **5.2.4.4. Development Evidence for Sprint Review**
+
+En el cuarto sprint desarrollamos la conexion entre el frontend y el backend
+
+A continuacion las evidencias:
+
+Prueba de back de Apis:
+<div align="center">
+    <img src="img/backend-deploy.png" alt="backend-deploy.png" width="550px" height="300px">
+</div>
+<br>
+
+#### **5.2.4.5. Execution Evidence for Sprint Review**
+
+En el cuarto sprint, logramos desplegar el backend y conectarlo con el front. A continuación mostramos algunas evidencias:
+
+A continuacion el backend desplegado:
+<div align="center">
+    <img src="img/deploy-backend.png" alt="deploy-backend.png" width="550px" height="300px">
+</div>
+<br>
+
+#### **5.2.4.6. Services Documentation Evidence for Sprint Review**
+
+Se permitio la conexion entre front y back mediante SecurityFilterChain implementado
+
+Aplicación de CORS en el backend:
+<div align="center">
+    <img src="img/cors-backend.png" alt="cors-backend.png" width="550px" height="300px">
+</div>
+<br>
+
+#### **5.2.4.7. Software Deployment Evidence for Sprint Review**
+
+Se realizo el despliegue de la aplicación mediante Azure Web Apps.
+
+Aplicación web en azure:
+<div align="center">
+    <img src="img/deploy-azure.png" alt="deploy-azure.png" width="550px" height="300px">
+</div>
+<br>
+
+#### **5.2.4.8. Team Collaboration Insights during Sprint**
+
+Aquí se muestra el insight que nos proporciona Github, en su propio apartado:
+<div align="center">
+    <img src="img/collaboration.png" alt="collaboration.png" width="550px" height="300px">
 </div>
 <br>
 
@@ -2569,6 +2753,8 @@ Frontend de Autonexo desplegado: https://front-opensource.web.app/authentication
 <br>
 
 Repositorio Backend: https://github.com/project-OpenSource-4310/backend-app
+<br>
+Backend de Autonexo desplegado: https://autonexo-app-hnb8dqewdkgxdvev.canadacentral-01.azurewebsites.net/swagger-ui/index.html
 <br>
 
 Video About the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EULs9vqFB6xFseXcsFjO4JsBGTc0SzFTUKJ7l73Ywjzc0w?e=DySzEu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
