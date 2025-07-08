@@ -66,7 +66,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 **TP1**
 Enlace del repositorio para el frontend: https://github.com/project-OpenSource-4310/frontend-app
 <br>
-Enlace del frontend desplegado: https://front-opensource.web.app/authentication
+Enlace del frontend desplegado: https://front-opensource-7803c.web.app/authentication
 <br>
 
 Para el desarrollo del informe correspondiente a la entrega TP1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
@@ -2749,7 +2749,7 @@ Landing Page de Autonexo desplegada: https://project-opensource-4310.github.io/l
 
 Repositorio Frontend: https://github.com/project-OpenSource-4310/frontend-app
 <br>
-Frontend de Autonexo desplegado: https://front-opensource.web.app/authentication
+Frontend de Autonexo desplegado: https://front-opensource-7803c.web.app/authentication 
 <br>
 
 Repositorio Backend: https://github.com/project-OpenSource-4310/backend-app
